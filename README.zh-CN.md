@@ -12,7 +12,7 @@
 - **44 份上游来源/版本记录**
 - **44 份随包保留的许可证文件**
 - **11 个分类目录**
-- 另有 6 个未发现明确再分发许可证的候选项目，未复制到公开库。
+- 另有 6 个项目因未发现明确再分发许可证，暂不纳入本仓库。
 
 小说创作分类目前收录 **1 个完整功能 Skill 包**：[Chinese Novelist](./01-novel-writing/PenglongHuang__chinese-novelist-skill/chinese-novelist/README.md)。
 
