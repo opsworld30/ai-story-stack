@@ -1,0 +1,3091 @@
+{
+  "schema_version": 1,
+  "source": {
+    "repository": "zenstory-ai/oh-story-claudecode",
+    "ref": "v0.10.5",
+    "commit": "41a9b6c855d7d29a2bf214b4eefda2b10e0a8afb",
+    "commit_date": "2026-11-13T06:21:21Z",
+    "license": "MIT"
+  },
+  "skill_file_count": 435,
+  "skill_directories": [
+    "browser-cdp",
+    "story-cover",
+    "story-deslop",
+    "story-import",
+    "story-long-analyze",
+    "story-long-scan",
+    "story-long-write",
+    "story-publish",
+    "story-review",
+    "story-setup",
+    "story-short-analyze",
+    "story-short-scan",
+    "story-short-write",
+    "story"
+  ],
+  "files": [
+    {
+      "source_path": "skills/browser-cdp/scripts/setup-cdp-chrome.js",
+      "mirror_path": "skills/browser-cdp/scripts/setup-cdp-chrome.js",
+      "mode": "100755",
+      "size": 41213,
+      "sha": "dd665917b4141ecc78a51c55e65c53f01fd9adca"
+    },
+    {
+      "source_path": "skills/browser-cdp/SKILL.md",
+      "mirror_path": "skills/browser-cdp/SKILL.md",
+      "mode": "100644",
+      "size": 8276,
+      "sha": "77c906c1a1a38c0931f977be0907176c587209fd"
+    },
+    {
+      "source_path": "skills/story-cover/references/api-fallback.md",
+      "mirror_path": "skills/story-cover/references/api-fallback.md",
+      "mode": "100644",
+      "size": 4828,
+      "sha": "b78d366dde4638d2707b261d8ca2b0629725ef99"
+    },
+    {
+      "source_path": "skills/story-cover/references/cover-styles.md",
+      "mirror_path": "skills/story-cover/references/cover-styles.md",
+      "mode": "100644",
+      "size": 11464,
+      "sha": "92e997cc603b6251041db38b7a43d92e0b54c5a1"
+    },
+    {
+      "source_path": "skills/story-cover/SKILL.md",
+      "mirror_path": "skills/story-cover/SKILL.md",
+      "mode": "100644",
+      "size": 10302,
+      "sha": "fe32a0db8005920a5cbf590bbe8f4a4dca3d9e94"
+    },
+    {
+      "source_path": "skills/story-deslop/references/agent-calls.md",
+      "mirror_path": "skills/story-deslop/references/agent-calls.md",
+      "mode": "100644",
+      "size": 1258,
+      "sha": "eb1c5adca20fb8b226c5207f959ab6f75b40db37"
+    },
+    {
+      "source_path": "skills/story-deslop/references/banned-words.md",
+      "mirror_path": "skills/story-deslop/references/banned-words.md",
+      "mode": "100644",
+      "size": 11117,
+      "sha": "25adaf8634f857262e3a849ffcffd78d93baf4ec"
+    },
+    {
+      "source_path": "skills/story-deslop/references/deslop-gates.md",
+      "mirror_path": "skills/story-deslop/references/deslop-gates.md",
+      "mode": "100644",
+      "size": 2312,
+      "sha": "e29140511e9f4326d5e724e603b5687233b765f5"
+    },
+    {
+      "source_path": "skills/story-deslop/references/expression.md",
+      "mirror_path": "skills/story-deslop/references/expression.md",
+      "mode": "100644",
+      "size": 9795,
+      "sha": "2ae40b3793b46888fde4bf0388b747b239e5b73d"
+    },
+    {
+      "source_path": "skills/story-deslop/references/narrative-focus.md",
+      "mirror_path": "skills/story-deslop/references/narrative-focus.md",
+      "mode": "100644",
+      "size": 6856,
+      "sha": "ed3bcb50c8ed594159f2633821ac817be91d6afa"
+    },
+    {
+      "source_path": "skills/story-deslop/references/short-deslop.md",
+      "mirror_path": "skills/story-deslop/references/short-deslop.md",
+      "mode": "100644",
+      "size": 1570,
+      "sha": "3b0327391608bcf4d49a2eb4615252a1ebd38081"
+    },
+    {
+      "source_path": "skills/story-deslop/references/story-logic.md",
+      "mirror_path": "skills/story-deslop/references/story-logic.md",
+      "mode": "100644",
+      "size": 6051,
+      "sha": "22f999036d2d972f1635e916fd47ea176e3e93fe"
+    },
+    {
+      "source_path": "skills/story-deslop/references/style-resolution.md",
+      "mirror_path": "skills/story-deslop/references/style-resolution.md",
+      "mode": "100644",
+      "size": 3053,
+      "sha": "edcda5eb92af47576c4c0af4e738f0a0dd36373e"
+    },
+    {
+      "source_path": "skills/story-deslop/scripts/check-ai-patterns.js",
+      "mirror_path": "skills/story-deslop/scripts/check-ai-patterns.js",
+      "mode": "100755",
+      "size": 81491,
+      "sha": "fa7316842352b44930d471d8f9f49c54a5ed1acb"
+    },
+    {
+      "source_path": "skills/story-deslop/scripts/check-degeneration.js",
+      "mirror_path": "skills/story-deslop/scripts/check-degeneration.js",
+      "mode": "100644",
+      "size": 15793,
+      "sha": "0a3dbefa81ae390eba5e1cbe7ba9f5927f427075"
+    },
+    {
+      "source_path": "skills/story-deslop/scripts/normalize-punctuation.js",
+      "mirror_path": "skills/story-deslop/scripts/normalize-punctuation.js",
+      "mode": "100755",
+      "size": 19472,
+      "sha": "318f251d9006b0260b0a0ba98e01636d1948bc3d"
+    },
+    {
+      "source_path": "skills/story-deslop/scripts/style-whitelist.js",
+      "mirror_path": "skills/story-deslop/scripts/style-whitelist.js",
+      "mode": "100644",
+      "size": 1168,
+      "sha": "a75c002fec7a4d481d60b68365a7622001e91ee1"
+    },
+    {
+      "source_path": "skills/story-deslop/SKILL.md",
+      "mirror_path": "skills/story-deslop/SKILL.md",
+      "mode": "100644",
+      "size": 11591,
+      "sha": "e45a1563d6cb0623f6a513fc103a05a72ac27a63"
+    },
+    {
+      "source_path": "skills/story-import/references/benchmark-sync.md",
+      "mirror_path": "skills/story-import/references/benchmark-sync.md",
+      "mode": "100644",
+      "size": 4103,
+      "sha": "b0a7ba67aafe1de472f3d9e74c7d75863c2512d3"
+    },
+    {
+      "source_path": "skills/story-import/references/character-state-reverse.md",
+      "mirror_path": "skills/story-import/references/character-state-reverse.md",
+      "mode": "100644",
+      "size": 4157,
+      "sha": "9f2e24cdf45e1b30fe9fa3abc2625ffbd2aed91a"
+    },
+    {
+      "source_path": "skills/story-import/references/deep-analysis.md",
+      "mirror_path": "skills/story-import/references/deep-analysis.md",
+      "mode": "100644",
+      "size": 4390,
+      "sha": "6d40b002175751c9641a53665ca81ddb5cb4ad28"
+    },
+    {
+      "source_path": "skills/story-import/references/import-report.md",
+      "mirror_path": "skills/story-import/references/import-report.md",
+      "mode": "100644",
+      "size": 4482,
+      "sha": "e8ffb458396907cb304f093d4559f679ca8c6ee5"
+    },
+    {
+      "source_path": "skills/story-import/references/import-special-cases.md",
+      "mirror_path": "skills/story-import/references/import-special-cases.md",
+      "mode": "100644",
+      "size": 2607,
+      "sha": "f1c88f35b2bb842fb98aa2923faeb1ebfedc3ebb"
+    },
+    {
+      "source_path": "skills/story-import/references/import-tracking.md",
+      "mirror_path": "skills/story-import/references/import-tracking.md",
+      "mode": "100644",
+      "size": 6888,
+      "sha": "a06e3f2755a4b18ce99aa09f79473357e65eb5be"
+    },
+    {
+      "source_path": "skills/story-import/references/length-routing.md",
+      "mirror_path": "skills/story-import/references/length-routing.md",
+      "mode": "100644",
+      "size": 1543,
+      "sha": "03bab6661ff564801c957a8cdd667dc89ebc4a59"
+    },
+    {
+      "source_path": "skills/story-import/references/outline-reverse-rules.md",
+      "mirror_path": "skills/story-import/references/outline-reverse-rules.md",
+      "mode": "100644",
+      "size": 6156,
+      "sha": "e7e82838af7427a13fd35e8cdd50500108a22437"
+    },
+    {
+      "source_path": "skills/story-import/references/outline-reverse.md",
+      "mirror_path": "skills/story-import/references/outline-reverse.md",
+      "mode": "100644",
+      "size": 2902,
+      "sha": "8c4d6bb9c6be20954904d2943f84f3d14dabc783"
+    },
+    {
+      "source_path": "skills/story-import/references/structure-mapping-long.md",
+      "mirror_path": "skills/story-import/references/structure-mapping-long.md",
+      "mode": "100644",
+      "size": 20645,
+      "sha": "a7983e2deb33120a55e2e145cc4dc76b4313d175"
+    },
+    {
+      "source_path": "skills/story-import/references/structure-mapping-short.md",
+      "mirror_path": "skills/story-import/references/structure-mapping-short.md",
+      "mode": "100644",
+      "size": 10418,
+      "sha": "fb2933bf73902ec4e9ed461b54cbf1f2c36e5d4f"
+    },
+    {
+      "source_path": "skills/story-import/references/tracking-initialization.md",
+      "mirror_path": "skills/story-import/references/tracking-initialization.md",
+      "mode": "100644",
+      "size": 1651,
+      "sha": "b13755505ec8b8756c0aa0166c125d62244ee740"
+    },
+    {
+      "source_path": "skills/story-import/scripts/build_outline_brief.py",
+      "mirror_path": "skills/story-import/scripts/build_outline_brief.py",
+      "mode": "100644",
+      "size": 16636,
+      "sha": "54622a747e538b5ba8da7c68d7643af3cd7711d6"
+    },
+    {
+      "source_path": "skills/story-import/scripts/check-outline-contract.js",
+      "mirror_path": "skills/story-import/scripts/check-outline-contract.js",
+      "mode": "100644",
+      "size": 28978,
+      "sha": "2f70a19eb481a131a4cf21219a40dcf69d04c913"
+    },
+    {
+      "source_path": "skills/story-import/scripts/outline_view.py",
+      "mirror_path": "skills/story-import/scripts/outline_view.py",
+      "mode": "100644",
+      "size": 18637,
+      "sha": "39a5b69099c199a971c15d29bac41ff525daa67a"
+    },
+    {
+      "source_path": "skills/story-import/scripts/tracking_commit.py",
+      "mirror_path": "skills/story-import/scripts/tracking_commit.py",
+      "mode": "100644",
+      "size": 85124,
+      "sha": "443ffb01c69f2048f5b7adae23ae77bfbaba76ab"
+    },
+    {
+      "source_path": "skills/story-import/scripts/wordcount_core.py",
+      "mirror_path": "skills/story-import/scripts/wordcount_core.py",
+      "mode": "100755",
+      "size": 19317,
+      "sha": "4c98c0370cd737dd2ecd26b08b90bc59baaea432"
+    },
+    {
+      "source_path": "skills/story-import/SKILL.md",
+      "mirror_path": "skills/story-import/SKILL.md",
+      "mode": "100644",
+      "size": 11127,
+      "sha": "16cfc207c137be235a88283ba7b4f241a0ff6251"
+    },
+    {
+      "source_path": "skills/story-long-analyze/references/author-facing.md",
+      "mirror_path": "skills/story-long-analyze/references/author-facing.md",
+      "mode": "100644",
+      "size": 12750,
+      "sha": "9601a4fe95d3dbe696463358b09fbf2daba7e780"
+    },
+    {
+      "source_path": "skills/story-long-analyze/references/final-checks.md",
+      "mirror_path": "skills/story-long-analyze/references/final-checks.md",
+      "mode": "100644",
+      "size": 1022,
+      "sha": "bdb2a2b25ac4a36cc5d31ee70673df65690445a2"
+    },
+    {
+      "source_path": "skills/story-long-analyze/references/index-rebuild.md",
+      "mirror_path": "skills/story-long-analyze/references/index-rebuild.md",
+      "mode": "100644",
+      "size": 3010,
+      "sha": "844b3ef0fc2e87e4200a094a2d7d3dc2826f008a"
+    },
+    {
+      "source_path": "skills/story-long-analyze/references/inspiration-library.md",
+      "mirror_path": "skills/story-long-analyze/references/inspiration-library.md",
+      "mode": "100644",
+      "size": 10231,
+      "sha": "3ebf431563fdbdcae73acce7dcca6154a7ac424b"
+    },
+    {
+      "source_path": "skills/story-long-analyze/references/pipeline-ops.md",
+      "mirror_path": "skills/story-long-analyze/references/pipeline-ops.md",
+      "mode": "100644",
+      "size": 7516,
+      "sha": "dfe635aed546a0376214f6240c2b7bfcc2313a5a"
+    },
+    {
+      "source_path": "skills/story-long-analyze/references/stage1-golden-chapters.md",
+      "mirror_path": "skills/story-long-analyze/references/stage1-golden-chapters.md",
+      "mode": "100644",
+      "size": 6126,
+      "sha": "2d912510fdd21a4fc806ef86d071414bc56c2a5e"
+    },
+    {
+      "source_path": "skills/story-long-analyze/references/stage2-extraction.md",
+      "mirror_path": "skills/story-long-analyze/references/stage2-extraction.md",
+      "mode": "100644",
+      "size": 11183,
+      "sha": "f350160f0a10450e345372fa3b55f8e2bde18248"
+    },
+    {
+      "source_path": "skills/story-long-analyze/references/stage3-plot-rhythm.md",
+      "mirror_path": "skills/story-long-analyze/references/stage3-plot-rhythm.md",
+      "mode": "100644",
+      "size": 20018,
+      "sha": "1a4316b26351dae6f26692b84771f282250fc008"
+    },
+    {
+      "source_path": "skills/story-long-analyze/references/stage4-characters-settings.md",
+      "mirror_path": "skills/story-long-analyze/references/stage4-characters-settings.md",
+      "mode": "100644",
+      "size": 6379,
+      "sha": "34aff5ede503dfbb16d46d850a90f3a1ab8824a5"
+    },
+    {
+      "source_path": "skills/story-long-analyze/references/stage5-report.md",
+      "mirror_path": "skills/story-long-analyze/references/stage5-report.md",
+      "mode": "100644",
+      "size": 2756,
+      "sha": "5e3baa734e6279011c135103f93cfcdb62579c30"
+    },
+    {
+      "source_path": "skills/story-long-analyze/references/style-profile-generator.md",
+      "mirror_path": "skills/story-long-analyze/references/style-profile-generator.md",
+      "mode": "100644",
+      "size": 7588,
+      "sha": "b3e939a24465cea31cade83630e28ca35b9c0bd3"
+    },
+    {
+      "source_path": "skills/story-long-analyze/references/synthesis-inputs.md",
+      "mirror_path": "skills/story-long-analyze/references/synthesis-inputs.md",
+      "mode": "100644",
+      "size": 3371,
+      "sha": "0e8294517b7e240c75ac8c8116f84a5d0f94ac09"
+    },
+    {
+      "source_path": "skills/story-long-analyze/scripts/build_chapter_index.py",
+      "mirror_path": "skills/story-long-analyze/scripts/build_chapter_index.py",
+      "mode": "100644",
+      "size": 23281,
+      "sha": "b66613dd937906f8392c7b96e68680a695e08fb6"
+    },
+    {
+      "source_path": "skills/story-long-analyze/scripts/inspect_existing_assets.py",
+      "mirror_path": "skills/story-long-analyze/scripts/inspect_existing_assets.py",
+      "mode": "100644",
+      "size": 32162,
+      "sha": "7f3e01c909455a16e830c0654c87c12477146f99"
+    },
+    {
+      "source_path": "skills/story-long-analyze/scripts/inspiration_index.py",
+      "mirror_path": "skills/story-long-analyze/scripts/inspiration_index.py",
+      "mode": "100644",
+      "size": 39303,
+      "sha": "3edf494eeac63e0c76229d62258a783f17e9cc99"
+    },
+    {
+      "source_path": "skills/story-long-analyze/scripts/manage_analysis_run.py",
+      "mirror_path": "skills/story-long-analyze/scripts/manage_analysis_run.py",
+      "mode": "100644",
+      "size": 58560,
+      "sha": "39b246067c036889551a2e1db04afa43606dd64b"
+    },
+    {
+      "source_path": "skills/story-long-analyze/scripts/render_relation_chart.py",
+      "mirror_path": "skills/story-long-analyze/scripts/render_relation_chart.py",
+      "mode": "100644",
+      "size": 19423,
+      "sha": "b58da3087665207c1812f563e88fee23b2329ca8"
+    },
+    {
+      "source_path": "skills/story-long-analyze/SKILL.md",
+      "mirror_path": "skills/story-long-analyze/SKILL.md",
+      "mode": "100644",
+      "size": 10053,
+      "sha": "89c70754e49b778978d8bbd40344abaeed82abff"
+    },
+    {
+      "source_path": "skills/story-long-scan/references/genre-trends.md",
+      "mirror_path": "skills/story-long-scan/references/genre-trends.md",
+      "mode": "100644",
+      "size": 3732,
+      "sha": "1269ae819882a89979529be374cfc9c150028a9e"
+    },
+    {
+      "source_path": "skills/story-long-scan/references/platform-ciweimao.md",
+      "mirror_path": "skills/story-long-scan/references/platform-ciweimao.md",
+      "mode": "100644",
+      "size": 1838,
+      "sha": "c3332c362c7767a21e1c622400599e9764a06e50"
+    },
+    {
+      "source_path": "skills/story-long-scan/references/platform-fanqie.md",
+      "mirror_path": "skills/story-long-scan/references/platform-fanqie.md",
+      "mode": "100644",
+      "size": 2773,
+      "sha": "47a79d7445de19f210d7d6588521438b4e47537d"
+    },
+    {
+      "source_path": "skills/story-long-scan/references/platform-jjwxc.md",
+      "mirror_path": "skills/story-long-scan/references/platform-jjwxc.md",
+      "mode": "100644",
+      "size": 2012,
+      "sha": "de71fe9820e4bdbf6efdea3acb9707893454fa2a"
+    },
+    {
+      "source_path": "skills/story-long-scan/references/platform-qidian.md",
+      "mirror_path": "skills/story-long-scan/references/platform-qidian.md",
+      "mode": "100644",
+      "size": 3435,
+      "sha": "c523a40188bd54bb0e60a97066dc171ba0d8e71c"
+    },
+    {
+      "source_path": "skills/story-long-scan/references/platform-qimao.md",
+      "mirror_path": "skills/story-long-scan/references/platform-qimao.md",
+      "mode": "100644",
+      "size": 2558,
+      "sha": "e0b4de26d729ff28d7a4cf15adc9037a1212cfaf"
+    },
+    {
+      "source_path": "skills/story-long-scan/references/topic-decision.md",
+      "mirror_path": "skills/story-long-scan/references/topic-decision.md",
+      "mode": "100644",
+      "size": 4822,
+      "sha": "4c17e129967985c7100882c15e063e615b6827ef"
+    },
+    {
+      "source_path": "skills/story-long-scan/scripts/aggregate-rank.js",
+      "mirror_path": "skills/story-long-scan/scripts/aggregate-rank.js",
+      "mode": "100644",
+      "size": 32105,
+      "sha": "4b80d1095bf537d98bb63f7dfc037e45ba277c8a"
+    },
+    {
+      "source_path": "skills/story-long-scan/scripts/cdp-utils.js",
+      "mirror_path": "skills/story-long-scan/scripts/cdp-utils.js",
+      "mode": "100644",
+      "size": 8564,
+      "sha": "e20db3e17914e106327eaa2e72c6b6d6eec508ea"
+    },
+    {
+      "source_path": "skills/story-long-scan/scripts/ciweimao-rank-scraper.js",
+      "mirror_path": "skills/story-long-scan/scripts/ciweimao-rank-scraper.js",
+      "mode": "100644",
+      "size": 9554,
+      "sha": "e312070050e995e5f0f33d6b47de890d0b805df0"
+    },
+    {
+      "source_path": "skills/story-long-scan/scripts/fanqie-rank-scraper.js",
+      "mirror_path": "skills/story-long-scan/scripts/fanqie-rank-scraper.js",
+      "mode": "100644",
+      "size": 26267,
+      "sha": "7388d7945725b29458cc4abd64762d9cdae9af05"
+    },
+    {
+      "source_path": "skills/story-long-scan/scripts/jjwxc-rank-scraper.js",
+      "mirror_path": "skills/story-long-scan/scripts/jjwxc-rank-scraper.js",
+      "mode": "100644",
+      "size": 16528,
+      "sha": "0cea6615f2aefea8fa01bf07cc6b156755188679"
+    },
+    {
+      "source_path": "skills/story-long-scan/scripts/qidian-rank-scraper.js",
+      "mirror_path": "skills/story-long-scan/scripts/qidian-rank-scraper.js",
+      "mode": "100644",
+      "size": 49572,
+      "sha": "5ac9c9c9efacd65272818594b53b99b79bdf5266"
+    },
+    {
+      "source_path": "skills/story-long-scan/scripts/qimao-rank-scraper.js",
+      "mirror_path": "skills/story-long-scan/scripts/qimao-rank-scraper.js",
+      "mode": "100644",
+      "size": 35676,
+      "sha": "83b1098b7c06200b1e0a67950107cb01373dbd54"
+    },
+    {
+      "source_path": "skills/story-long-scan/SKILL.md",
+      "mirror_path": "skills/story-long-scan/SKILL.md",
+      "mode": "100644",
+      "size": 8035,
+      "sha": "452f5376577f8ebabdad5a7d44f3cf9cf4ea05a3"
+    },
+    {
+      "source_path": "skills/story-long-write/references/agent-calls.md",
+      "mirror_path": "skills/story-long-write/references/agent-calls.md",
+      "mode": "100644",
+      "size": 5306,
+      "sha": "2601a6835533d1810b052cab808482ad36940148"
+    },
+    {
+      "source_path": "skills/story-long-write/references/artifact-protocols.md",
+      "mirror_path": "skills/story-long-write/references/artifact-protocols.md",
+      "mode": "100644",
+      "size": 10048,
+      "sha": "24715506ed130d400362b382617de1bac31e9034"
+    },
+    {
+      "source_path": "skills/story-long-write/references/author-memory.md",
+      "mirror_path": "skills/story-long-write/references/author-memory.md",
+      "mode": "100644",
+      "size": 6778,
+      "sha": "1d1542953295fb149724599bcbef676557f317f3"
+    },
+    {
+      "source_path": "skills/story-long-write/references/banned-words.md",
+      "mirror_path": "skills/story-long-write/references/banned-words.md",
+      "mode": "100644",
+      "size": 11117,
+      "sha": "25adaf8634f857262e3a849ffcffd78d93baf4ec"
+    },
+    {
+      "source_path": "skills/story-long-write/references/benchmark-recall.md",
+      "mirror_path": "skills/story-long-write/references/benchmark-recall.md",
+      "mode": "100644",
+      "size": 5358,
+      "sha": "1395c69b1f1fdb8b66e20a787a3bd4ea7eff8954"
+    },
+    {
+      "source_path": "skills/story-long-write/references/character-basics.md",
+      "mirror_path": "skills/story-long-write/references/character-basics.md",
+      "mode": "100644",
+      "size": 12626,
+      "sha": "f8cda244a2d4020687e7d3cbc13e6d146c74a891"
+    },
+    {
+      "source_path": "skills/story-long-write/references/character-relations.md",
+      "mirror_path": "skills/story-long-write/references/character-relations.md",
+      "mode": "100644",
+      "size": 10475,
+      "sha": "b1121d965ec8c46286e457228bd399956d52bb91"
+    },
+    {
+      "source_path": "skills/story-long-write/references/cross-book-recall.md",
+      "mirror_path": "skills/story-long-write/references/cross-book-recall.md",
+      "mode": "100644",
+      "size": 3955,
+      "sha": "32cd6cb58f1098065e0e99023c1e25fd57bd3a33"
+    },
+    {
+      "source_path": "skills/story-long-write/references/dialogue-mastery.md",
+      "mirror_path": "skills/story-long-write/references/dialogue-mastery.md",
+      "mode": "100644",
+      "size": 11215,
+      "sha": "a903a75ae7d74d1dec10109da4d9d57c3ce272b4"
+    },
+    {
+      "source_path": "skills/story-long-write/references/emotional-methods.md",
+      "mirror_path": "skills/story-long-write/references/emotional-methods.md",
+      "mode": "100644",
+      "size": 8065,
+      "sha": "d57bf7ef51d534f640f6e2e57338f558078faa28"
+    },
+    {
+      "source_path": "skills/story-long-write/references/female-audience-writing.md",
+      "mirror_path": "skills/story-long-write/references/female-audience-writing.md",
+      "mode": "100644",
+      "size": 7677,
+      "sha": "855b313a0a80cd86078bba50f6e285229e1f849e"
+    },
+    {
+      "source_path": "skills/story-long-write/references/genre-prose-cards.md",
+      "mirror_path": "skills/story-long-write/references/genre-prose-cards.md",
+      "mode": "100644",
+      "size": 7213,
+      "sha": "6b0c8f166096fa1aea48ea2d510851daf4be6903"
+    },
+    {
+      "source_path": "skills/story-long-write/references/genre-prose-cards/东方仙侠.md",
+      "mirror_path": "skills/story-long-write/references/genre-prose-cards/东方仙侠.md",
+      "mode": "100644",
+      "size": 2406,
+      "sha": "914920e79f4699ecbdd171166f2e18ba36185e31"
+    },
+    {
+      "source_path": "skills/story-long-write/references/genre-prose-cards/传统玄幻.md",
+      "mirror_path": "skills/story-long-write/references/genre-prose-cards/传统玄幻.md",
+      "mode": "100644",
+      "size": 1920,
+      "sha": "0965c030bdc805e4a3d9aea815ea0155f5103fb0"
+    },
+    {
+      "source_path": "skills/story-long-write/references/genre-prose-cards/历史古代.md",
+      "mirror_path": "skills/story-long-write/references/genre-prose-cards/历史古代.md",
+      "mode": "100644",
+      "size": 1754,
+      "sha": "1a16928c819419f677c98da2b816f9083538c3c3"
+    },
+    {
+      "source_path": "skills/story-long-write/references/genre-prose-cards/历史脑洞.md",
+      "mirror_path": "skills/story-long-write/references/genre-prose-cards/历史脑洞.md",
+      "mode": "100644",
+      "size": 2012,
+      "sha": "e50b4776810f554419cd1e6e20b76066903f7d66"
+    },
+    {
+      "source_path": "skills/story-long-write/references/genre-prose-cards/双男主.md",
+      "mirror_path": "skills/story-long-write/references/genre-prose-cards/双男主.md",
+      "mode": "100644",
+      "size": 2363,
+      "sha": "ad63f433c6b01883e547a54ab6a17f352349c244"
+    },
+    {
+      "source_path": "skills/story-long-write/references/genre-prose-cards/古言脑洞.md",
+      "mirror_path": "skills/story-long-write/references/genre-prose-cards/古言脑洞.md",
+      "mode": "100644",
+      "size": 1821,
+      "sha": "19493cdc7eb9bca93307b7de150a01d30657a14d"
+    },
+    {
+      "source_path": "skills/story-long-write/references/genre-prose-cards/古风世情.md",
+      "mirror_path": "skills/story-long-write/references/genre-prose-cards/古风世情.md",
+      "mode": "100644",
+      "size": 2377,
+      "sha": "9f240c5dff99072b201544589eb759cff80688c7"
+    },
+    {
+      "source_path": "skills/story-long-write/references/genre-prose-cards/女频悬疑.md",
+      "mirror_path": "skills/story-long-write/references/genre-prose-cards/女频悬疑.md",
+      "mode": "100644",
+      "size": 1847,
+      "sha": "3f23003db5ec4f5aa27d4a3836c71f4bd0f86e8f"
+    },
+    {
+      "source_path": "skills/story-long-write/references/genre-prose-cards/女频种田.md",
+      "mirror_path": "skills/story-long-write/references/genre-prose-cards/女频种田.md",
+      "mode": "100644",
+      "size": 1819,
+      "sha": "4ea420a097a561c11234e401bb2bbcdc851c013c"
+    },
+    {
+      "source_path": "skills/story-long-write/references/genre-prose-cards/宫斗宅斗.md",
+      "mirror_path": "skills/story-long-write/references/genre-prose-cards/宫斗宅斗.md",
+      "mode": "100644",
+      "size": 1653,
+      "sha": "5476a7f655836a0681f44f524261a4e401a6972e"
+    },
+    {
+      "source_path": "skills/story-long-write/references/genre-prose-cards/年代.md",
+      "mirror_path": "skills/story-long-write/references/genre-prose-cards/年代.md",
+      "mode": "100644",
+      "size": 2164,
+      "sha": "4598784f647ad5c81280e5ba200439a62c70e78d"
+    },
+    {
+      "source_path": "skills/story-long-write/references/genre-prose-cards/快穿.md",
+      "mirror_path": "skills/story-long-write/references/genre-prose-cards/快穿.md",
+      "mode": "100644",
+      "size": 1964,
+      "sha": "16e0791140381949d1bd621cceca17e8219c4c22"
+    },
+    {
+      "source_path": "skills/story-long-write/references/genre-prose-cards/悬疑灵异.md",
+      "mirror_path": "skills/story-long-write/references/genre-prose-cards/悬疑灵异.md",
+      "mode": "100644",
+      "size": 1757,
+      "sha": "f0526d08a5c0473d1bfdeb4a70efd3ce007db55d"
+    },
+    {
+      "source_path": "skills/story-long-write/references/genre-prose-cards/悬疑脑洞.md",
+      "mirror_path": "skills/story-long-write/references/genre-prose-cards/悬疑脑洞.md",
+      "mode": "100644",
+      "size": 1912,
+      "sha": "f76b74e72f474412bd1a82e2fbd8ac8afd2f515e"
+    },
+    {
+      "source_path": "skills/story-long-write/references/genre-prose-cards/战神赘婿.md",
+      "mirror_path": "skills/story-long-write/references/genre-prose-cards/战神赘婿.md",
+      "mode": "100644",
+      "size": 1899,
+      "sha": "115b55fdf85f5c083a8802dda5b2d831da21c189"
+    },
+    {
+      "source_path": "skills/story-long-write/references/genre-prose-cards/抗战谍战.md",
+      "mirror_path": "skills/story-long-write/references/genre-prose-cards/抗战谍战.md",
+      "mode": "100644",
+      "size": 1828,
+      "sha": "d1392879dc4191f552fe0015265a2497c5e76bc3"
+    },
+    {
+      "source_path": "skills/story-long-write/references/genre-prose-cards/星光璀璨.md",
+      "mirror_path": "skills/story-long-write/references/genre-prose-cards/星光璀璨.md",
+      "mode": "100644",
+      "size": 1864,
+      "sha": "1ff9d6ce7c379da7335e1faf5440cbbd46ae285b"
+    },
+    {
+      "source_path": "skills/story-long-write/references/genre-prose-cards/民国言情.md",
+      "mirror_path": "skills/story-long-write/references/genre-prose-cards/民国言情.md",
+      "mode": "100644",
+      "size": 1899,
+      "sha": "facaa4545b91ea6f328ffac7c51f8700fe49ec5f"
+    },
+    {
+      "source_path": "skills/story-long-write/references/genre-prose-cards/流派兜底.md",
+      "mirror_path": "skills/story-long-write/references/genre-prose-cards/流派兜底.md",
+      "mode": "100644",
+      "size": 8576,
+      "sha": "8feb5481e97adf8cb52b2985a3575f1cc007f3e1"
+    },
+    {
+      "source_path": "skills/story-long-write/references/genre-prose-cards/游戏体育.md",
+      "mirror_path": "skills/story-long-write/references/genre-prose-cards/游戏体育.md",
+      "mode": "100644",
+      "size": 1971,
+      "sha": "23c1dfdc5440e2ebb91863d5d3136a95c55695f8"
+    },
+    {
+      "source_path": "skills/story-long-write/references/genre-prose-cards/玄幻脑洞.md",
+      "mirror_path": "skills/story-long-write/references/genre-prose-cards/玄幻脑洞.md",
+      "mode": "100644",
+      "size": 2073,
+      "sha": "6fd5178775743bf60611f357670e86da5339caac"
+    },
+    {
+      "source_path": "skills/story-long-write/references/genre-prose-cards/玄幻言情.md",
+      "mirror_path": "skills/story-long-write/references/genre-prose-cards/玄幻言情.md",
+      "mode": "100644",
+      "size": 1744,
+      "sha": "0ba198eae9f2057bba7febbd5bb9b4eedd760b82"
+    },
+    {
+      "source_path": "skills/story-long-write/references/genre-prose-cards/现言脑洞.md",
+      "mirror_path": "skills/story-long-write/references/genre-prose-cards/现言脑洞.md",
+      "mode": "100644",
+      "size": 1845,
+      "sha": "1119755196957d7bed63b76f294f4df7aeb23591"
+    },
+    {
+      "source_path": "skills/story-long-write/references/genre-prose-cards/科幻末世.md",
+      "mirror_path": "skills/story-long-write/references/genre-prose-cards/科幻末世.md",
+      "mode": "100644",
+      "size": 1744,
+      "sha": "f9020cb3e72001160c773f4be1b535c7b3496e5b"
+    },
+    {
+      "source_path": "skills/story-long-write/references/genre-prose-cards/职场婚恋.md",
+      "mirror_path": "skills/story-long-write/references/genre-prose-cards/职场婚恋.md",
+      "mode": "100644",
+      "size": 1720,
+      "sha": "9dd918564f1dc7454df7a37cee9b747f7f04fbc6"
+    },
+    {
+      "source_path": "skills/story-long-write/references/genre-prose-cards/西方奇幻.md",
+      "mirror_path": "skills/story-long-write/references/genre-prose-cards/西方奇幻.md",
+      "mode": "100644",
+      "size": 1914,
+      "sha": "3750ccad190937d79128b7ddd8764a5c26c128d7"
+    },
+    {
+      "source_path": "skills/story-long-write/references/genre-prose-cards/豪门总裁.md",
+      "mirror_path": "skills/story-long-write/references/genre-prose-cards/豪门总裁.md",
+      "mode": "100644",
+      "size": 2404,
+      "sha": "9c101a4fbe27108d860dc7b4915460bd3e2eaa82"
+    },
+    {
+      "source_path": "skills/story-long-write/references/genre-prose-cards/都市修真.md",
+      "mirror_path": "skills/story-long-write/references/genre-prose-cards/都市修真.md",
+      "mode": "100644",
+      "size": 1778,
+      "sha": "ea8e62c1a26cc2e98ce02e1ab83561501b5874ce"
+    },
+    {
+      "source_path": "skills/story-long-write/references/genre-prose-cards/都市日常.md",
+      "mirror_path": "skills/story-long-write/references/genre-prose-cards/都市日常.md",
+      "mode": "100644",
+      "size": 2872,
+      "sha": "2d5c495595f58b7d370bfb01f7cbffdc86430123"
+    },
+    {
+      "source_path": "skills/story-long-write/references/genre-prose-cards/都市种田.md",
+      "mirror_path": "skills/story-long-write/references/genre-prose-cards/都市种田.md",
+      "mode": "100644",
+      "size": 1716,
+      "sha": "4debd9310a2c1a02767e4a69ad822d3d92b8df69"
+    },
+    {
+      "source_path": "skills/story-long-write/references/genre-prose-cards/都市脑洞.md",
+      "mirror_path": "skills/story-long-write/references/genre-prose-cards/都市脑洞.md",
+      "mode": "100644",
+      "size": 2481,
+      "sha": "3cd534bde7c74a45a86ddef6a89fb7e0a0bb499d"
+    },
+    {
+      "source_path": "skills/story-long-write/references/genre-prose-cards/都市高武.md",
+      "mirror_path": "skills/story-long-write/references/genre-prose-cards/都市高武.md",
+      "mode": "100644",
+      "size": 2087,
+      "sha": "558de5cbd8c369d4b56fa99847fe3988c47407a7"
+    },
+    {
+      "source_path": "skills/story-long-write/references/genre-prose-cards/青春甜宠.md",
+      "mirror_path": "skills/story-long-write/references/genre-prose-cards/青春甜宠.md",
+      "mode": "100644",
+      "size": 1886,
+      "sha": "1d8bb1011554af5721a4c7d411dceba7f0ea73e5"
+    },
+    {
+      "source_path": "skills/story-long-write/references/genre-readers.md",
+      "mirror_path": "skills/story-long-write/references/genre-readers.md",
+      "mode": "100644",
+      "size": 7041,
+      "sha": "b94cd4200c2d442df3baf408c520a6607dc1f195"
+    },
+    {
+      "source_path": "skills/story-long-write/references/long-chapter-hooks.md",
+      "mirror_path": "skills/story-long-write/references/long-chapter-hooks.md",
+      "mode": "100644",
+      "size": 6650,
+      "sha": "d294c45f40c4591de6c167d73611775e11d9a9b0"
+    },
+    {
+      "source_path": "skills/story-long-write/references/long-chapter-quality.md",
+      "mirror_path": "skills/story-long-write/references/long-chapter-quality.md",
+      "mode": "100644",
+      "size": 3430,
+      "sha": "585748507b1d556c8ba0a863b9f3766e9b3a5b26"
+    },
+    {
+      "source_path": "skills/story-long-write/references/long-format.md",
+      "mirror_path": "skills/story-long-write/references/long-format.md",
+      "mode": "100644",
+      "size": 2158,
+      "sha": "72e27638b471e7e591b2d24689b3a01293e3db07"
+    },
+    {
+      "source_path": "skills/story-long-write/references/long-genre-catalog.md",
+      "mirror_path": "skills/story-long-write/references/long-genre-catalog.md",
+      "mode": "100644",
+      "size": 12231,
+      "sha": "9d886e304c60aab12f2bb3aa98782ffb56dee890"
+    },
+    {
+      "source_path": "skills/story-long-write/references/long-genre-mechanics.md",
+      "mirror_path": "skills/story-long-write/references/long-genre-mechanics.md",
+      "mode": "100644",
+      "size": 8453,
+      "sha": "d31658c75d2855e166ace42bfd8344226e5979f2"
+    },
+    {
+      "source_path": "skills/story-long-write/references/long-reversal.md",
+      "mirror_path": "skills/story-long-write/references/long-reversal.md",
+      "mode": "100644",
+      "size": 12587,
+      "sha": "04b3c8bf7b6848a936a0199e62ec9afd2af5e7c6"
+    },
+    {
+      "source_path": "skills/story-long-write/references/long-suspense.md",
+      "mirror_path": "skills/story-long-write/references/long-suspense.md",
+      "mode": "100644",
+      "size": 9377,
+      "sha": "daca4a3fdbacab245a9ae59b40a7e572ca154ca4"
+    },
+    {
+      "source_path": "skills/story-long-write/references/opening-design.md",
+      "mirror_path": "skills/story-long-write/references/opening-design.md",
+      "mode": "100644",
+      "size": 4563,
+      "sha": "921543b8dd48027fd61e15dfea23d9af1d8b54d2"
+    },
+    {
+      "source_path": "skills/story-long-write/references/outline-methods.md",
+      "mirror_path": "skills/story-long-write/references/outline-methods.md",
+      "mode": "100644",
+      "size": 12840,
+      "sha": "ed061f3f50a829040d68a308a511ca9ebdc8ad70"
+    },
+    {
+      "source_path": "skills/story-long-write/references/outline-template.md",
+      "mirror_path": "skills/story-long-write/references/outline-template.md",
+      "mode": "100644",
+      "size": 8220,
+      "sha": "9e0212f56110dc6784395479c0325be7b1dbd35f"
+    },
+    {
+      "source_path": "skills/story-long-write/references/plot-core-methods.md",
+      "mirror_path": "skills/story-long-write/references/plot-core-methods.md",
+      "mode": "100644",
+      "size": 5470,
+      "sha": "fdcef86c6bf71f37d9f40305fe8a6502f7092a8d"
+    },
+    {
+      "source_path": "skills/story-long-write/references/project-files.md",
+      "mirror_path": "skills/story-long-write/references/project-files.md",
+      "mode": "100644",
+      "size": 4814,
+      "sha": "b64668ca50a1970f959e1ab1b345be5bccbd232a"
+    },
+    {
+      "source_path": "skills/story-long-write/references/reader-contract-and-progression.md",
+      "mirror_path": "skills/story-long-write/references/reader-contract-and-progression.md",
+      "mode": "100644",
+      "size": 7055,
+      "sha": "ec5933b877b3b6dd865c670ac88e11f089b2dabd"
+    },
+    {
+      "source_path": "skills/story-long-write/references/revision-diagnosis.md",
+      "mirror_path": "skills/story-long-write/references/revision-diagnosis.md",
+      "mode": "100644",
+      "size": 3691,
+      "sha": "b936327b89342efbe541e2694307719d5040d5cd"
+    },
+    {
+      "source_path": "skills/story-long-write/references/style-combat-face.md",
+      "mirror_path": "skills/story-long-write/references/style-combat-face.md",
+      "mode": "100644",
+      "size": 9321,
+      "sha": "a21434223e4e75fe634e52a50b2f29e6584c9c29"
+    },
+    {
+      "source_path": "skills/story-long-write/references/tracking-initialization.md",
+      "mirror_path": "skills/story-long-write/references/tracking-initialization.md",
+      "mode": "100644",
+      "size": 1651,
+      "sha": "b13755505ec8b8756c0aa0166c125d62244ee740"
+    },
+    {
+      "source_path": "skills/story-long-write/references/tracking-transaction.md",
+      "mirror_path": "skills/story-long-write/references/tracking-transaction.md",
+      "mode": "100644",
+      "size": 8769,
+      "sha": "1a8ffb3c51c142bcc8142016d4a2da5f3ca33783"
+    },
+    {
+      "source_path": "skills/story-long-write/references/workflow-chapter.md",
+      "mirror_path": "skills/story-long-write/references/workflow-chapter.md",
+      "mode": "100644",
+      "size": 12836,
+      "sha": "b819c9fe626c992a93fe5804f473bb97cefa8771"
+    },
+    {
+      "source_path": "skills/story-long-write/references/workflow-daily.md",
+      "mirror_path": "skills/story-long-write/references/workflow-daily.md",
+      "mode": "100644",
+      "size": 6443,
+      "sha": "e6c7268db87531e470daa77bac1f6a369baae72a"
+    },
+    {
+      "source_path": "skills/story-long-write/references/workflow-outline.md",
+      "mirror_path": "skills/story-long-write/references/workflow-outline.md",
+      "mode": "100644",
+      "size": 11744,
+      "sha": "167a0c3620a9d3ce74f54076ac70c5b9ca8b49af"
+    },
+    {
+      "source_path": "skills/story-long-write/references/workflow-revision.md",
+      "mirror_path": "skills/story-long-write/references/workflow-revision.md",
+      "mode": "100644",
+      "size": 6694,
+      "sha": "597fbfe9a6ccd7d56a7165ab13f01eee05d2d7e2"
+    },
+    {
+      "source_path": "skills/story-long-write/references/workflow-setup.md",
+      "mirror_path": "skills/story-long-write/references/workflow-setup.md",
+      "mode": "100644",
+      "size": 11121,
+      "sha": "3a99f6d50213f856619c99a9e0e15a24c4530b68"
+    },
+    {
+      "source_path": "skills/story-long-write/references/workflow-volume.md",
+      "mirror_path": "skills/story-long-write/references/workflow-volume.md",
+      "mode": "100644",
+      "size": 6120,
+      "sha": "67447accbe78ffa803bb13f67565906846fb7da7"
+    },
+    {
+      "source_path": "skills/story-long-write/references/writing-craft.md",
+      "mirror_path": "skills/story-long-write/references/writing-craft.md",
+      "mode": "100644",
+      "size": 24181,
+      "sha": "08a17f13d347179913fe64ad42e7f47a65d87565"
+    },
+    {
+      "source_path": "skills/story-long-write/scripts/author_memory_commit.py",
+      "mirror_path": "skills/story-long-write/scripts/author_memory_commit.py",
+      "mode": "100644",
+      "size": 76766,
+      "sha": "ce4f62756fa18c5a0d589ef2602b038dcb3879d2"
+    },
+    {
+      "source_path": "skills/story-long-write/scripts/build_architect_brief.py",
+      "mirror_path": "skills/story-long-write/scripts/build_architect_brief.py",
+      "mode": "100644",
+      "size": 22054,
+      "sha": "eeb564f27cf4e543333962f6b6d929e2601f8368"
+    },
+    {
+      "source_path": "skills/story-long-write/scripts/build_writer_prompt.py",
+      "mirror_path": "skills/story-long-write/scripts/build_writer_prompt.py",
+      "mode": "100644",
+      "size": 42729,
+      "sha": "45bf2304ae90138178db09a3d801f69de0791f2e"
+    },
+    {
+      "source_path": "skills/story-long-write/scripts/check-ai-patterns.js",
+      "mirror_path": "skills/story-long-write/scripts/check-ai-patterns.js",
+      "mode": "100755",
+      "size": 81491,
+      "sha": "fa7316842352b44930d471d8f9f49c54a5ed1acb"
+    },
+    {
+      "source_path": "skills/story-long-write/scripts/check-degeneration.js",
+      "mirror_path": "skills/story-long-write/scripts/check-degeneration.js",
+      "mode": "100644",
+      "size": 15793,
+      "sha": "0a3dbefa81ae390eba5e1cbe7ba9f5927f427075"
+    },
+    {
+      "source_path": "skills/story-long-write/scripts/check-outline-contract.js",
+      "mirror_path": "skills/story-long-write/scripts/check-outline-contract.js",
+      "mode": "100644",
+      "size": 28978,
+      "sha": "2f70a19eb481a131a4cf21219a40dcf69d04c913"
+    },
+    {
+      "source_path": "skills/story-long-write/scripts/check-outline-copy.js",
+      "mirror_path": "skills/story-long-write/scripts/check-outline-copy.js",
+      "mode": "100644",
+      "size": 13676,
+      "sha": "6e7432fb437dbb8619dcfa12e7a9a7931f2692ed"
+    },
+    {
+      "source_path": "skills/story-long-write/scripts/convert_outline_format.py",
+      "mirror_path": "skills/story-long-write/scripts/convert_outline_format.py",
+      "mode": "100644",
+      "size": 20267,
+      "sha": "317a9f223a50c96bf1c781ed7b9b04e4c5fa6fb3"
+    },
+    {
+      "source_path": "skills/story-long-write/scripts/normalize-punctuation.js",
+      "mirror_path": "skills/story-long-write/scripts/normalize-punctuation.js",
+      "mode": "100755",
+      "size": 19472,
+      "sha": "318f251d9006b0260b0a0ba98e01636d1948bc3d"
+    },
+    {
+      "source_path": "skills/story-long-write/scripts/outline_view.py",
+      "mirror_path": "skills/story-long-write/scripts/outline_view.py",
+      "mode": "100644",
+      "size": 18637,
+      "sha": "39a5b69099c199a971c15d29bac41ff525daa67a"
+    },
+    {
+      "source_path": "skills/story-long-write/scripts/storyctl.py",
+      "mirror_path": "skills/story-long-write/scripts/storyctl.py",
+      "mode": "100755",
+      "size": 37907,
+      "sha": "602ce31eeeb3cdf97c88157e7ea243b4f57dcc57"
+    },
+    {
+      "source_path": "skills/story-long-write/scripts/style-whitelist.js",
+      "mirror_path": "skills/story-long-write/scripts/style-whitelist.js",
+      "mode": "100644",
+      "size": 1168,
+      "sha": "a75c002fec7a4d481d60b68365a7622001e91ee1"
+    },
+    {
+      "source_path": "skills/story-long-write/scripts/template_fence.py",
+      "mirror_path": "skills/story-long-write/scripts/template_fence.py",
+      "mode": "100644",
+      "size": 2655,
+      "sha": "30e0ae3fdd96c5267e38d0ecff50827ae955da04"
+    },
+    {
+      "source_path": "skills/story-long-write/scripts/tracking_commit.py",
+      "mirror_path": "skills/story-long-write/scripts/tracking_commit.py",
+      "mode": "100644",
+      "size": 85124,
+      "sha": "443ffb01c69f2048f5b7adae23ae77bfbaba76ab"
+    },
+    {
+      "source_path": "skills/story-long-write/scripts/wordcount_core.py",
+      "mirror_path": "skills/story-long-write/scripts/wordcount_core.py",
+      "mode": "100755",
+      "size": 19317,
+      "sha": "4c98c0370cd737dd2ecd26b08b90bc59baaea432"
+    },
+    {
+      "source_path": "skills/story-long-write/SKILL.md",
+      "mirror_path": "skills/story-long-write/SKILL.md",
+      "mode": "100644",
+      "size": 13282,
+      "sha": "d02a9157b282ea256a055e067df6ac93ebf0015a"
+    },
+    {
+      "source_path": "skills/story-publish/references/fanqie-content-tags.md",
+      "mirror_path": "skills/story-publish/references/fanqie-content-tags.md",
+      "mode": "100644",
+      "size": 4565,
+      "sha": "460d3c818b139ef33d685e21933c3ef0e87225de"
+    },
+    {
+      "source_path": "skills/story-publish/references/fanqie-reading-female.md",
+      "mirror_path": "skills/story-publish/references/fanqie-reading-female.md",
+      "mode": "100644",
+      "size": 2583,
+      "sha": "1efeb9b021f2d44fa556562de3a7e3d35f2147d7"
+    },
+    {
+      "source_path": "skills/story-publish/references/fanqie-reading-male.md",
+      "mirror_path": "skills/story-publish/references/fanqie-reading-male.md",
+      "mode": "100644",
+      "size": 2246,
+      "sha": "200e6c62b305f9d72db2a41d82a7a70c097846a0"
+    },
+    {
+      "source_path": "skills/story-publish/references/fanqie-short.md",
+      "mirror_path": "skills/story-publish/references/fanqie-short.md",
+      "mode": "100644",
+      "size": 3517,
+      "sha": "fdb3fa4dd4b96d881aa98dc1b3e6b4a07e1d84e6"
+    },
+    {
+      "source_path": "skills/story-publish/references/fanqie.md",
+      "mirror_path": "skills/story-publish/references/fanqie.md",
+      "mode": "100644",
+      "size": 3432,
+      "sha": "8b19690fabdce4e4c81e32e96aabab48231ef2a3"
+    },
+    {
+      "source_path": "skills/story-publish/scripts/check-publish-format.py",
+      "mirror_path": "skills/story-publish/scripts/check-publish-format.py",
+      "mode": "100644",
+      "size": 10779,
+      "sha": "dd4090ffef722436bcef58d31ec9a47ac32ae162"
+    },
+    {
+      "source_path": "skills/story-publish/SKILL.md",
+      "mirror_path": "skills/story-publish/SKILL.md",
+      "mode": "100644",
+      "size": 8869,
+      "sha": "445cc36aff2981a5fca83135d56de9ef2ad904a9"
+    },
+    {
+      "source_path": "skills/story-review/references/agent-prompts.md",
+      "mirror_path": "skills/story-review/references/agent-prompts.md",
+      "mode": "100644",
+      "size": 13812,
+      "sha": "45ac4c8d55b500eb426757900ea9ae9977b0de54"
+    },
+    {
+      "source_path": "skills/story-review/references/banned-words.md",
+      "mirror_path": "skills/story-review/references/banned-words.md",
+      "mode": "100644",
+      "size": 11117,
+      "sha": "25adaf8634f857262e3a849ffcffd78d93baf4ec"
+    },
+    {
+      "source_path": "skills/story-review/references/batch-review.md",
+      "mirror_path": "skills/story-review/references/batch-review.md",
+      "mode": "100644",
+      "size": 2325,
+      "sha": "185df42df2866cb06819870f199247191f60f62e"
+    },
+    {
+      "source_path": "skills/story-review/references/expression.md",
+      "mirror_path": "skills/story-review/references/expression.md",
+      "mode": "100644",
+      "size": 9795,
+      "sha": "2ae40b3793b46888fde4bf0388b747b239e5b73d"
+    },
+    {
+      "source_path": "skills/story-review/references/narrative-focus.md",
+      "mirror_path": "skills/story-review/references/narrative-focus.md",
+      "mode": "100644",
+      "size": 6856,
+      "sha": "ed3bcb50c8ed594159f2633821ac817be91d6afa"
+    },
+    {
+      "source_path": "skills/story-review/references/quality-rubric.md",
+      "mirror_path": "skills/story-review/references/quality-rubric.md",
+      "mode": "100644",
+      "size": 5170,
+      "sha": "daa69b7f37244e65d785cf2bdf763f2ce6bcc2c1"
+    },
+    {
+      "source_path": "skills/story-review/references/review-tracking.md",
+      "mirror_path": "skills/story-review/references/review-tracking.md",
+      "mode": "100644",
+      "size": 2269,
+      "sha": "ed5c9298bbd98cee94b451e28d3ba47832cead31"
+    },
+    {
+      "source_path": "skills/story-review/references/rubrics/fanqie.md",
+      "mirror_path": "skills/story-review/references/rubrics/fanqie.md",
+      "mode": "100644",
+      "size": 1012,
+      "sha": "89b614ddc4738dc84f04ceed0e92030dab1c77b7"
+    },
+    {
+      "source_path": "skills/story-review/references/rubrics/qidian.md",
+      "mirror_path": "skills/story-review/references/rubrics/qidian.md",
+      "mode": "100644",
+      "size": 1082,
+      "sha": "fa3f93bba64544a9625847481a4cfa15a0194143"
+    },
+    {
+      "source_path": "skills/story-review/references/rubrics/zhihu.md",
+      "mirror_path": "skills/story-review/references/rubrics/zhihu.md",
+      "mode": "100644",
+      "size": 1451,
+      "sha": "30a07b313b5323db9d984e7b57e1308b962fa7bf"
+    },
+    {
+      "source_path": "skills/story-review/references/solo.md",
+      "mirror_path": "skills/story-review/references/solo.md",
+      "mode": "100644",
+      "size": 3007,
+      "sha": "98252f2c5b1820ab2ae6961aacb438a8ac7894a8"
+    },
+    {
+      "source_path": "skills/story-review/references/story-logic.md",
+      "mirror_path": "skills/story-review/references/story-logic.md",
+      "mode": "100644",
+      "size": 6051,
+      "sha": "22f999036d2d972f1635e916fd47ea176e3e93fe"
+    },
+    {
+      "source_path": "skills/story-review/references/style-resolution.md",
+      "mirror_path": "skills/story-review/references/style-resolution.md",
+      "mode": "100644",
+      "size": 3053,
+      "sha": "edcda5eb92af47576c4c0af4e738f0a0dd36373e"
+    },
+    {
+      "source_path": "skills/story-review/references/tracking-initialization.md",
+      "mirror_path": "skills/story-review/references/tracking-initialization.md",
+      "mode": "100644",
+      "size": 1651,
+      "sha": "b13755505ec8b8756c0aa0166c125d62244ee740"
+    },
+    {
+      "source_path": "skills/story-review/references/tracking-transaction.md",
+      "mirror_path": "skills/story-review/references/tracking-transaction.md",
+      "mode": "100644",
+      "size": 8769,
+      "sha": "1a8ffb3c51c142bcc8142016d4a2da5f3ca33783"
+    },
+    {
+      "source_path": "skills/story-review/scripts/check-ai-patterns.js",
+      "mirror_path": "skills/story-review/scripts/check-ai-patterns.js",
+      "mode": "100755",
+      "size": 81491,
+      "sha": "fa7316842352b44930d471d8f9f49c54a5ed1acb"
+    },
+    {
+      "source_path": "skills/story-review/scripts/check-degeneration.js",
+      "mirror_path": "skills/story-review/scripts/check-degeneration.js",
+      "mode": "100644",
+      "size": 15793,
+      "sha": "0a3dbefa81ae390eba5e1cbe7ba9f5927f427075"
+    },
+    {
+      "source_path": "skills/story-review/scripts/normalize-punctuation.js",
+      "mirror_path": "skills/story-review/scripts/normalize-punctuation.js",
+      "mode": "100755",
+      "size": 19472,
+      "sha": "318f251d9006b0260b0a0ba98e01636d1948bc3d"
+    },
+    {
+      "source_path": "skills/story-review/scripts/style-whitelist.js",
+      "mirror_path": "skills/story-review/scripts/style-whitelist.js",
+      "mode": "100644",
+      "size": 1168,
+      "sha": "a75c002fec7a4d481d60b68365a7622001e91ee1"
+    },
+    {
+      "source_path": "skills/story-review/scripts/tracking_commit.py",
+      "mirror_path": "skills/story-review/scripts/tracking_commit.py",
+      "mode": "100644",
+      "size": 85124,
+      "sha": "443ffb01c69f2048f5b7adae23ae77bfbaba76ab"
+    },
+    {
+      "source_path": "skills/story-review/scripts/wordcount_core.py",
+      "mirror_path": "skills/story-review/scripts/wordcount_core.py",
+      "mode": "100755",
+      "size": 19317,
+      "sha": "4c98c0370cd737dd2ecd26b08b90bc59baaea432"
+    },
+    {
+      "source_path": "skills/story-review/SKILL.md",
+      "mirror_path": "skills/story-review/SKILL.md",
+      "mode": "100644",
+      "size": 19757,
+      "sha": "9f4f8e19f377e1ef6b0558e3a69230b6ab0fd444"
+    },
+    {
+      "source_path": "skills/story-setup/references/agent-references/agent-quality.md",
+      "mirror_path": "skills/story-setup/references/agent-references/agent-quality.md",
+      "mode": "100644",
+      "size": 3776,
+      "sha": "f3146eb930a7c2a08bbea4d344deef8ad5c7710f"
+    },
+    {
+      "source_path": "skills/story-setup/references/agent-references/agent-reference-profiles.md",
+      "mirror_path": "skills/story-setup/references/agent-references/agent-reference-profiles.md",
+      "mode": "100644",
+      "size": 4367,
+      "sha": "edef1db6addcf18c52eab5ad5cfb4f4ae39d32a8"
+    },
+    {
+      "source_path": "skills/story-setup/references/agent-references/banned-words.md",
+      "mirror_path": "skills/story-setup/references/agent-references/banned-words.md",
+      "mode": "100644",
+      "size": 11117,
+      "sha": "25adaf8634f857262e3a849ffcffd78d93baf4ec"
+    },
+    {
+      "source_path": "skills/story-setup/references/agent-references/benchmark-style-load.md",
+      "mirror_path": "skills/story-setup/references/agent-references/benchmark-style-load.md",
+      "mode": "100644",
+      "size": 10306,
+      "sha": "9ecd4478be50a4f963acfe5d5b52628b5a6f0401"
+    },
+    {
+      "source_path": "skills/story-setup/references/agent-references/character-basics.md",
+      "mirror_path": "skills/story-setup/references/agent-references/character-basics.md",
+      "mode": "100644",
+      "size": 12626,
+      "sha": "f8cda244a2d4020687e7d3cbc13e6d146c74a891"
+    },
+    {
+      "source_path": "skills/story-setup/references/agent-references/character-relations.md",
+      "mirror_path": "skills/story-setup/references/agent-references/character-relations.md",
+      "mode": "100644",
+      "size": 10475,
+      "sha": "b1121d965ec8c46286e457228bd399956d52bb91"
+    },
+    {
+      "source_path": "skills/story-setup/references/agent-references/cross-book-recall.md",
+      "mirror_path": "skills/story-setup/references/agent-references/cross-book-recall.md",
+      "mode": "100644",
+      "size": 3955,
+      "sha": "32cd6cb58f1098065e0e99023c1e25fd57bd3a33"
+    },
+    {
+      "source_path": "skills/story-setup/references/agent-references/deslop-gates.md",
+      "mirror_path": "skills/story-setup/references/agent-references/deslop-gates.md",
+      "mode": "100644",
+      "size": 2312,
+      "sha": "e29140511e9f4326d5e724e603b5687233b765f5"
+    },
+    {
+      "source_path": "skills/story-setup/references/agent-references/dialogue-mastery.md",
+      "mirror_path": "skills/story-setup/references/agent-references/dialogue-mastery.md",
+      "mode": "100644",
+      "size": 11215,
+      "sha": "a903a75ae7d74d1dec10109da4d9d57c3ce272b4"
+    },
+    {
+      "source_path": "skills/story-setup/references/agent-references/expression.md",
+      "mirror_path": "skills/story-setup/references/agent-references/expression.md",
+      "mode": "100644",
+      "size": 9795,
+      "sha": "2ae40b3793b46888fde4bf0388b747b239e5b73d"
+    },
+    {
+      "source_path": "skills/story-setup/references/agent-references/female-audience-writing.md",
+      "mirror_path": "skills/story-setup/references/agent-references/female-audience-writing.md",
+      "mode": "100644",
+      "size": 7677,
+      "sha": "855b313a0a80cd86078bba50f6e285229e1f849e"
+    },
+    {
+      "source_path": "skills/story-setup/references/agent-references/format-and-structure.md",
+      "mirror_path": "skills/story-setup/references/agent-references/format-and-structure.md",
+      "mode": "100644",
+      "size": 8174,
+      "sha": "48a8d106eb9f32adaad4e0a9ded12ae37dd09207"
+    },
+    {
+      "source_path": "skills/story-setup/references/agent-references/genre-prose-cards.md",
+      "mirror_path": "skills/story-setup/references/agent-references/genre-prose-cards.md",
+      "mode": "100644",
+      "size": 7213,
+      "sha": "6b0c8f166096fa1aea48ea2d510851daf4be6903"
+    },
+    {
+      "source_path": "skills/story-setup/references/agent-references/genre-prose-cards/东方仙侠.md",
+      "mirror_path": "skills/story-setup/references/agent-references/genre-prose-cards/东方仙侠.md",
+      "mode": "100644",
+      "size": 2406,
+      "sha": "914920e79f4699ecbdd171166f2e18ba36185e31"
+    },
+    {
+      "source_path": "skills/story-setup/references/agent-references/genre-prose-cards/传统玄幻.md",
+      "mirror_path": "skills/story-setup/references/agent-references/genre-prose-cards/传统玄幻.md",
+      "mode": "100644",
+      "size": 1920,
+      "sha": "0965c030bdc805e4a3d9aea815ea0155f5103fb0"
+    },
+    {
+      "source_path": "skills/story-setup/references/agent-references/genre-prose-cards/历史古代.md",
+      "mirror_path": "skills/story-setup/references/agent-references/genre-prose-cards/历史古代.md",
+      "mode": "100644",
+      "size": 1754,
+      "sha": "1a16928c819419f677c98da2b816f9083538c3c3"
+    },
+    {
+      "source_path": "skills/story-setup/references/agent-references/genre-prose-cards/历史脑洞.md",
+      "mirror_path": "skills/story-setup/references/agent-references/genre-prose-cards/历史脑洞.md",
+      "mode": "100644",
+      "size": 2012,
+      "sha": "e50b4776810f554419cd1e6e20b76066903f7d66"
+    },
+    {
+      "source_path": "skills/story-setup/references/agent-references/genre-prose-cards/双男主.md",
+      "mirror_path": "skills/story-setup/references/agent-references/genre-prose-cards/双男主.md",
+      "mode": "100644",
+      "size": 2363,
+      "sha": "ad63f433c6b01883e547a54ab6a17f352349c244"
+    },
+    {
+      "source_path": "skills/story-setup/references/agent-references/genre-prose-cards/古言脑洞.md",
+      "mirror_path": "skills/story-setup/references/agent-references/genre-prose-cards/古言脑洞.md",
+      "mode": "100644",
+      "size": 1821,
+      "sha": "19493cdc7eb9bca93307b7de150a01d30657a14d"
+    },
+    {
+      "source_path": "skills/story-setup/references/agent-references/genre-prose-cards/古风世情.md",
+      "mirror_path": "skills/story-setup/references/agent-references/genre-prose-cards/古风世情.md",
+      "mode": "100644",
+      "size": 2377,
+      "sha": "9f240c5dff99072b201544589eb759cff80688c7"
+    },
+    {
+      "source_path": "skills/story-setup/references/agent-references/genre-prose-cards/女频悬疑.md",
+      "mirror_path": "skills/story-setup/references/agent-references/genre-prose-cards/女频悬疑.md",
+      "mode": "100644",
+      "size": 1847,
+      "sha": "3f23003db5ec4f5aa27d4a3836c71f4bd0f86e8f"
+    },
+    {
+      "source_path": "skills/story-setup/references/agent-references/genre-prose-cards/女频种田.md",
+      "mirror_path": "skills/story-setup/references/agent-references/genre-prose-cards/女频种田.md",
+      "mode": "100644",
+      "size": 1819,
+      "sha": "4ea420a097a561c11234e401bb2bbcdc851c013c"
+    },
+    {
+      "source_path": "skills/story-setup/references/agent-references/genre-prose-cards/宫斗宅斗.md",
+      "mirror_path": "skills/story-setup/references/agent-references/genre-prose-cards/宫斗宅斗.md",
+      "mode": "100644",
+      "size": 1653,
+      "sha": "5476a7f655836a0681f44f524261a4e401a6972e"
+    },
+    {
+      "source_path": "skills/story-setup/references/agent-references/genre-prose-cards/年代.md",
+      "mirror_path": "skills/story-setup/references/agent-references/genre-prose-cards/年代.md",
+      "mode": "100644",
+      "size": 2164,
+      "sha": "4598784f647ad5c81280e5ba200439a62c70e78d"
+    },
+    {
+      "source_path": "skills/story-setup/references/agent-references/genre-prose-cards/快穿.md",
+      "mirror_path": "skills/story-setup/references/agent-references/genre-prose-cards/快穿.md",
+      "mode": "100644",
+      "size": 1964,
+      "sha": "16e0791140381949d1bd621cceca17e8219c4c22"
+    },
+    {
+      "source_path": "skills/story-setup/references/agent-references/genre-prose-cards/悬疑灵异.md",
+      "mirror_path": "skills/story-setup/references/agent-references/genre-prose-cards/悬疑灵异.md",
+      "mode": "100644",
+      "size": 1757,
+      "sha": "f0526d08a5c0473d1bfdeb4a70efd3ce007db55d"
+    },
+    {
+      "source_path": "skills/story-setup/references/agent-references/genre-prose-cards/悬疑脑洞.md",
+      "mirror_path": "skills/story-setup/references/agent-references/genre-prose-cards/悬疑脑洞.md",
+      "mode": "100644",
+      "size": 1912,
+      "sha": "f76b74e72f474412bd1a82e2fbd8ac8afd2f515e"
+    },
+    {
+      "source_path": "skills/story-setup/references/agent-references/genre-prose-cards/战神赘婿.md",
+      "mirror_path": "skills/story-setup/references/agent-references/genre-prose-cards/战神赘婿.md",
+      "mode": "100644",
+      "size": 1899,
+      "sha": "115b55fdf85f5c083a8802dda5b2d831da21c189"
+    },
+    {
+      "source_path": "skills/story-setup/references/agent-references/genre-prose-cards/抗战谍战.md",
+      "mirror_path": "skills/story-setup/references/agent-references/genre-prose-cards/抗战谍战.md",
+      "mode": "100644",
+      "size": 1828,
+      "sha": "d1392879dc4191f552fe0015265a2497c5e76bc3"
+    },
+    {
+      "source_path": "skills/story-setup/references/agent-references/genre-prose-cards/星光璀璨.md",
+      "mirror_path": "skills/story-setup/references/agent-references/genre-prose-cards/星光璀璨.md",
+      "mode": "100644",
+      "size": 1864,
+      "sha": "1ff9d6ce7c379da7335e1faf5440cbbd46ae285b"
+    },
+    {
+      "source_path": "skills/story-setup/references/agent-references/genre-prose-cards/民国言情.md",
+      "mirror_path": "skills/story-setup/references/agent-references/genre-prose-cards/民国言情.md",
+      "mode": "100644",
+      "size": 1899,
+      "sha": "facaa4545b91ea6f328ffac7c51f8700fe49ec5f"
+    },
+    {
+      "source_path": "skills/story-setup/references/agent-references/genre-prose-cards/流派兜底.md",
+      "mirror_path": "skills/story-setup/references/agent-references/genre-prose-cards/流派兜底.md",
+      "mode": "100644",
+      "size": 8576,
+      "sha": "8feb5481e97adf8cb52b2985a3575f1cc007f3e1"
+    },
+    {
+      "source_path": "skills/story-setup/references/agent-references/genre-prose-cards/游戏体育.md",
+      "mirror_path": "skills/story-setup/references/agent-references/genre-prose-cards/游戏体育.md",
+      "mode": "100644",
+      "size": 1971,
+      "sha": "23c1dfdc5440e2ebb91863d5d3136a95c55695f8"
+    },
+    {
+      "source_path": "skills/story-setup/references/agent-references/genre-prose-cards/玄幻脑洞.md",
+      "mirror_path": "skills/story-setup/references/agent-references/genre-prose-cards/玄幻脑洞.md",
+      "mode": "100644",
+      "size": 2073,
+      "sha": "6fd5178775743bf60611f357670e86da5339caac"
+    },
+    {
+      "source_path": "skills/story-setup/references/agent-references/genre-prose-cards/玄幻言情.md",
+      "mirror_path": "skills/story-setup/references/agent-references/genre-prose-cards/玄幻言情.md",
+      "mode": "100644",
+      "size": 1744,
+      "sha": "0ba198eae9f2057bba7febbd5bb9b4eedd760b82"
+    },
+    {
+      "source_path": "skills/story-setup/references/agent-references/genre-prose-cards/现言脑洞.md",
+      "mirror_path": "skills/story-setup/references/agent-references/genre-prose-cards/现言脑洞.md",
+      "mode": "100644",
+      "size": 1845,
+      "sha": "1119755196957d7bed63b76f294f4df7aeb23591"
+    },
+    {
+      "source_path": "skills/story-setup/references/agent-references/genre-prose-cards/科幻末世.md",
+      "mirror_path": "skills/story-setup/references/agent-references/genre-prose-cards/科幻末世.md",
+      "mode": "100644",
+      "size": 1744,
+      "sha": "f9020cb3e72001160c773f4be1b535c7b3496e5b"
+    },
+    {
+      "source_path": "skills/story-setup/references/agent-references/genre-prose-cards/职场婚恋.md",
+      "mirror_path": "skills/story-setup/references/agent-references/genre-prose-cards/职场婚恋.md",
+      "mode": "100644",
+      "size": 1720,
+      "sha": "9dd918564f1dc7454df7a37cee9b747f7f04fbc6"
+    },
+    {
+      "source_path": "skills/story-setup/references/agent-references/genre-prose-cards/西方奇幻.md",
+      "mirror_path": "skills/story-setup/references/agent-references/genre-prose-cards/西方奇幻.md",
+      "mode": "100644",
+      "size": 1914,
+      "sha": "3750ccad190937d79128b7ddd8764a5c26c128d7"
+    },
+    {
+      "source_path": "skills/story-setup/references/agent-references/genre-prose-cards/豪门总裁.md",
+      "mirror_path": "skills/story-setup/references/agent-references/genre-prose-cards/豪门总裁.md",
+      "mode": "100644",
+      "size": 2404,
+      "sha": "9c101a4fbe27108d860dc7b4915460bd3e2eaa82"
+    },
+    {
+      "source_path": "skills/story-setup/references/agent-references/genre-prose-cards/都市修真.md",
+      "mirror_path": "skills/story-setup/references/agent-references/genre-prose-cards/都市修真.md",
+      "mode": "100644",
+      "size": 1778,
+      "sha": "ea8e62c1a26cc2e98ce02e1ab83561501b5874ce"
+    },
+    {
+      "source_path": "skills/story-setup/references/agent-references/genre-prose-cards/都市日常.md",
+      "mirror_path": "skills/story-setup/references/agent-references/genre-prose-cards/都市日常.md",
+      "mode": "100644",
+      "size": 2872,
+      "sha": "2d5c495595f58b7d370bfb01f7cbffdc86430123"
+    },
+    {
+      "source_path": "skills/story-setup/references/agent-references/genre-prose-cards/都市种田.md",
+      "mirror_path": "skills/story-setup/references/agent-references/genre-prose-cards/都市种田.md",
+      "mode": "100644",
+      "size": 1716,
+      "sha": "4debd9310a2c1a02767e4a69ad822d3d92b8df69"
+    },
+    {
+      "source_path": "skills/story-setup/references/agent-references/genre-prose-cards/都市脑洞.md",
+      "mirror_path": "skills/story-setup/references/agent-references/genre-prose-cards/都市脑洞.md",
+      "mode": "100644",
+      "size": 2481,
+      "sha": "3cd534bde7c74a45a86ddef6a89fb7e0a0bb499d"
+    },
+    {
+      "source_path": "skills/story-setup/references/agent-references/genre-prose-cards/都市高武.md",
+      "mirror_path": "skills/story-setup/references/agent-references/genre-prose-cards/都市高武.md",
+      "mode": "100644",
+      "size": 2087,
+      "sha": "558de5cbd8c369d4b56fa99847fe3988c47407a7"
+    },
+    {
+      "source_path": "skills/story-setup/references/agent-references/genre-prose-cards/青春甜宠.md",
+      "mirror_path": "skills/story-setup/references/agent-references/genre-prose-cards/青春甜宠.md",
+      "mode": "100644",
+      "size": 1886,
+      "sha": "1d8bb1011554af5721a4c7d411dceba7f0ea73e5"
+    },
+    {
+      "source_path": "skills/story-setup/references/agent-references/genre-readers.md",
+      "mirror_path": "skills/story-setup/references/agent-references/genre-readers.md",
+      "mode": "100644",
+      "size": 7082,
+      "sha": "8b360b66810ebf2bbbdbdb1081d93d36c4ada4cf"
+    },
+    {
+      "source_path": "skills/story-setup/references/agent-references/long-chapter-hooks.md",
+      "mirror_path": "skills/story-setup/references/agent-references/long-chapter-hooks.md",
+      "mode": "100644",
+      "size": 6650,
+      "sha": "d294c45f40c4591de6c167d73611775e11d9a9b0"
+    },
+    {
+      "source_path": "skills/story-setup/references/agent-references/long-emotional-methods.md",
+      "mirror_path": "skills/story-setup/references/agent-references/long-emotional-methods.md",
+      "mode": "100644",
+      "size": 8110,
+      "sha": "8c04e07d6530f2ff958f5c3895bee89b1021da51"
+    },
+    {
+      "source_path": "skills/story-setup/references/agent-references/long-genre-catalog.md",
+      "mirror_path": "skills/story-setup/references/agent-references/long-genre-catalog.md",
+      "mode": "100644",
+      "size": 12231,
+      "sha": "9d886e304c60aab12f2bb3aa98782ffb56dee890"
+    },
+    {
+      "source_path": "skills/story-setup/references/agent-references/long-genre-mechanics.md",
+      "mirror_path": "skills/story-setup/references/agent-references/long-genre-mechanics.md",
+      "mode": "100644",
+      "size": 8453,
+      "sha": "d31658c75d2855e166ace42bfd8344226e5979f2"
+    },
+    {
+      "source_path": "skills/story-setup/references/agent-references/long-quality.md",
+      "mirror_path": "skills/story-setup/references/agent-references/long-quality.md",
+      "mode": "100644",
+      "size": 3278,
+      "sha": "c68090e89ed2c4798e2c1ced921c1b5d162f89a2"
+    },
+    {
+      "source_path": "skills/story-setup/references/agent-references/long-reversal.md",
+      "mirror_path": "skills/story-setup/references/agent-references/long-reversal.md",
+      "mode": "100644",
+      "size": 12587,
+      "sha": "04b3c8bf7b6848a936a0199e62ec9afd2af5e7c6"
+    },
+    {
+      "source_path": "skills/story-setup/references/agent-references/long-suspense.md",
+      "mirror_path": "skills/story-setup/references/agent-references/long-suspense.md",
+      "mode": "100644",
+      "size": 9377,
+      "sha": "daca4a3fdbacab245a9ae59b40a7e572ca154ca4"
+    },
+    {
+      "source_path": "skills/story-setup/references/agent-references/narrative-focus.md",
+      "mirror_path": "skills/story-setup/references/agent-references/narrative-focus.md",
+      "mode": "100644",
+      "size": 6856,
+      "sha": "ed3bcb50c8ed594159f2633821ac817be91d6afa"
+    },
+    {
+      "source_path": "skills/story-setup/references/agent-references/opening-design.md",
+      "mirror_path": "skills/story-setup/references/agent-references/opening-design.md",
+      "mode": "100644",
+      "size": 4563,
+      "sha": "921543b8dd48027fd61e15dfea23d9af1d8b54d2"
+    },
+    {
+      "source_path": "skills/story-setup/references/agent-references/outline-methods.md",
+      "mirror_path": "skills/story-setup/references/agent-references/outline-methods.md",
+      "mode": "100644",
+      "size": 12840,
+      "sha": "ed061f3f50a829040d68a308a511ca9ebdc8ad70"
+    },
+    {
+      "source_path": "skills/story-setup/references/agent-references/plot-core-methods.md",
+      "mirror_path": "skills/story-setup/references/agent-references/plot-core-methods.md",
+      "mode": "100644",
+      "size": 5470,
+      "sha": "fdcef86c6bf71f37d9f40305fe8a6502f7092a8d"
+    },
+    {
+      "source_path": "skills/story-setup/references/agent-references/short-chapter-hooks.md",
+      "mirror_path": "skills/story-setup/references/agent-references/short-chapter-hooks.md",
+      "mode": "100644",
+      "size": 8239,
+      "sha": "4af7eb3367efa239050a6e637f008f0fbef73c47"
+    },
+    {
+      "source_path": "skills/story-setup/references/agent-references/short-emotional-methods.md",
+      "mirror_path": "skills/story-setup/references/agent-references/short-emotional-methods.md",
+      "mode": "100644",
+      "size": 4665,
+      "sha": "e1480a88f6ce0cf512228ba8cd6b52c6cca36e07"
+    },
+    {
+      "source_path": "skills/story-setup/references/agent-references/short-genre-formulas.md",
+      "mirror_path": "skills/story-setup/references/agent-references/short-genre-formulas.md",
+      "mode": "100644",
+      "size": 19202,
+      "sha": "c7d7e846b8a76b5ff3a20f57b354a95cf5a6f54f"
+    },
+    {
+      "source_path": "skills/story-setup/references/agent-references/short-quality.md",
+      "mirror_path": "skills/story-setup/references/agent-references/short-quality.md",
+      "mode": "100644",
+      "size": 2891,
+      "sha": "b4d941a94a54e2335926bc6466de6bc867c8171c"
+    },
+    {
+      "source_path": "skills/story-setup/references/agent-references/short-reversal.md",
+      "mirror_path": "skills/story-setup/references/agent-references/short-reversal.md",
+      "mode": "100644",
+      "size": 13003,
+      "sha": "34edd2a947d1485e9b73957e437d911304f66d46"
+    },
+    {
+      "source_path": "skills/story-setup/references/agent-references/story-logic.md",
+      "mirror_path": "skills/story-setup/references/agent-references/story-logic.md",
+      "mode": "100644",
+      "size": 6051,
+      "sha": "22f999036d2d972f1635e916fd47ea176e3e93fe"
+    },
+    {
+      "source_path": "skills/story-setup/references/agent-references/style-combat-face.md",
+      "mirror_path": "skills/story-setup/references/agent-references/style-combat-face.md",
+      "mode": "100644",
+      "size": 9321,
+      "sha": "a21434223e4e75fe634e52a50b2f29e6584c9c29"
+    },
+    {
+      "source_path": "skills/story-setup/references/agent-references/style-resolution.md",
+      "mirror_path": "skills/story-setup/references/agent-references/style-resolution.md",
+      "mode": "100644",
+      "size": 3053,
+      "sha": "edcda5eb92af47576c4c0af4e738f0a0dd36373e"
+    },
+    {
+      "source_path": "skills/story-setup/references/agent-references/writing-craft.md",
+      "mirror_path": "skills/story-setup/references/agent-references/writing-craft.md",
+      "mode": "100644",
+      "size": 24181,
+      "sha": "08a17f13d347179913fe64ad42e7f47a65d87565"
+    },
+    {
+      "source_path": "skills/story-setup/references/antigravity/hooks/hooks.json",
+      "mirror_path": "skills/story-setup/references/antigravity/hooks/hooks.json",
+      "mode": "100644",
+      "size": 1036,
+      "sha": "1f41874b0a5b07b12dae7d878398e4f28d635a8b"
+    },
+    {
+      "source_path": "skills/story-setup/references/antigravity/hooks/story_antigravity_hook.js",
+      "mirror_path": "skills/story-setup/references/antigravity/hooks/story_antigravity_hook.js",
+      "mode": "100644",
+      "size": 8527,
+      "sha": "b4c9e590a95eb3d5eb56f1cb30cc5ca65a83e0b3"
+    },
+    {
+      "source_path": "skills/story-setup/references/antigravity/hooks/story_hook_core.js",
+      "mirror_path": "skills/story-setup/references/antigravity/hooks/story_hook_core.js",
+      "mode": "100644",
+      "size": 61295,
+      "sha": "851566e91ceeb03de0fd9d5f29da0133d663fff9"
+    },
+    {
+      "source_path": "skills/story-setup/references/antigravity/rules/oh-story.md",
+      "mirror_path": "skills/story-setup/references/antigravity/rules/oh-story.md",
+      "mode": "100644",
+      "size": 3811,
+      "sha": "4fecb4a5f33bd354c1bcc27002f4cb67c1834b10"
+    },
+    {
+      "source_path": "skills/story-setup/references/codex/AGENTS.md.tmpl",
+      "mirror_path": "skills/story-setup/references/codex/AGENTS.md.tmpl",
+      "mode": "100644",
+      "size": 3877,
+      "sha": "10dbf7df9666abf4052f665b796f02ab89fe9d83"
+    },
+    {
+      "source_path": "skills/story-setup/references/codex/agents/chapter-extractor.toml",
+      "mirror_path": "skills/story-setup/references/codex/agents/chapter-extractor.toml",
+      "mode": "100644",
+      "size": 14302,
+      "sha": "820324350c8a8a837ce884f089c94a0bb3ca5d12"
+    },
+    {
+      "source_path": "skills/story-setup/references/codex/agents/character-designer.toml",
+      "mirror_path": "skills/story-setup/references/codex/agents/character-designer.toml",
+      "mode": "100644",
+      "size": 5271,
+      "sha": "f2cf6d7c5e0dfc5e61895dd22a3cfc6fd96ecb6d"
+    },
+    {
+      "source_path": "skills/story-setup/references/codex/agents/consistency-checker.toml",
+      "mirror_path": "skills/story-setup/references/codex/agents/consistency-checker.toml",
+      "mode": "100644",
+      "size": 12268,
+      "sha": "0d98b9ff9ed822a8f66d0c523dda956d03e691fa"
+    },
+    {
+      "source_path": "skills/story-setup/references/codex/agents/narrative-writer.toml",
+      "mirror_path": "skills/story-setup/references/codex/agents/narrative-writer.toml",
+      "mode": "100644",
+      "size": 16122,
+      "sha": "49a87360ae2269b69a966cf8fcd705c7edad98e2"
+    },
+    {
+      "source_path": "skills/story-setup/references/codex/agents/story-architect.toml",
+      "mirror_path": "skills/story-setup/references/codex/agents/story-architect.toml",
+      "mode": "100644",
+      "size": 9217,
+      "sha": "9a67d3d4a73530aebdf0c4f630fb46d5250dc7cf"
+    },
+    {
+      "source_path": "skills/story-setup/references/codex/agents/story-explorer.toml",
+      "mirror_path": "skills/story-setup/references/codex/agents/story-explorer.toml",
+      "mode": "100644",
+      "size": 11909,
+      "sha": "ea01897a7c23452db862c28f30238b4b79485290"
+    },
+    {
+      "source_path": "skills/story-setup/references/codex/agents/story-researcher.toml",
+      "mirror_path": "skills/story-setup/references/codex/agents/story-researcher.toml",
+      "mode": "100644",
+      "size": 10871,
+      "sha": "235578b0d288eddb93488e4a4167cced1e9cd8f9"
+    },
+    {
+      "source_path": "skills/story-setup/references/codex/hooks/hooks.json",
+      "mirror_path": "skills/story-setup/references/codex/hooks/hooks.json",
+      "mode": "100644",
+      "size": 6981,
+      "sha": "25133fc9f8077abd5a148f07767ea589e83bc79c"
+    },
+    {
+      "source_path": "skills/story-setup/references/codex/hooks/run-story-hook.cmd",
+      "mirror_path": "skills/story-setup/references/codex/hooks/run-story-hook.cmd",
+      "mode": "100644",
+      "size": 699,
+      "sha": "131b2be6057fa93459dda305aebb68664913d0a4"
+    },
+    {
+      "source_path": "skills/story-setup/references/codex/hooks/run-story-hook.sh",
+      "mirror_path": "skills/story-setup/references/codex/hooks/run-story-hook.sh",
+      "mode": "100755",
+      "size": 769,
+      "sha": "eff56a088d7509302a51fbe2d04fe2fb3ecc3fa8"
+    },
+    {
+      "source_path": "skills/story-setup/references/codex/hooks/story_codex_hook.py",
+      "mirror_path": "skills/story-setup/references/codex/hooks/story_codex_hook.py",
+      "mode": "100755",
+      "size": 75970,
+      "sha": "4b237716b5657af08a2be2830c64c235bac77a14"
+    },
+    {
+      "source_path": "skills/story-setup/references/deploy-antigravity.md",
+      "mirror_path": "skills/story-setup/references/deploy-antigravity.md",
+      "mode": "100644",
+      "size": 9023,
+      "sha": "71d023f7e069cf8f5ae25d33c91baa231e8ab87e"
+    },
+    {
+      "source_path": "skills/story-setup/references/deploy-claude-code.md",
+      "mirror_path": "skills/story-setup/references/deploy-claude-code.md",
+      "mode": "100644",
+      "size": 7789,
+      "sha": "86bcbf265eb5a04b0ba47c57cb166c0f5435ae78"
+    },
+    {
+      "source_path": "skills/story-setup/references/deploy-codex.md",
+      "mirror_path": "skills/story-setup/references/deploy-codex.md",
+      "mode": "100644",
+      "size": 6148,
+      "sha": "5c50600b6bc48510e56d82b093ade9619283deb5"
+    },
+    {
+      "source_path": "skills/story-setup/references/deploy-generic.md",
+      "mirror_path": "skills/story-setup/references/deploy-generic.md",
+      "mode": "100644",
+      "size": 2593,
+      "sha": "352dc69121383f3c408797ad2d43bab9cec62fa6"
+    },
+    {
+      "source_path": "skills/story-setup/references/deploy-openclaw.md",
+      "mirror_path": "skills/story-setup/references/deploy-openclaw.md",
+      "mode": "100644",
+      "size": 3048,
+      "sha": "113320c6a31c6cbe6ca449ed5e57f5778ddaf0b2"
+    },
+    {
+      "source_path": "skills/story-setup/references/deploy-opencode.md",
+      "mirror_path": "skills/story-setup/references/deploy-opencode.md",
+      "mode": "100644",
+      "size": 15067,
+      "sha": "251f65085ee2ca5a5b28b2b7d2c83ded12f4a9f3"
+    },
+    {
+      "source_path": "skills/story-setup/references/deploy-reasonix.md",
+      "mirror_path": "skills/story-setup/references/deploy-reasonix.md",
+      "mode": "100644",
+      "size": 3540,
+      "sha": "c42618dcb24a52da16611512394ba1ed7a54893d"
+    },
+    {
+      "source_path": "skills/story-setup/references/deploy-zcode.md",
+      "mirror_path": "skills/story-setup/references/deploy-zcode.md",
+      "mode": "100644",
+      "size": 7661,
+      "sha": "7806471750d553b6acf98d22416e27cf6ede4817"
+    },
+    {
+      "source_path": "skills/story-setup/references/diagnostics.md",
+      "mirror_path": "skills/story-setup/references/diagnostics.md",
+      "mode": "100644",
+      "size": 4437,
+      "sha": "f763abd7adf7daec0e30be500a893132e7d42056"
+    },
+    {
+      "source_path": "skills/story-setup/references/generic/AGENTS.md.tmpl",
+      "mirror_path": "skills/story-setup/references/generic/AGENTS.md.tmpl",
+      "mode": "100644",
+      "size": 4490,
+      "sha": "cc0d6611a03ec3e4caf06d03fc5f0d7853d22c1f"
+    },
+    {
+      "source_path": "skills/story-setup/references/openclaw/AGENTS.md.tmpl",
+      "mirror_path": "skills/story-setup/references/openclaw/AGENTS.md.tmpl",
+      "mode": "100644",
+      "size": 5110,
+      "sha": "620c30ee797d5fccb63483ab1199c79436443b8b"
+    },
+    {
+      "source_path": "skills/story-setup/references/opencode/AGENTS.md.tmpl",
+      "mirror_path": "skills/story-setup/references/opencode/AGENTS.md.tmpl",
+      "mode": "100644",
+      "size": 3288,
+      "sha": "f10e8ebf3db6da055028d56accaa9314c0e764f6"
+    },
+    {
+      "source_path": "skills/story-setup/references/opencode/agents/chapter-extractor.md",
+      "mirror_path": "skills/story-setup/references/opencode/agents/chapter-extractor.md",
+      "mode": "100644",
+      "size": 14141,
+      "sha": "728ea7903caa04d16533397639806f4575ca6686"
+    },
+    {
+      "source_path": "skills/story-setup/references/opencode/agents/character-designer.md",
+      "mirror_path": "skills/story-setup/references/opencode/agents/character-designer.md",
+      "mode": "100644",
+      "size": 4778,
+      "sha": "81d0c7ec7889852a7fd8308183d5340b0181edbe"
+    },
+    {
+      "source_path": "skills/story-setup/references/opencode/agents/consistency-checker.md",
+      "mirror_path": "skills/story-setup/references/opencode/agents/consistency-checker.md",
+      "mode": "100644",
+      "size": 11743,
+      "sha": "b670bcf62686abb465f22a8cf31395ffacee85f9"
+    },
+    {
+      "source_path": "skills/story-setup/references/opencode/agents/narrative-writer.md",
+      "mirror_path": "skills/story-setup/references/opencode/agents/narrative-writer.md",
+      "mode": "100644",
+      "size": 15635,
+      "sha": "36e7e19d6025092f54914ee3101bc7f619cd0c7c"
+    },
+    {
+      "source_path": "skills/story-setup/references/opencode/agents/story-architect.md",
+      "mirror_path": "skills/story-setup/references/opencode/agents/story-architect.md",
+      "mode": "100644",
+      "size": 8734,
+      "sha": "6db83b23ed1ee5c7127cf170f3960adadc8767cc"
+    },
+    {
+      "source_path": "skills/story-setup/references/opencode/agents/story-explorer.md",
+      "mirror_path": "skills/story-setup/references/opencode/agents/story-explorer.md",
+      "mode": "100644",
+      "size": 11405,
+      "sha": "2a9f9ab4f87fc8055ae02ed44770591b30bba462"
+    },
+    {
+      "source_path": "skills/story-setup/references/opencode/agents/story-researcher.md",
+      "mirror_path": "skills/story-setup/references/opencode/agents/story-researcher.md",
+      "mode": "100644",
+      "size": 10390,
+      "sha": "a49c70aedfaf0776e61bd0a58243a73710977939"
+    },
+    {
+      "source_path": "skills/story-setup/references/opencode/commands/browser-cdp.md",
+      "mirror_path": "skills/story-setup/references/opencode/commands/browser-cdp.md",
+      "mode": "100644",
+      "size": 284,
+      "sha": "be79045f81dbdf19bf994c1dbcab7e7699a37179"
+    },
+    {
+      "source_path": "skills/story-setup/references/opencode/commands/story-cover.md",
+      "mirror_path": "skills/story-setup/references/opencode/commands/story-cover.md",
+      "mode": "100644",
+      "size": 189,
+      "sha": "0800600c8435ea2b74b6cf7e2b9360bf5e677ea3"
+    },
+    {
+      "source_path": "skills/story-setup/references/opencode/commands/story-deslop.md",
+      "mirror_path": "skills/story-setup/references/opencode/commands/story-deslop.md",
+      "mode": "100644",
+      "size": 222,
+      "sha": "6de307cd1f6b34049194bcb91f7655a504274ce7"
+    },
+    {
+      "source_path": "skills/story-setup/references/opencode/commands/story-import.md",
+      "mirror_path": "skills/story-setup/references/opencode/commands/story-import.md",
+      "mode": "100644",
+      "size": 235,
+      "sha": "184ddc93ec88324bb15a58191e92b83695602ed6"
+    },
+    {
+      "source_path": "skills/story-setup/references/opencode/commands/story-long-analyze.md",
+      "mirror_path": "skills/story-setup/references/opencode/commands/story-long-analyze.md",
+      "mode": "100644",
+      "size": 214,
+      "sha": "a6da556f73ed1307fb982913f0d634affb94f36e"
+    },
+    {
+      "source_path": "skills/story-setup/references/opencode/commands/story-long-scan.md",
+      "mirror_path": "skills/story-setup/references/opencode/commands/story-long-scan.md",
+      "mode": "100644",
+      "size": 232,
+      "sha": "725ffcabd4ad3440c4d3b9dd868869acc791c8a5"
+    },
+    {
+      "source_path": "skills/story-setup/references/opencode/commands/story-long-write.md",
+      "mirror_path": "skills/story-setup/references/opencode/commands/story-long-write.md",
+      "mode": "100644",
+      "size": 200,
+      "sha": "3b182e08054251c689204cde4d1e5f58a2a1a4d4"
+    },
+    {
+      "source_path": "skills/story-setup/references/opencode/commands/story-publish.md",
+      "mirror_path": "skills/story-setup/references/opencode/commands/story-publish.md",
+      "mode": "100644",
+      "size": 224,
+      "sha": "5cceb78df6edf0639b6de7bee00ad0c364da34e8"
+    },
+    {
+      "source_path": "skills/story-setup/references/opencode/commands/story-review.md",
+      "mirror_path": "skills/story-setup/references/opencode/commands/story-review.md",
+      "mode": "100644",
+      "size": 212,
+      "sha": "55a21918152d4d01e1c230b63eab73036a1aa139"
+    },
+    {
+      "source_path": "skills/story-setup/references/opencode/commands/story-setup.md",
+      "mirror_path": "skills/story-setup/references/opencode/commands/story-setup.md",
+      "mode": "100644",
+      "size": 322,
+      "sha": "45e480b0a7be72f714ee1a97495cc5239d8fbf1d"
+    },
+    {
+      "source_path": "skills/story-setup/references/opencode/commands/story-short-analyze.md",
+      "mirror_path": "skills/story-setup/references/opencode/commands/story-short-analyze.md",
+      "mode": "100644",
+      "size": 209,
+      "sha": "d9bf36c9b1fa93ae881990d71102c0073d891a27"
+    },
+    {
+      "source_path": "skills/story-setup/references/opencode/commands/story-short-scan.md",
+      "mirror_path": "skills/story-setup/references/opencode/commands/story-short-scan.md",
+      "mode": "100644",
+      "size": 215,
+      "sha": "034da0ec452de7c2a4bbb173b16541c722f58549"
+    },
+    {
+      "source_path": "skills/story-setup/references/opencode/commands/story-short-write.md",
+      "mirror_path": "skills/story-setup/references/opencode/commands/story-short-write.md",
+      "mode": "100644",
+      "size": 192,
+      "sha": "8aa733bf695d81222f234b28045c24d1930de59b"
+    },
+    {
+      "source_path": "skills/story-setup/references/opencode/commands/story.md",
+      "mirror_path": "skills/story-setup/references/opencode/commands/story.md",
+      "mode": "100644",
+      "size": 243,
+      "sha": "a04fdb3714112d58e5013c821db0fa29e28fa512"
+    },
+    {
+      "source_path": "skills/story-setup/references/opencode/plugin.ts",
+      "mirror_path": "skills/story-setup/references/opencode/plugin.ts",
+      "mode": "100644",
+      "size": 12536,
+      "sha": "0cf49977f174554ab4d62d5c608d1cbb7aaf6848"
+    },
+    {
+      "source_path": "skills/story-setup/references/opencode/pre-commit.sh",
+      "mirror_path": "skills/story-setup/references/opencode/pre-commit.sh",
+      "mode": "100644",
+      "size": 4440,
+      "sha": "80eccfc4180dc1f77a8df03daf32a312671b46fe"
+    },
+    {
+      "source_path": "skills/story-setup/references/opencode/story_hook_core.js",
+      "mirror_path": "skills/story-setup/references/opencode/story_hook_core.js",
+      "mode": "100644",
+      "size": 61295,
+      "sha": "851566e91ceeb03de0fd9d5f29da0133d663fff9"
+    },
+    {
+      "source_path": "skills/story-setup/references/reasonix/AGENTS.md.tmpl",
+      "mirror_path": "skills/story-setup/references/reasonix/AGENTS.md.tmpl",
+      "mode": "100644",
+      "size": 5437,
+      "sha": "24a6842339e3bf5d07adbeb46a948eb5cd656ceb"
+    },
+    {
+      "source_path": "skills/story-setup/references/templates/.gitkeep",
+      "mirror_path": "skills/story-setup/references/templates/.gitkeep",
+      "mode": "100644",
+      "size": 0,
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "source_path": "skills/story-setup/references/templates/agents/chapter-extractor.md",
+      "mirror_path": "skills/story-setup/references/templates/agents/chapter-extractor.md",
+      "mode": "100644",
+      "size": 14200,
+      "sha": "57629fd082d98d9d8d54b40f436f9c1ea768a82e"
+    },
+    {
+      "source_path": "skills/story-setup/references/templates/agents/character-designer.md",
+      "mirror_path": "skills/story-setup/references/templates/agents/character-designer.md",
+      "mode": "100644",
+      "size": 4633,
+      "sha": "fe4ae3f8da6ae60484e96eb7a69ed86b17594c23"
+    },
+    {
+      "source_path": "skills/story-setup/references/templates/agents/consistency-checker.md",
+      "mirror_path": "skills/story-setup/references/templates/agents/consistency-checker.md",
+      "mode": "100644",
+      "size": 11510,
+      "sha": "2dc2039077213097dba394d1cc555969056d7bee"
+    },
+    {
+      "source_path": "skills/story-setup/references/templates/agents/narrative-writer.md",
+      "mirror_path": "skills/story-setup/references/templates/agents/narrative-writer.md",
+      "mode": "100644",
+      "size": 15597,
+      "sha": "a7768dd133d36baa49eda190b5bd8c91a2638e73"
+    },
+    {
+      "source_path": "skills/story-setup/references/templates/agents/story-architect.md",
+      "mirror_path": "skills/story-setup/references/templates/agents/story-architect.md",
+      "mode": "100644",
+      "size": 8646,
+      "sha": "311f3264a58c500d6298d6072793df7791ef550e"
+    },
+    {
+      "source_path": "skills/story-setup/references/templates/agents/story-explorer.md",
+      "mirror_path": "skills/story-setup/references/templates/agents/story-explorer.md",
+      "mode": "100644",
+      "size": 11167,
+      "sha": "b3558c7e6b39d60233d2c6a4ffe87417f095088c"
+    },
+    {
+      "source_path": "skills/story-setup/references/templates/agents/story-researcher.md",
+      "mirror_path": "skills/story-setup/references/templates/agents/story-researcher.md",
+      "mode": "100644",
+      "size": 10214,
+      "sha": "12447fd71d668631020b91fd668655bfd927ce2b"
+    },
+    {
+      "source_path": "skills/story-setup/references/templates/CLAUDE.md.tmpl",
+      "mirror_path": "skills/story-setup/references/templates/CLAUDE.md.tmpl",
+      "mode": "100644",
+      "size": 3309,
+      "sha": "1e445498ec6ccce5f0176952e6a147ece7651f02"
+    },
+    {
+      "source_path": "skills/story-setup/references/templates/hooks/check-prose-after-write.sh",
+      "mirror_path": "skills/story-setup/references/templates/hooks/check-prose-after-write.sh",
+      "mode": "100644",
+      "size": 6126,
+      "sha": "eeef8dedd61e7f2cc5a1e27279fd30cd00376c44"
+    },
+    {
+      "source_path": "skills/story-setup/references/templates/hooks/detect-story-gaps.sh",
+      "mirror_path": "skills/story-setup/references/templates/hooks/detect-story-gaps.sh",
+      "mode": "100755",
+      "size": 7199,
+      "sha": "d58edb44e5f0c4990cdcb2b4179dbc720d5ac78a"
+    },
+    {
+      "source_path": "skills/story-setup/references/templates/hooks/guard-outline-before-prose.sh",
+      "mirror_path": "skills/story-setup/references/templates/hooks/guard-outline-before-prose.sh",
+      "mode": "100644",
+      "size": 14729,
+      "sha": "d992ea605b64c2b6d15b124c84864d68e08fb49f"
+    },
+    {
+      "source_path": "skills/story-setup/references/templates/hooks/lib/common.sh",
+      "mirror_path": "skills/story-setup/references/templates/hooks/lib/common.sh",
+      "mode": "100644",
+      "size": 7878,
+      "sha": "7dbf6084e3d895f21de7f9b735a5d8401c146eee"
+    },
+    {
+      "source_path": "skills/story-setup/references/templates/hooks/lib/sentinel.sh",
+      "mirror_path": "skills/story-setup/references/templates/hooks/lib/sentinel.sh",
+      "mode": "100644",
+      "size": 1510,
+      "sha": "d2798d12e7614ff187646ef90a0d3c411563946f"
+    },
+    {
+      "source_path": "skills/story-setup/references/templates/hooks/post-compact.sh",
+      "mirror_path": "skills/story-setup/references/templates/hooks/post-compact.sh",
+      "mode": "100755",
+      "size": 698,
+      "sha": "be6b364ea4656518525fb18ba9f9f1684de1de82"
+    },
+    {
+      "source_path": "skills/story-setup/references/templates/hooks/pre-compact.sh",
+      "mirror_path": "skills/story-setup/references/templates/hooks/pre-compact.sh",
+      "mode": "100755",
+      "size": 1040,
+      "sha": "54d785aafab00d10d5a1b909203ab2f03bcb4dbc"
+    },
+    {
+      "source_path": "skills/story-setup/references/templates/hooks/session-end.sh",
+      "mirror_path": "skills/story-setup/references/templates/hooks/session-end.sh",
+      "mode": "100755",
+      "size": 946,
+      "sha": "4231f85f77d7cb13288ff758a755d6cc533c1590"
+    },
+    {
+      "source_path": "skills/story-setup/references/templates/hooks/session-start.sh",
+      "mirror_path": "skills/story-setup/references/templates/hooks/session-start.sh",
+      "mode": "100755",
+      "size": 11480,
+      "sha": "df2fd0acd9303720dbcf2d45f97f6730732dec7e"
+    },
+    {
+      "source_path": "skills/story-setup/references/templates/hooks/story_hook_cli.js",
+      "mirror_path": "skills/story-setup/references/templates/hooks/story_hook_cli.js",
+      "mode": "100644",
+      "size": 10893,
+      "sha": "736b9ec4b1876ff93b02c8aaab79e6ae5188bb47"
+    },
+    {
+      "source_path": "skills/story-setup/references/templates/hooks/story_hook_core.js",
+      "mirror_path": "skills/story-setup/references/templates/hooks/story_hook_core.js",
+      "mode": "100644",
+      "size": 61295,
+      "sha": "851566e91ceeb03de0fd9d5f29da0133d663fff9"
+    },
+    {
+      "source_path": "skills/story-setup/references/templates/hooks/validate-story-commit.sh",
+      "mirror_path": "skills/story-setup/references/templates/hooks/validate-story-commit.sh",
+      "mode": "100755",
+      "size": 6509,
+      "sha": "d20f3653f42e24b1b4f459f65beaadcf242fe72c"
+    },
+    {
+      "source_path": "skills/story-setup/references/templates/rules/story-consistency.md",
+      "mirror_path": "skills/story-setup/references/templates/rules/story-consistency.md",
+      "mode": "100644",
+      "size": 2554,
+      "sha": "016462eb8ed0015f06c5070a39e6f969d6b7e6e6"
+    },
+    {
+      "source_path": "skills/story-setup/references/templates/rules/story-format.md",
+      "mirror_path": "skills/story-setup/references/templates/rules/story-format.md",
+      "mode": "100644",
+      "size": 3486,
+      "sha": "753bcc7e541a7319e8c91c19e3539ce8fc018496"
+    },
+    {
+      "source_path": "skills/story-setup/references/templates/rules/story-narrative.md",
+      "mirror_path": "skills/story-setup/references/templates/rules/story-narrative.md",
+      "mode": "100644",
+      "size": 1565,
+      "sha": "4b92c442b7300e9fc22ec7622d0fc55b4842b6d5"
+    },
+    {
+      "source_path": "skills/story-setup/references/templates/rules/story-outline.md",
+      "mirror_path": "skills/story-setup/references/templates/rules/story-outline.md",
+      "mode": "100644",
+      "size": 3579,
+      "sha": "5d67dde324bab6f3e3f73e2eeac7ce7d49923a53"
+    },
+    {
+      "source_path": "skills/story-setup/references/templates/settings-hooks.json",
+      "mirror_path": "skills/story-setup/references/templates/settings-hooks.json",
+      "mode": "100644",
+      "size": 2025,
+      "sha": "648f740448b20071f905e512f78082ec6b97ddb2"
+    },
+    {
+      "source_path": "skills/story-setup/references/zcode/AGENTS.md.tmpl",
+      "mirror_path": "skills/story-setup/references/zcode/AGENTS.md.tmpl",
+      "mode": "100644",
+      "size": 4468,
+      "sha": "5e37ecbf16bbeadca72c7e3eb2d8d51fd8f3488f"
+    },
+    {
+      "source_path": "skills/story-setup/references/zcode/agents/chapter-extractor.md",
+      "mirror_path": "skills/story-setup/references/zcode/agents/chapter-extractor.md",
+      "mode": "100644",
+      "size": 13841,
+      "sha": "9274c2276aeca67d91cbeef2598cf122738b63f6"
+    },
+    {
+      "source_path": "skills/story-setup/references/zcode/agents/character-designer.md",
+      "mirror_path": "skills/story-setup/references/zcode/agents/character-designer.md",
+      "mode": "100644",
+      "size": 4533,
+      "sha": "1cb0c90575e302261f13b2c5257030feac0d5018"
+    },
+    {
+      "source_path": "skills/story-setup/references/zcode/agents/consistency-checker.md",
+      "mirror_path": "skills/story-setup/references/zcode/agents/consistency-checker.md",
+      "mode": "100644",
+      "size": 11524,
+      "sha": "37d201491e2ef5e0ba0596c5dbadaa1535a5ee10"
+    },
+    {
+      "source_path": "skills/story-setup/references/zcode/agents/narrative-writer.md",
+      "mirror_path": "skills/story-setup/references/zcode/agents/narrative-writer.md",
+      "mode": "100644",
+      "size": 15401,
+      "sha": "398a441c95018d84640a52f4e7e04a0442cbc463"
+    },
+    {
+      "source_path": "skills/story-setup/references/zcode/agents/story-architect.md",
+      "mirror_path": "skills/story-setup/references/zcode/agents/story-architect.md",
+      "mode": "100644",
+      "size": 8486,
+      "sha": "d95922ac43f898c55241e571c3dde499f7258498"
+    },
+    {
+      "source_path": "skills/story-setup/references/zcode/agents/story-explorer.md",
+      "mirror_path": "skills/story-setup/references/zcode/agents/story-explorer.md",
+      "mode": "100644",
+      "size": 11181,
+      "sha": "39b8469a7822035b2af12e5cbcec21ce5970f3f5"
+    },
+    {
+      "source_path": "skills/story-setup/references/zcode/agents/story-researcher.md",
+      "mirror_path": "skills/story-setup/references/zcode/agents/story-researcher.md",
+      "mode": "100644",
+      "size": 10162,
+      "sha": "900668eb939581f5533e10c1bd4e46a15324efc3"
+    },
+    {
+      "source_path": "skills/story-setup/references/zcode/commands/browser-cdp.md",
+      "mirror_path": "skills/story-setup/references/zcode/commands/browser-cdp.md",
+      "mode": "100644",
+      "size": 221,
+      "sha": "1185a547435240e0eaa056601fab19979d8d637b"
+    },
+    {
+      "source_path": "skills/story-setup/references/zcode/commands/story-cover.md",
+      "mirror_path": "skills/story-setup/references/zcode/commands/story-cover.md",
+      "mode": "100644",
+      "size": 204,
+      "sha": "00430eb39ef402051e1c7f67435c62fee0a1cc13"
+    },
+    {
+      "source_path": "skills/story-setup/references/zcode/commands/story-deslop.md",
+      "mirror_path": "skills/story-setup/references/zcode/commands/story-deslop.md",
+      "mode": "100644",
+      "size": 234,
+      "sha": "68d101fca50b086121b9fec85eb0df6adf78193e"
+    },
+    {
+      "source_path": "skills/story-setup/references/zcode/commands/story-import.md",
+      "mirror_path": "skills/story-setup/references/zcode/commands/story-import.md",
+      "mode": "100644",
+      "size": 200,
+      "sha": "da5ced68ccf59afffe616f467bf55343b92ce95b"
+    },
+    {
+      "source_path": "skills/story-setup/references/zcode/commands/story-long-analyze.md",
+      "mirror_path": "skills/story-setup/references/zcode/commands/story-long-analyze.md",
+      "mode": "100644",
+      "size": 218,
+      "sha": "1e65ddbf401d6e6e0ab14838e1044f9554017487"
+    },
+    {
+      "source_path": "skills/story-setup/references/zcode/commands/story-long-scan.md",
+      "mirror_path": "skills/story-setup/references/zcode/commands/story-long-scan.md",
+      "mode": "100644",
+      "size": 206,
+      "sha": "bf16ba0df889274b8d8c93ca34b7f3440a50b60e"
+    },
+    {
+      "source_path": "skills/story-setup/references/zcode/commands/story-long-write.md",
+      "mirror_path": "skills/story-setup/references/zcode/commands/story-long-write.md",
+      "mode": "100644",
+      "size": 202,
+      "sha": "29100b0feab6d0451354d43c34bf1efb2712d6bf"
+    },
+    {
+      "source_path": "skills/story-setup/references/zcode/commands/story-publish.md",
+      "mirror_path": "skills/story-setup/references/zcode/commands/story-publish.md",
+      "mode": "100644",
+      "size": 247,
+      "sha": "a92ba1f3ddba6e0fa3c84635a5abb22d45405655"
+    },
+    {
+      "source_path": "skills/story-setup/references/zcode/commands/story-review.md",
+      "mirror_path": "skills/story-setup/references/zcode/commands/story-review.md",
+      "mode": "100644",
+      "size": 217,
+      "sha": "956c01ffd12ff934cc73bd26e34b02878becf209"
+    },
+    {
+      "source_path": "skills/story-setup/references/zcode/commands/story-setup.md",
+      "mirror_path": "skills/story-setup/references/zcode/commands/story-setup.md",
+      "mode": "100644",
+      "size": 363,
+      "sha": "ff19accbd681cdb5522415b3ec998299cfdacf5c"
+    },
+    {
+      "source_path": "skills/story-setup/references/zcode/commands/story-short-analyze.md",
+      "mirror_path": "skills/story-setup/references/zcode/commands/story-short-analyze.md",
+      "mode": "100644",
+      "size": 214,
+      "sha": "60cb65357a64ee27607d612e145d4f5d0a3b445f"
+    },
+    {
+      "source_path": "skills/story-setup/references/zcode/commands/story-short-scan.md",
+      "mirror_path": "skills/story-setup/references/zcode/commands/story-short-scan.md",
+      "mode": "100644",
+      "size": 217,
+      "sha": "6cb592c3a84354c1b493c7a809df03cdd5481316"
+    },
+    {
+      "source_path": "skills/story-setup/references/zcode/commands/story-short-write.md",
+      "mirror_path": "skills/story-setup/references/zcode/commands/story-short-write.md",
+      "mode": "100644",
+      "size": 204,
+      "sha": "1cb8e01739ee9429d34948303fd572c2269bee99"
+    },
+    {
+      "source_path": "skills/story-setup/references/zcode/commands/story.md",
+      "mirror_path": "skills/story-setup/references/zcode/commands/story.md",
+      "mode": "100644",
+      "size": 221,
+      "sha": "8f7072c3d8ff9eb7ebb479a164111c86662676c9"
+    },
+    {
+      "source_path": "skills/story-setup/references/zcode/config.json.patch",
+      "mirror_path": "skills/story-setup/references/zcode/config.json.patch",
+      "mode": "100644",
+      "size": 1698,
+      "sha": "6721eaed092c109f5ea942c235a413869011b3b4"
+    },
+    {
+      "source_path": "skills/story-setup/references/zcode/hooks/hooks.json",
+      "mirror_path": "skills/story-setup/references/zcode/hooks/hooks.json",
+      "mode": "100644",
+      "size": 1623,
+      "sha": "a0b7659738f3640a2288ab34bbb1c00148bdefaf"
+    },
+    {
+      "source_path": "skills/story-setup/references/zcode/hooks/story_hook_core.js",
+      "mirror_path": "skills/story-setup/references/zcode/hooks/story_hook_core.js",
+      "mode": "100644",
+      "size": 61295,
+      "sha": "851566e91ceeb03de0fd9d5f29da0133d663fff9"
+    },
+    {
+      "source_path": "skills/story-setup/references/zcode/hooks/story_zcode_hook.js",
+      "mirror_path": "skills/story-setup/references/zcode/hooks/story_zcode_hook.js",
+      "mode": "100755",
+      "size": 6895,
+      "sha": "e1bb20ead843f7aa4bf94cfd46e9e3e1422c7e3e"
+    },
+    {
+      "source_path": "skills/story-setup/scripts/copy-path-safety.py",
+      "mirror_path": "skills/story-setup/scripts/copy-path-safety.py",
+      "mode": "100755",
+      "size": 5268,
+      "sha": "4017381af34be09bb7afb93d2470e008654f8cd8"
+    },
+    {
+      "source_path": "skills/story-setup/scripts/deploy-antigravity-skills.py",
+      "mirror_path": "skills/story-setup/scripts/deploy-antigravity-skills.py",
+      "mode": "100755",
+      "size": 4654,
+      "sha": "7e9d826c5f5472e603a61f7fd371b6caf2abb51a"
+    },
+    {
+      "source_path": "skills/story-setup/scripts/generate-antigravity-agents.mjs",
+      "mirror_path": "skills/story-setup/scripts/generate-antigravity-agents.mjs",
+      "mode": "100755",
+      "size": 12698,
+      "sha": "d3a8ddacc962772b31bca3763c999441db70c9df"
+    },
+    {
+      "source_path": "skills/story-setup/scripts/merge-antigravity-hooks.py",
+      "mirror_path": "skills/story-setup/scripts/merge-antigravity-hooks.py",
+      "mode": "100755",
+      "size": 2360,
+      "sha": "38c0ad37f207c140499d9247dab659d6c01a21d2"
+    },
+    {
+      "source_path": "skills/story-setup/scripts/merge-claude-settings.py",
+      "mirror_path": "skills/story-setup/scripts/merge-claude-settings.py",
+      "mode": "100755",
+      "size": 4743,
+      "sha": "0edce833c54018f98e33a57d5b8468b144e0e2df"
+    },
+    {
+      "source_path": "skills/story-setup/scripts/merge-codex-hooks.py",
+      "mirror_path": "skills/story-setup/scripts/merge-codex-hooks.py",
+      "mode": "100644",
+      "size": 5316,
+      "sha": "3d37ce9596a0d1f5e86ced64e605627534f58f88"
+    },
+    {
+      "source_path": "skills/story-setup/scripts/merge-project-instructions.py",
+      "mirror_path": "skills/story-setup/scripts/merge-project-instructions.py",
+      "mode": "100644",
+      "size": 10735,
+      "sha": "34ad1fc626c304f2b60e35693566b519e0d0a47a"
+    },
+    {
+      "source_path": "skills/story-setup/SKILL.md",
+      "mirror_path": "skills/story-setup/SKILL.md",
+      "mode": "100644",
+      "size": 17254,
+      "sha": "b0c6a84054b3892ae57cc64d4d4a54b13306a52b"
+    },
+    {
+      "source_path": "skills/story-setup/UPGRADING.md",
+      "mirror_path": "skills/story-setup/UPGRADING.md",
+      "mode": "100644",
+      "size": 17570,
+      "sha": "2eacc929b1076d821cc9328b30d34cd0ecbb0caf"
+    },
+    {
+      "source_path": "skills/story-short-analyze/references/analysis-characters.md",
+      "mirror_path": "skills/story-short-analyze/references/analysis-characters.md",
+      "mode": "100644",
+      "size": 3458,
+      "sha": "94a8d3cd909c99ceaccd96e8080277434ce4abe6"
+    },
+    {
+      "source_path": "skills/story-short-analyze/references/analysis-method.md",
+      "mirror_path": "skills/story-short-analyze/references/analysis-method.md",
+      "mode": "100644",
+      "size": 721,
+      "sha": "3f9a4f4882f3f2655e6564780442b127eb42c12d"
+    },
+    {
+      "source_path": "skills/story-short-analyze/references/analysis-report-style.md",
+      "mirror_path": "skills/story-short-analyze/references/analysis-report-style.md",
+      "mode": "100644",
+      "size": 1938,
+      "sha": "b62c265ce18c974235cdc2eb5fd14dd0c8642da6"
+    },
+    {
+      "source_path": "skills/story-short-analyze/references/analysis-short-genres.md",
+      "mirror_path": "skills/story-short-analyze/references/analysis-short-genres.md",
+      "mode": "100644",
+      "size": 4782,
+      "sha": "a3ad74183d950bf722f37eed5067dc4e05566a3c"
+    },
+    {
+      "source_path": "skills/story-short-analyze/references/analysis-short-hooks.md",
+      "mirror_path": "skills/story-short-analyze/references/analysis-short-hooks.md",
+      "mode": "100644",
+      "size": 3837,
+      "sha": "4166425f72001559bd1ddf8f6dafadc9d549d74e"
+    },
+    {
+      "source_path": "skills/story-short-analyze/references/analysis-short-mechanics.md",
+      "mirror_path": "skills/story-short-analyze/references/analysis-short-mechanics.md",
+      "mode": "100644",
+      "size": 4152,
+      "sha": "b0fd760b43ee038d9c38b80569c1ffa78000814b"
+    },
+    {
+      "source_path": "skills/story-short-analyze/references/analysis-short-patterns.md",
+      "mirror_path": "skills/story-short-analyze/references/analysis-short-patterns.md",
+      "mode": "100644",
+      "size": 3994,
+      "sha": "1f583ca5fad3ffd92e6b2a8020cbcb3a2c45a8ba"
+    },
+    {
+      "source_path": "skills/story-short-analyze/references/analysis-short-suspense.md",
+      "mirror_path": "skills/story-short-analyze/references/analysis-short-suspense.md",
+      "mode": "100644",
+      "size": 3932,
+      "sha": "ba72643a547f8ba97d8bf5871fe9e682fc5cc39d"
+    },
+    {
+      "source_path": "skills/story-short-analyze/references/analysis-submission.md",
+      "mirror_path": "skills/story-short-analyze/references/analysis-submission.md",
+      "mode": "100644",
+      "size": 3060,
+      "sha": "ff7ca2ced575fb8690d19d063b3979b57b1234bb"
+    },
+    {
+      "source_path": "skills/story-short-analyze/references/optional-modules.md",
+      "mirror_path": "skills/story-short-analyze/references/optional-modules.md",
+      "mode": "100644",
+      "size": 1511,
+      "sha": "3e4d7cf33faf5908612d4c88fd6e03d5597c8294"
+    },
+    {
+      "source_path": "skills/story-short-analyze/references/output-contract.md",
+      "mirror_path": "skills/story-short-analyze/references/output-contract.md",
+      "mode": "100644",
+      "size": 7276,
+      "sha": "af3bc5348aa6cd9fc75ffd96770ec36493c7f420"
+    },
+    {
+      "source_path": "skills/story-short-analyze/references/quality-checklist.md",
+      "mirror_path": "skills/story-short-analyze/references/quality-checklist.md",
+      "mode": "100644",
+      "size": 4107,
+      "sha": "884b0cf2ecf3caf17cd8eee940c2ae5e4fe3eb1e"
+    },
+    {
+      "source_path": "skills/story-short-analyze/references/source-story-quality.md",
+      "mirror_path": "skills/story-short-analyze/references/source-story-quality.md",
+      "mode": "100644",
+      "size": 4649,
+      "sha": "a35e2e2b593f936a327ae938a50e990f315e59ce"
+    },
+    {
+      "source_path": "skills/story-short-analyze/references/stage2-3-structure-emotion.md",
+      "mirror_path": "skills/story-short-analyze/references/stage2-3-structure-emotion.md",
+      "mode": "100644",
+      "size": 11010,
+      "sha": "7335e993d5b619e92e0766a3e0d1e2548fc9af4e"
+    },
+    {
+      "source_path": "skills/story-short-analyze/references/stage4-6-reversal-summary.md",
+      "mirror_path": "skills/story-short-analyze/references/stage4-6-reversal-summary.md",
+      "mode": "100644",
+      "size": 23724,
+      "sha": "ab2eb3f8c19082230fc5026c302d46c28e4edba4"
+    },
+    {
+      "source_path": "skills/story-short-analyze/SKILL.md",
+      "mirror_path": "skills/story-short-analyze/SKILL.md",
+      "mode": "100644",
+      "size": 10809,
+      "sha": "4b4a8c2154fc40358d6aaa5cb631215c1d6ab71f"
+    },
+    {
+      "source_path": "skills/story-short-scan/references/manual-rank-input.md",
+      "mirror_path": "skills/story-short-scan/references/manual-rank-input.md",
+      "mode": "100644",
+      "size": 1563,
+      "sha": "0a7c7db319fe01f013a0c1497db924915437cee7"
+    },
+    {
+      "source_path": "skills/story-short-scan/references/platform-dianzhong.md",
+      "mirror_path": "skills/story-short-scan/references/platform-dianzhong.md",
+      "mode": "100644",
+      "size": 1357,
+      "sha": "7e1a0b68c7ea61d2e80873d4910c4b90d71cd342"
+    },
+    {
+      "source_path": "skills/story-short-scan/references/platform-heiyan.md",
+      "mirror_path": "skills/story-short-scan/references/platform-heiyan.md",
+      "mode": "100644",
+      "size": 1690,
+      "sha": "320b592b7efe303e4fd541e29b8e8dc10e777dad"
+    },
+    {
+      "source_path": "skills/story-short-scan/references/real-market-data.md",
+      "mirror_path": "skills/story-short-scan/references/real-market-data.md",
+      "mode": "100644",
+      "size": 3678,
+      "sha": "4da1fec586995bec186c19f88d626cd1745864d6"
+    },
+    {
+      "source_path": "skills/story-short-scan/references/topic-match.md",
+      "mirror_path": "skills/story-short-scan/references/topic-match.md",
+      "mode": "100644",
+      "size": 2806,
+      "sha": "96830fb5705b1f648a92bd9c533f996d19bada93"
+    },
+    {
+      "source_path": "skills/story-short-scan/scripts/aggregate-rank.js",
+      "mirror_path": "skills/story-short-scan/scripts/aggregate-rank.js",
+      "mode": "100644",
+      "size": 32105,
+      "sha": "4b80d1095bf537d98bb63f7dfc037e45ba277c8a"
+    },
+    {
+      "source_path": "skills/story-short-scan/scripts/cdp-utils.js",
+      "mirror_path": "skills/story-short-scan/scripts/cdp-utils.js",
+      "mode": "100644",
+      "size": 8564,
+      "sha": "e20db3e17914e106327eaa2e72c6b6d6eec508ea"
+    },
+    {
+      "source_path": "skills/story-short-scan/scripts/dz-browse-scraper.js",
+      "mirror_path": "skills/story-short-scan/scripts/dz-browse-scraper.js",
+      "mode": "100644",
+      "size": 10118,
+      "sha": "b791bbf7eba847a50eb638d08e38e6308417616e"
+    },
+    {
+      "source_path": "skills/story-short-scan/scripts/heiyan-booklist-scraper.js",
+      "mirror_path": "skills/story-short-scan/scripts/heiyan-booklist-scraper.js",
+      "mode": "100644",
+      "size": 13593,
+      "sha": "9938db8c4af0b2838d4667a069deb558ba4140e8"
+    },
+    {
+      "source_path": "skills/story-short-scan/SKILL.md",
+      "mirror_path": "skills/story-short-scan/SKILL.md",
+      "mode": "100644",
+      "size": 7671,
+      "sha": "e73ebfece72302114e0bf99f641ade725a8e5d5d"
+    },
+    {
+      "source_path": "skills/story-short-write/references/agent-calls.md",
+      "mirror_path": "skills/story-short-write/references/agent-calls.md",
+      "mode": "100644",
+      "size": 2532,
+      "sha": "29fd3de71ed14eaaa050ccd61e39c77cfde95404"
+    },
+    {
+      "source_path": "skills/story-short-write/references/author-memory.md",
+      "mirror_path": "skills/story-short-write/references/author-memory.md",
+      "mode": "100644",
+      "size": 6778,
+      "sha": "1d1542953295fb149724599bcbef676557f317f3"
+    },
+    {
+      "source_path": "skills/story-short-write/references/banned-words.md",
+      "mirror_path": "skills/story-short-write/references/banned-words.md",
+      "mode": "100644",
+      "size": 11117,
+      "sha": "25adaf8634f857262e3a849ffcffd78d93baf4ec"
+    },
+    {
+      "source_path": "skills/story-short-write/references/benchmark-recall.md",
+      "mirror_path": "skills/story-short-write/references/benchmark-recall.md",
+      "mode": "100644",
+      "size": 3915,
+      "sha": "40ee152c250442e6cd2906a5a5a3f03556c8ed95"
+    },
+    {
+      "source_path": "skills/story-short-write/references/dialogue-mastery.md",
+      "mirror_path": "skills/story-short-write/references/dialogue-mastery.md",
+      "mode": "100644",
+      "size": 11215,
+      "sha": "a903a75ae7d74d1dec10109da4d9d57c3ce272b4"
+    },
+    {
+      "source_path": "skills/story-short-write/references/emotional-methods.md",
+      "mirror_path": "skills/story-short-write/references/emotional-methods.md",
+      "mode": "100644",
+      "size": 4665,
+      "sha": "e1480a88f6ce0cf512228ba8cd6b52c6cca36e07"
+    },
+    {
+      "source_path": "skills/story-short-write/references/genre-styles/世情打脸.md",
+      "mirror_path": "skills/story-short-write/references/genre-styles/世情打脸.md",
+      "mode": "100644",
+      "size": 16307,
+      "sha": "6ccbddb1eb12676b69065f6568a36c0b9d9c8d83"
+    },
+    {
+      "source_path": "skills/story-short-write/references/genre-styles/双男主.md",
+      "mirror_path": "skills/story-short-write/references/genre-styles/双男主.md",
+      "mode": "100644",
+      "size": 12520,
+      "sha": "03cb3da1d38cd50b6e334758d687460d6fcbc5d6"
+    },
+    {
+      "source_path": "skills/story-short-write/references/genre-styles/复仇打脸.md",
+      "mirror_path": "skills/story-short-write/references/genre-styles/复仇打脸.md",
+      "mode": "100644",
+      "size": 13785,
+      "sha": "f05baf28ae8fbdda9264e33a996a4ec52d3f2b61"
+    },
+    {
+      "source_path": "skills/story-short-write/references/genre-styles/宅斗宫斗.md",
+      "mirror_path": "skills/story-short-write/references/genre-styles/宅斗宫斗.md",
+      "mode": "100644",
+      "size": 13899,
+      "sha": "aa12d8ebd9ac475dde62700883fd20cd107591a2"
+    },
+    {
+      "source_path": "skills/story-short-write/references/genre-styles/总裁豪门.md",
+      "mirror_path": "skills/story-short-write/references/genre-styles/总裁豪门.md",
+      "mode": "100644",
+      "size": 15015,
+      "sha": "0e20ebb5e0d3cdf55f73ed4c95c8c0287ccf25c2"
+    },
+    {
+      "source_path": "skills/story-short-write/references/genre-styles/悬疑.md",
+      "mirror_path": "skills/story-short-write/references/genre-styles/悬疑.md",
+      "mode": "100644",
+      "size": 13662,
+      "sha": "59b4a70e6ef4c8d72ccce40d549e17815a6ebae0"
+    },
+    {
+      "source_path": "skills/story-short-write/references/genre-styles/民俗怪谈.md",
+      "mirror_path": "skills/story-short-write/references/genre-styles/民俗怪谈.md",
+      "mode": "100644",
+      "size": 13151,
+      "sha": "b84a66028703e7a4d17c978449b3347f5cd4d92f"
+    },
+    {
+      "source_path": "skills/story-short-write/references/genre-styles/沙雕脑洞.md",
+      "mirror_path": "skills/story-short-write/references/genre-styles/沙雕脑洞.md",
+      "mode": "100644",
+      "size": 14488,
+      "sha": "4a6f6cb7554f9f1678a4ff06ff054268712f17ac"
+    },
+    {
+      "source_path": "skills/story-short-write/references/genre-styles/甜宠.md",
+      "mirror_path": "skills/story-short-write/references/genre-styles/甜宠.md",
+      "mode": "100644",
+      "size": 11429,
+      "sha": "191a860296e44f72e6fd784e7a5e64fa0ad8a91c"
+    },
+    {
+      "source_path": "skills/story-short-write/references/genre-styles/追妻火葬场.md",
+      "mirror_path": "skills/story-short-write/references/genre-styles/追妻火葬场.md",
+      "mode": "100644",
+      "size": 15317,
+      "sha": "2e23415d1eb7e9b49a687b4c137c3480ca054849"
+    },
+    {
+      "source_path": "skills/story-short-write/references/genre-writing-formulas.md",
+      "mirror_path": "skills/story-short-write/references/genre-writing-formulas.md",
+      "mode": "100644",
+      "size": 19202,
+      "sha": "c7d7e846b8a76b5ff3a20f57b354a95cf5a6f54f"
+    },
+    {
+      "source_path": "skills/story-short-write/references/hooks-chapter.md",
+      "mirror_path": "skills/story-short-write/references/hooks-chapter.md",
+      "mode": "100644",
+      "size": 8239,
+      "sha": "4af7eb3367efa239050a6e637f008f0fbef73c47"
+    },
+    {
+      "source_path": "skills/story-short-write/references/scene-craft.md",
+      "mirror_path": "skills/story-short-write/references/scene-craft.md",
+      "mode": "100644",
+      "size": 2921,
+      "sha": "b021c99f806dede8e0e7de0483948fd66f929aee"
+    },
+    {
+      "source_path": "skills/story-short-write/references/short-craft.md",
+      "mirror_path": "skills/story-short-write/references/short-craft.md",
+      "mode": "100644",
+      "size": 9064,
+      "sha": "a15d52ba255bd5d7eeedb212dc65f9cc5ad66cda"
+    },
+    {
+      "source_path": "skills/story-short-write/references/short-deslop.md",
+      "mirror_path": "skills/story-short-write/references/short-deslop.md",
+      "mode": "100644",
+      "size": 1570,
+      "sha": "3b0327391608bcf4d49a2eb4615252a1ebd38081"
+    },
+    {
+      "source_path": "skills/story-short-write/references/short-format.md",
+      "mirror_path": "skills/story-short-write/references/short-format.md",
+      "mode": "100644",
+      "size": 9022,
+      "sha": "9a5b1fd0b9a5e221f93a08bf4e20059161b95d69"
+    },
+    {
+      "source_path": "skills/story-short-write/references/short-reversal.md",
+      "mirror_path": "skills/story-short-write/references/short-reversal.md",
+      "mode": "100644",
+      "size": 13003,
+      "sha": "34edd2a947d1485e9b73957e437d911304f66d46"
+    },
+    {
+      "source_path": "skills/story-short-write/references/submission-craft.md",
+      "mirror_path": "skills/story-short-write/references/submission-craft.md",
+      "mode": "100644",
+      "size": 5875,
+      "sha": "3609fdb781ba0c7a91d87f0a023481282fedcbd5"
+    },
+    {
+      "source_path": "skills/story-short-write/references/villain-and-reveal.md",
+      "mirror_path": "skills/story-short-write/references/villain-and-reveal.md",
+      "mode": "100644",
+      "size": 5304,
+      "sha": "4aef88ced897730460d0ed821f707d146808796f"
+    },
+    {
+      "source_path": "skills/story-short-write/references/workflow-design.md",
+      "mirror_path": "skills/story-short-write/references/workflow-design.md",
+      "mode": "100644",
+      "size": 10410,
+      "sha": "530c1601559f6ef985898891c55b6927555fe164"
+    },
+    {
+      "source_path": "skills/story-short-write/references/workflow-draft.md",
+      "mirror_path": "skills/story-short-write/references/workflow-draft.md",
+      "mode": "100644",
+      "size": 9895,
+      "sha": "89812df60077338a27e44e36af8e99706bc09799"
+    },
+    {
+      "source_path": "skills/story-short-write/references/workflow-revision.md",
+      "mirror_path": "skills/story-short-write/references/workflow-revision.md",
+      "mode": "100644",
+      "size": 7791,
+      "sha": "66314beaad96f29c72e1ca8bbd8b1359a684f845"
+    },
+    {
+      "source_path": "skills/story-short-write/scripts/author_memory_commit.py",
+      "mirror_path": "skills/story-short-write/scripts/author_memory_commit.py",
+      "mode": "100644",
+      "size": 76766,
+      "sha": "ce4f62756fa18c5a0d589ef2602b038dcb3879d2"
+    },
+    {
+      "source_path": "skills/story-short-write/scripts/check-ai-patterns.js",
+      "mirror_path": "skills/story-short-write/scripts/check-ai-patterns.js",
+      "mode": "100755",
+      "size": 81491,
+      "sha": "fa7316842352b44930d471d8f9f49c54a5ed1acb"
+    },
+    {
+      "source_path": "skills/story-short-write/scripts/check-degeneration.js",
+      "mirror_path": "skills/story-short-write/scripts/check-degeneration.js",
+      "mode": "100644",
+      "size": 15793,
+      "sha": "0a3dbefa81ae390eba5e1cbe7ba9f5927f427075"
+    },
+    {
+      "source_path": "skills/story-short-write/scripts/check-delivery-contract.js",
+      "mirror_path": "skills/story-short-write/scripts/check-delivery-contract.js",
+      "mode": "100644",
+      "size": 9055,
+      "sha": "8953ae677facfe32a6b052df37a251dcf8a0b628"
+    },
+    {
+      "source_path": "skills/story-short-write/scripts/check-outline-copy.js",
+      "mirror_path": "skills/story-short-write/scripts/check-outline-copy.js",
+      "mode": "100644",
+      "size": 13676,
+      "sha": "6e7432fb437dbb8619dcfa12e7a9a7931f2692ed"
+    },
+    {
+      "source_path": "skills/story-short-write/scripts/check-phase2-contract.js",
+      "mirror_path": "skills/story-short-write/scripts/check-phase2-contract.js",
+      "mode": "100644",
+      "size": 20036,
+      "sha": "a603ca479b55d92b40b3f9e07c46061358c08c0d"
+    },
+    {
+      "source_path": "skills/story-short-write/scripts/normalize-punctuation.js",
+      "mirror_path": "skills/story-short-write/scripts/normalize-punctuation.js",
+      "mode": "100755",
+      "size": 19472,
+      "sha": "318f251d9006b0260b0a0ba98e01636d1948bc3d"
+    },
+    {
+      "source_path": "skills/story-short-write/scripts/style-whitelist.js",
+      "mirror_path": "skills/story-short-write/scripts/style-whitelist.js",
+      "mode": "100644",
+      "size": 1168,
+      "sha": "a75c002fec7a4d481d60b68365a7622001e91ee1"
+    },
+    {
+      "source_path": "skills/story-short-write/SKILL.md",
+      "mirror_path": "skills/story-short-write/SKILL.md",
+      "mode": "100644",
+      "size": 10752,
+      "sha": "61f12f2a67668f058ff0029bfa2e4d20dc03e222"
+    },
+    {
+      "source_path": "skills/story/assets/app.js",
+      "mirror_path": "skills/story/assets/app.js",
+      "mode": "100644",
+      "size": 40889,
+      "sha": "dc948004f2ca532265cd8fc9d4044029065db4e1"
+    },
+    {
+      "source_path": "skills/story/assets/index.html",
+      "mirror_path": "skills/story/assets/index.html",
+      "mode": "100644",
+      "size": 10276,
+      "sha": "b517b3665b223b9d33a8f42e25505502e6ad9505"
+    },
+    {
+      "source_path": "skills/story/assets/styles.css",
+      "mirror_path": "skills/story/assets/styles.css",
+      "mode": "100644",
+      "size": 27723,
+      "sha": "cbd17470e8fd0ccbc265779ce539ab6b72020b6f"
+    },
+    {
+      "source_path": "skills/story/assets/tokens.css",
+      "mirror_path": "skills/story/assets/tokens.css",
+      "mode": "100644",
+      "size": 9064,
+      "sha": "b062c7ff99949b897509a1e6c098cbdf1a8517d6"
+    },
+    {
+      "source_path": "skills/story/scripts/dashboard-server.mjs",
+      "mirror_path": "skills/story/scripts/dashboard-server.mjs",
+      "mode": "100644",
+      "size": 33104,
+      "sha": "ed59e768457571a544b8c4d7a3376ebd343ff546"
+    },
+    {
+      "source_path": "skills/story/SKILL.md",
+      "mirror_path": "skills/story/SKILL.md",
+      "mode": "100644",
+      "size": 14158,
+      "sha": "c405a50325f428ecaccc5d624bd9c84fa5961c1f"
+    },
+    {
+      "source_path": "skills/story/VERSION",
+      "mirror_path": "skills/story/VERSION",
+      "mode": "100644",
+      "size": 7,
+      "sha": "9028ec636547108feb5621cdcf44bb54241f3c3c"
+    }
+  ],
+  "support_files": [
+    {
+      "source_path": "LICENSE",
+      "mirror_path": "LICENSE",
+      "mode": "100644",
+      "size": 1081,
+      "sha": "11efdd9450462ca9ca51d57926a44eca6aee5317"
+    },
+    {
+      "source_path": ".agents/skills",
+      "mirror_path": ".agents/skills",
+      "mode": "120000",
+      "size": 9,
+      "sha": "42c5394a18a882778ebf50eb940fb5a96bc4a6d9",
+      "symlink_target": "../skills"
+    }
+  ]
+}

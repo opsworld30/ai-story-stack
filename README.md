@@ -2,7 +2,7 @@
 
 [简体中文](./README.zh-CN.md) · [About](./ABOUT.md)
 
-A curated public collection of **44 complete functional AI Agent Skill packages** for novel writing, short-drama development, storyboarding, character and scene assets, video prompts, audio, editing, and end-to-end AI production.
+A curated public collection of **58 complete functional AI Agent Skill entrypoints** for novel writing, short-drama development, storyboarding, character and scene assets, video prompts, audio, editing, and end-to-end AI production.
 
 This repository contains only Skill packages whose upstream licenses clearly permit redistribution. Each package preserves the required functional file structure, includes its original license, and has an `UPSTREAM.md` source record. Six entries without a clear redistribution license are intentionally excluded.
 
@@ -24,9 +24,9 @@ This repository contains only Skill packages whose upstream licenses clearly per
 
 ## Repository contents
 
-- 44 complete functional Skill packages
-- 44 upstream source/version records
-- 44 original license files retained with the Skill packages
+- 58 complete functional Skill entrypoints (`SKILL.md`)
+- 45 upstream source packages and version records
+- 45 original license files retained with the source packages
 - 11 category directories
 
 For the Chinese project overview, curation rules, and licensing boundaries, see [README.zh-CN.md](./README.zh-CN.md) and [ABOUT.md](./ABOUT.md).
