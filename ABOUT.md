@@ -33,7 +33,7 @@ AI Story Stack 是一个围绕 AI 小说、中文网文、短剧、漫剧和 AI 
 
 ## 当前状态
 
-当前公开库包含 59 个完整功能 Skill 入口，来自 46 个上游来源包，分布在 11 个分类目录。小说创作分类收录 3 个完整 Skill 集合，共 16 个 Skill 入口：Chinese Novelist、Oh Story、Novel Writing（wgwtest）、Qiaomu Novel Generator、RoleTrace、Longform Fiction 与 Fiction Humanizer ZH。
+当前公开库包含 63 个完整功能 Skill 入口，来自 50 个上游来源包，分布在 11 个分类目录。小说创作分类收录 7 个完整 Skill 集合，共 20 个 Skill 入口：Chinese Novelist、Oh Story、Novel Writing（wgwtest）、Qiaomu Novel Generator、RoleTrace、Longform Fiction 与 Fiction Humanizer ZH。
 
 ## 免责声明
 
