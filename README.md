@@ -6,7 +6,7 @@ A curated public collection of **58 complete functional AI Agent Skill entrypoin
 
 This repository contains only Skill packages whose upstream licenses clearly permit redistribution. Each package preserves the required functional file structure, includes its original license, and has an `UPSTREAM.md` source record. Six entries without a clear redistribution license are intentionally excluded.
 
-**Novel writing:** The category currently contains 1 complete functional Skill package: [Chinese Novelist](./01-novel-writing/PenglongHuang__chinese-novelist-skill/chinese-novelist/README.md).
+**Novel writing:** The category contains 2 complete Skill collections and 15 Skill entrypoints: [Chinese Novelist](./01-novel-writing/PenglongHuang__chinese-novelist-skill/chinese-novelist/README.md) and [Oh Story](./01-novel-writing/zenstory-ai__oh-story-claudecode/README.md).
 
 ## Categories
 
