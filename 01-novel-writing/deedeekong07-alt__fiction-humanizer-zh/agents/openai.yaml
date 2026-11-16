@@ -1,0 +1,3 @@
+display_name: Fiction Humanizer Zh
+short_description: 中文小说去 AI 味、章节精修和场景重写工具。
+default_prompt: 用 $fiction-humanizer-zh 帮我把这段中文小说改得更像真人作者写的，保留主线，补足场景、情绪、因果和章末钩子。
