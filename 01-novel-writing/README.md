@@ -6,7 +6,7 @@
 
 ## 已发布
 
-<text>**[Chinese Novelist｜中文小说创作](./PenglongHuang__chinese-novelist-skill/chinese-novelist/README.md)**</text>
+**[Chinese Novelist｜中文小说创作](./PenglongHuang__chinese-novelist-skill/chinese-novelist/README.md)**
 
 - 许可证：MIT
 - 上游版本：2.3.2
