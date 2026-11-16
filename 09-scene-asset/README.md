@@ -6,4 +6,4 @@ Environments, locations, props, and visual art assets.
 
 ## Skills
 
-- [novel-art](./novel-art/SKILL.md) — `Apache-2.0`
+- [novel-art](./eternityspring__shuohao-skills/novel-art/SKILL.md) — `Apache-2.0`

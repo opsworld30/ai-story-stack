@@ -6,4 +6,4 @@ Voice direction, dialogue performance, sound effects, and audio design.
 
 ## Skills
 
-- [seedance-audio](./seedance-audio/SKILL.md) — `MIT`
+- [seedance-audio](./Emily2040__seedance-2.0/seedance-audio/SKILL.md) — `MIT`
