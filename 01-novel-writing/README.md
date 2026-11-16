@@ -6,7 +6,7 @@
 
 ## 当前收录
 
-**2 个完整 Skill 集合，15 个 Skill 入口。**
+**3 个完整 Skill 集合，16 个 Skill 入口。**
 
 ### 1. [Chinese Novelist｜中文小说创作](./PenglongHuang__chinese-novelist-skill/chinese-novelist/README.md)
 
@@ -23,6 +23,14 @@
 - 小说核心能力：长短篇写作、拆文分析、题材扫榜、导入已有小说、审稿、去 AI 味。
 - 配套能力：发布资料、小说封面、写作项目部署和浏览器工具。
 - 不包含影视/短剧剧本创作；剧本能力归入 [02 剧本创作](../02-script-adaptation/README.md)。
+
+### 3. [Novel Writing｜小说写作与维护](./wgwtest__novel-writing/README.md)
+
+- 许可证：MIT
+- 1 个 Skill 入口，包含 11 份参考文件、1 个可选 Python 标准库检查脚本和 OpenAI Agent 元数据。
+- 能力：全书/卷/章规划、小说正文起草与续写、人物视角、自然对白、场景因果、文风保留和修订交接。
+- 上游文档以 Codex 为目标宿主；本库不声称其他宿主已验证。
+- 只处理小说文本，不处理影视/短剧剧本；剧本能力归入 [02 剧本创作](../02-script-adaptation/README.md)。
 
 ## 分类规则
 

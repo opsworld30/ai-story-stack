@@ -8,13 +8,13 @@
 
 ## 当前收录情况
 
-- **58 个完整功能 Skill 入口（SKILL.md）**
-- **45 个上游来源包及版本记录**
-- **45 份随包保留的原始许可证文件**
+- **59 个完整功能 Skill 入口（SKILL.md）**
+- **46 个上游来源包及版本记录**
+- **46 份随包保留的原始许可证文件**
 - **11 个分类目录**
-- 另有 6 个项目因未发现明确再分发许可证，暂不纳入本仓库。
+- 未发现明确再分发许可证的项目不纳入本仓库。
 
-小说创作分类目前收录 **2 个完整 Skill 集合、15 个 Skill 入口**：[Chinese Novelist](./01-novel-writing/PenglongHuang__chinese-novelist-skill/chinese-novelist/README.md) 与 [Oh Story](./01-novel-writing/zenstory-ai__oh-story-claudecode/README.md)。
+小说创作分类目前收录 **3 个完整 Skill 集合、16 个 Skill 入口**：[Chinese Novelist](./01-novel-writing/PenglongHuang__chinese-novelist-skill/chinese-novelist/README.md)、[Oh Story](./01-novel-writing/zenstory-ai__oh-story-claudecode/README.md) 与 [Novel Writing](./01-novel-writing/wgwtest__novel-writing/README.md)。
 
 ## 分类目录
 
