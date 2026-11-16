@@ -1,9 +1,9 @@
-# Novel Writing
+# 小说创作
 
-Novel concepts, worldbuilding, character development, long-form structure, and prose craft.
+小说构思、世界观、人物、长篇结构、正文与连载记忆。
 
-0 Skill package(s) in this category.
+**当前公开完整 Skill 包：0 个。**
 
-## Skills
+这不代表没有候选项目。小说写作资源正在私人采集库中进行许可证、完整依赖、脚本和第三方素材授权核验。只有确认可以再分发且完整性审查通过的 Skill，才会进入本公开仓库。
 
-No Skill packages in this category yet.
+候选资源不会因为仓库公开或 README 可读就被复制到这里；无明确许可证的资源只保留在私人来源档案中。
