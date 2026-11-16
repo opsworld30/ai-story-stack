@@ -1,5 +1,13 @@
-# 角色资产
+# Character Assets
 
-人物设定、角色参考图、人物一致性与角色资产管理。
+Character sheets, reference images, and visual identity consistency.
 
-该目录按功能整理可公开分发的 AI Agent Skill。每个 Skill 文件夹保留上游结构、许可证与来源说明。
+5 Skill package(s) in this category.
+
+## Skills
+
+- [short-drama-assets](./short-drama-assets/SKILL.md) — `MIT`
+- [character-refs](./character-refs/SKILL.md) — `Apache-2.0`
+- [novel-characters](./novel-characters/SKILL.md) — `Apache-2.0`
+- [sd-asset-engine](./sd-asset-engine/SKILL.md) — `MIT`
+- [seedance-characters](./seedance-characters/SKILL.md) — `MIT`

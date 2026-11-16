@@ -1,5 +1,16 @@
-# 视频提示词
+# Video Prompts
 
-视频模型提示词、运镜、动作、灯光与视觉风格。
+Video-generation prompts, camera movement, motion, lighting, and visual style.
 
-该目录按功能整理可公开分发的 AI Agent Skill。每个 Skill 文件夹保留上游结构、许可证与来源说明。
+8 Skill package(s) in this category.
+
+## Skills
+
+- [short-drama-image-prompts](./short-drama-image-prompts/SKILL.md) — `MIT`
+- [short-drama-video-prompts](./short-drama-video-prompts/SKILL.md) — `MIT`
+- [sd-real-engine](./sd-real-engine/SKILL.md) — `MIT`
+- [seedance-prompt](./seedance-prompt/SKILL.md) — `MIT`
+- [seedance-sequence](./seedance-sequence/SKILL.md) — `MIT`
+- [seedance-lighting](./seedance-lighting/SKILL.md) — `MIT`
+- [seedance-motion](./seedance-motion/SKILL.md) — `MIT`
+- [seedance-style](./seedance-style/SKILL.md) — `MIT`

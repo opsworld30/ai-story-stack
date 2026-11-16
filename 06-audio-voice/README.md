@@ -1,5 +1,9 @@
-# 声音资产
+# Audio & Voice
 
-配音、音色、对白表演、音效与声音设计。
+Voice direction, dialogue performance, sound effects, and audio design.
 
-该目录按功能整理可公开分发的 AI Agent Skill。每个 Skill 文件夹保留上游结构、许可证与来源说明。
+1 Skill package(s) in this category.
+
+## Skills
+
+- [seedance-audio](./seedance-audio/SKILL.md) — `MIT`

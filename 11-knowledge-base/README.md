@@ -1,5 +1,9 @@
-# 知识库
+# Knowledge Base
 
-制作规范、参考资料、风格指南与可复用知识。
+Production standards, reference material, and reusable creative knowledge.
 
-该目录按功能整理可公开分发的 AI Agent Skill。每个 Skill 文件夹保留上游结构、许可证与来源说明。
+0 Skill package(s) in this category.
+
+## Skills
+
+No Skill packages in this category yet.

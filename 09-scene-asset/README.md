@@ -1,5 +1,9 @@
-# 场景资产
+# Scene Assets
 
-场景、环境、道具与美术设计。
+Environments, locations, props, and visual art assets.
 
-该目录按功能整理可公开分发的 AI Agent Skill。每个 Skill 文件夹保留上游结构、许可证与来源说明。
+1 Skill package(s) in this category.
+
+## Skills
+
+- [novel-art](./novel-art/SKILL.md) — `Apache-2.0`

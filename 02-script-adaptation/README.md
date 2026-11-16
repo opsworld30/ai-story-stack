@@ -1,5 +1,19 @@
-# 剧本改编
+# Script Adaptation
 
-小说拆解、短剧开发、分集大纲、剧本与对白。
+Novel analysis, short-drama development, episode outlines, screenplays, and dialogue.
 
-该目录按功能整理可公开分发的 AI Agent Skill。每个 Skill 文件夹保留上游结构、许可证与来源说明。
+11 Skill package(s) in this category.
+
+## Skills
+
+- [short-drama](./short-drama/SKILL.md) — `MIT`
+- [short-drama-breakdown](./short-drama-breakdown/SKILL.md) — `MIT`
+- [short-drama-develop](./short-drama-develop/SKILL.md) — `MIT`
+- [short-drama-novel-analyze](./short-drama-novel-analyze/SKILL.md) — `MIT`
+- [short-drama-write](./short-drama-write/SKILL.md) — `MIT`
+- [novel-outline](./novel-outline/SKILL.md) — `Apache-2.0`
+- [novel-script](./novel-script/SKILL.md) — `Apache-2.0`
+- [sd-recon-engine](./sd-recon-engine/SKILL.md) — `MIT`
+- [sd-script-engine](./sd-script-engine/SKILL.md) — `MIT`
+- [sd-xuanhuan-engine](./sd-xuanhuan-engine/SKILL.md) — `MIT`
+- [drama-crew](./drama-crew/SKILL.md) — `MIT`

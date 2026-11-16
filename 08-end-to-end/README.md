@@ -1,5 +1,15 @@
-# 端到端制作
+# End-to-End Production
 
-从创意开发到制作交付的全流程工作流。
+Integrated workflows from creative development through production delivery.
 
-该目录按功能整理可公开分发的 AI Agent Skill。每个 Skill 文件夹保留上游结构、许可证与来源说明。
+7 Skill package(s) in this category.
+
+## Skills
+
+- [short-drama-produce](./short-drama-produce/SKILL.md) — `MIT`
+- [sd-decision-engine](./sd-decision-engine/SKILL.md) — `MIT`
+- [sd-feed-engine](./sd-feed-engine/SKILL.md) — `MIT`
+- [short-drama-director](./short-drama-director/SKILL.md) — `MIT`
+- [drama-studio](./drama-studio/SKILL.md) — `MIT`
+- [seedance-pipeline](./seedance-pipeline/SKILL.md) — `MIT`
+- [seedance-interview](./seedance-interview/SKILL.md) — `MIT`

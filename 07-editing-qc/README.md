@@ -1,5 +1,12 @@
-# 剪辑与质检
+# Editing & Quality Control
 
-剪辑流程、审稿、连续性检查与质量控制。
+Editing workflows, script review, continuity checks, and production QC.
 
-该目录按功能整理可公开分发的 AI Agent Skill。每个 Skill 文件夹保留上游结构、许可证与来源说明。
+4 Skill package(s) in this category.
+
+## Skills
+
+- [short-drama-edit](./short-drama-edit/SKILL.md) — `MIT`
+- [short-drama-review](./short-drama-review/SKILL.md) — `MIT`
+- [sd-qc-engine](./sd-qc-engine/SKILL.md) — `MIT`
+- [seedance-antislop](./seedance-antislop/SKILL.md) — `MIT`

@@ -1,5 +1,9 @@
-# 小说创作
+# Novel Writing
 
-选题、世界观、人物、长篇结构与正文写作。
+Novel concepts, worldbuilding, character development, long-form structure, and prose craft.
 
-该目录按功能整理可公开分发的 AI Agent Skill。每个 Skill 文件夹保留上游结构、许可证与来源说明。
+0 Skill package(s) in this category.
+
+## Skills
+
+No Skill packages in this category yet.
