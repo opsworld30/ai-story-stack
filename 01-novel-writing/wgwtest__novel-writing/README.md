@@ -30,6 +30,6 @@
 
 ## 收录状态
 
-<badge>MIT 完整功能镜像</badge>
+**MIT · 完整功能镜像**
 
 已保留 Skill 入口、全部 11 份被引用的参考文件、可选脚本、OpenAI Agent 元数据和原始许可证。文件清单与排除项见 [UPSTREAM.md](./UPSTREAM.md)。
