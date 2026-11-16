@@ -1,8 +1,12 @@
 # AI Story Stack
 
-A curated public collection of **43 AI Agent Skills** for novel writing, short-drama development, storyboarding, character and scene assets, video prompts, audio, editing, and end-to-end AI production.
+[简体中文](./README.zh-CN.md) · [About](./ABOUT.md)
+
+A curated public collection of **43 complete AI Agent Skills** for novel writing, short-drama development, storyboarding, character and scene assets, video prompts, audio, editing, and end-to-end AI production.
 
 This repository contains only Skill packages whose upstream licenses clearly permit redistribution. Each package preserves its upstream structure and includes its original license and an `UPSTREAM.md` source record. Six entries without a clear redistribution license are intentionally excluded.
+
+**Novel writing:** 0 complete Skill packages are currently published in this category. Candidate projects are being reviewed in the private collection; only complete, license-cleared packages will be published.
 
 ## Categories
 
@@ -22,9 +26,7 @@ This repository contains only Skill packages whose upstream licenses clearly per
 
 - 43 complete Skill packages
 - 43 upstream source/version records
-- Original license files retained with the Skill packages
+- 43 original license files retained with the Skill packages
 - 11 category directories
 
-## Attribution and licensing
-
-Upstream projects remain the source of truth. Review the original license in each Skill folder before reuse. This repository does not imply endorsement by upstream authors.
+For the Chinese project overview, curation rules, and licensing boundaries, see [README.zh-CN.md](./README.zh-CN.md) and [ABOUT.md](./ABOUT.md).
