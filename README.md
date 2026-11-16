@@ -6,7 +6,7 @@ A curated public collection of **44 complete functional AI Agent Skill packages*
 
 This repository contains only Skill packages whose upstream licenses clearly permit redistribution. Each package preserves the required functional file structure, includes its original license, and has an `UPSTREAM.md` source record. Six entries without a clear redistribution license are intentionally excluded.
 
-**Novel writing:** 1 complete functional Skill package is now published: [Chinese Novelist](./01-novel-writing/PenglongHuang__chinese-novelist-skill/chinese-novelist/README.md). Additional candidates remain under review in the private collection.
+**Novel writing:** The category currently contains 1 complete functional Skill package: [Chinese Novelist](./01-novel-writing/PenglongHuang__chinese-novelist-skill/chinese-novelist/README.md).
 
 ## Categories
 
