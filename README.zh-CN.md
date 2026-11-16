@@ -8,13 +8,13 @@
 
 ## 当前收录情况
 
-- **59 个完整功能 Skill 入口（SKILL.md）**
-- **46 个上游来源包及版本记录**
-- **46 份随包保留的原始许可证文件**
+- **63 个完整功能 Skill 入口（SKILL.md）**
+- **50 个上游来源包及版本记录**
+- **50 份随包保留的原始许可证文件**
 - **11 个分类目录**
 - 未发现明确再分发许可证的项目不纳入本仓库。
 
-小说创作分类目前收录 **3 个完整 Skill 集合、16 个 Skill 入口**：[Chinese Novelist](./01-novel-writing/PenglongHuang__chinese-novelist-skill/chinese-novelist/README.md)、[Oh Story](./01-novel-writing/zenstory-ai__oh-story-claudecode/README.md) 与 [Novel Writing](./01-novel-writing/wgwtest__novel-writing/README.md)。
+小说创作分类目前收录 **7 个完整 Skill 集合、20 个 Skill 入口**：[Chinese Novelist](./01-novel-writing/PenglongHuang__chinese-novelist-skill/chinese-novelist/README.md)、[Oh Story](./01-novel-writing/zenstory-ai__oh-story-claudecode/README.md)、[Novel Writing](./01-novel-writing/wgwtest__novel-writing/README.md)、[Qiaomu Novel Generator](./01-novel-writing/joeseesun__qiaomu-novel-generator/README.md)、[RoleTrace](./01-novel-writing/LCnKeo__roletrace/README.md)、[Longform Fiction](./01-novel-writing/oldwinter__skills/README.md) 与 [Fiction Humanizer ZH](./01-novel-writing/deedeekong07-alt__fiction-humanizer-zh/README.md)。
 
 ## 分类目录
 

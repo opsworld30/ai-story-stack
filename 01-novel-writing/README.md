@@ -6,7 +6,7 @@
 
 ## 当前收录
 
-**3 个完整 Skill 集合，16 个 Skill 入口。**
+**7 个完整 Skill 集合，20 个 Skill 入口。**
 
 ### 1. [Chinese Novelist｜中文小说创作](./PenglongHuang__chinese-novelist-skill/chinese-novelist/README.md)
 
@@ -31,6 +31,34 @@
 - 能力：全书/卷/章规划、小说正文起草与续写、人物视角、自然对白、场景因果、文风保留和修订交接。
 - 上游文档以 Codex 为目标宿主；本库不声称其他宿主已验证。
 - 只处理小说文本，不处理影视/短剧剧本；剧本能力归入 [02 剧本创作](../02-script-adaptation/README.md)。
+
+### 4. [Qiaomu Novel Generator｜中文短篇小说生成](./joeseesun__qiaomu-novel-generator/README.md)
+
+- 许可证：MIT
+- 1 个 Skill 入口；包含创作访谈、剧情引擎、反 AI 腔参考、原创示例和校验/诊断脚本。
+- 能力：从主题或人物设定形成短篇故事策略，设计冲突升级、开篇钩子、反转和结尾余味。
+- 适用：中文短篇、网文样章和单次完整故事；不替代百万字长篇项目管理。
+
+### 5. [RoleTrace｜角色决策与人格一致性](./LCnKeo__roletrace/README.md)
+
+- 许可证：MIT
+- 1 个 Skill 入口，附带对白测试样例。
+- 能力：AUDIT / REWRITE / DECIDE / VOICEPRINT，检查角色认知、动机、行动代价、对白声纹和人物失真。
+- 适用：小说人物和对白专项分析；不负责整本小说的长期记忆。
+
+### 6. [Longform Fiction｜长篇小说工作流](./oldwinter__skills/README.md)
+
+- 许可证：MIT
+- 1 个 Skill 入口，包含 OpenAI 元数据、Python 字数统计脚本和测试。
+- 能力：先建立故事圣经与章节合同，再按正典推进章节，合并连续性并检查篇幅目标。
+- 适用：长篇、系列和连载；脚本依赖 Python 标准库，尚未执行测试。
+
+### 7. [Fiction Humanizer ZH｜中文小说去 AI 味](./deedeekong07-alt__fiction-humanizer-zh/README.md)
+
+- 许可证：MIT
+- 1 个 Skill 入口，包含 4 份按需加载的参考资料。
+- 能力：修复剧情跳步、人物行动、对白汇报腔、情绪断层、场景空泛和章末钩子，同时保留作者文风。
+- 适用：中文小说润色、精修、续写和去 AI 味；不是通用剧本润色工具。
 
 ## 分类规则
 
