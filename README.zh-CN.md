@@ -20,8 +20,8 @@
 
 | 分类 | 内容 |
 |---|---|
-| [01 小说创作](./01-novel-writing/README.md) | 选题、世界观、人物、长篇规划、正文与连载记忆 |
-| [02 剧本改编](./02-script-adaptation/README.md) | 小说拆解、小说转短剧、分集大纲、剧本与对白 |
+| [01 小说创作](./01-novel-writing/README.md) | 网文、长短篇、小说设定与大纲、章节正文、续写和修订 |
+| [02 剧本创作](./02-script-adaptation/README.md) | 影视/短剧改编、分集大纲、场次、动作节拍、剧本与对白 |
 | [03 分镜与导演](./03-storyboard/README.md) | 分镜、镜头设计、导演调度与动作设计 |
 | [04 角色资产](./04-character-asset/README.md) | 角色设定、人物一致性与角色参考资产 |
 | [05 视频提示词](./05-video-prompt/README.md) | 图像/视频生成提示词、运镜、灯光与视觉风格 |

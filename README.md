@@ -11,7 +11,7 @@ This repository contains only Skill packages whose upstream licenses clearly per
 ## Categories
 
 - [Novel Writing](./01-novel-writing/README.md) (`01-novel-writing`)
-- [Script Adaptation](./02-script-adaptation/README.md) (`02-script-adaptation`)
+- [Screenwriting & Script Adaptation](./02-script-adaptation/README.md) (`02-script-adaptation`)
 - [Storyboarding & Directing](./03-storyboard/README.md) (`03-storyboard`)
 - [Character Assets](./04-character-asset/README.md) (`04-character-asset`)
 - [Video Prompts](./05-video-prompt/README.md) (`05-video-prompt`)
