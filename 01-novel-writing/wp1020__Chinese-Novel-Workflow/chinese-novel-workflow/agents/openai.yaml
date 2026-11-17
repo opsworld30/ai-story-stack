@@ -1,0 +1,10 @@
+interface:
+  display_name: "中文叙事写作工作流"
+  short_description: "项目归档、卷级大纲归档、章纲细纲、章纲字数、细纲字数、叙事人称锁定、正文审字数、正文元信息泄漏审查、记忆读取、可选章节细纲索引、记忆模板完整性、位置校验、入库校验、章级指令、正文、审稿、顺读润色、去AI扫描"
+  default_prompt: "Use $chinese-novel-workflow to plan Chinese narrative projects, maintain lore databases and retrieve settings, archive multi-volume planning artifacts under 大纲/第XX卷/ with fixed files 00-卷纲.md, 01-人物设定.md, 02-章节大纲.md, and 03-章节细纲.md, store each chapter detail as a chapter section inside 03-章节细纲.md, manage emotional curves (suppression-release), deepen character psychology and emotional arcs, build chapter outlines and chapter detail expansions with explicit minimum word counts from project writing specifications, lock narrative person and prevent third-person limited POV from drifting into first-person I narration, build attention-driven prose, expand scene cards, generate prewriting instructions from chapter details, chapter outlines, project writing specifications, and narrative memories, treat chapter-detail index files as optional when the project does not maintain them, draft using pure Chinese syntax (anti-translation-ese), review prose continuity with actual word count checks, prose meta-leak checks for volume/chapter/arc/author-planning language, and scene-by-scene expansion plans when short while avoiding unsolicited next-step workflow suggestions, naturalize prose for readability, scan and locally fix de-AI residue, validate chapter position and memory template integrity before memory extraction and lore ingestion, hardcore line-edit, or finalize Chinese narrative prose."
+
+policy:
+  allow_implicit_invocation: true
+
+
+

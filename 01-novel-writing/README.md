@@ -6,7 +6,7 @@
 
 ## 当前收录
 
-**7 个完整 Skill 集合，20 个 Skill 入口。**
+**10 个完整 Skill 集合，35 个 Skill 入口。**
 
 ### 1. [Chinese Novelist｜中文小说创作](./PenglongHuang__chinese-novelist-skill/chinese-novelist/README.md)
 
@@ -67,3 +67,26 @@
 - 对已出版/已完成小说的拆解分析：归本分类。
 - 影视/短剧分集大纲、场次、动作节拍、台词和剧本：归 02。
 - 镜头拆分、分镜表和拍摄调度：归 [03 分镜与导演](../03-storyboard/README.md)。
+
+
+### 8. [Snowflake Fiction｜雪花写作法小说创作套件](./hestudy__snowflake-fiction/snowflake-fiction/README.md)
+
+- 许可证：MIT
+- 13 个 Skill 入口，77 个功能文件；包含主编排器、构思、角色设计、场景规划、章节写作、审稿、去 AI 味、质量检查、开篇/角色/创意检查与导出。
+- 配套：Claude Code 插件元数据、agents、commands 和按需加载的 references。
+- 上游：hestudy/snowflake-fiction。未执行脚本或安装依赖。
+
+### 9. [Chinese Novel Workflow｜中文叙事创作工作流](./wp1020__Chinese-Novel-Workflow/chinese-novel-workflow/README.md)
+
+- 许可证：Apache-2.0
+- 1 个 Skill 入口，17 份参考文档，附 OpenAI Agent 元数据与使用流程文档。
+- 能力：项目管理、世界观/人物、分卷与章节细纲、正文生成、连续性审查、自然化润色、终审和记忆沉淀。
+- 上游：wp1020/Chinese-Novel-Workflow。
+
+### 10. [Novel Writer｜小说创作工坊](./Yunshiro__yunn-skills/novel-writer/SKILL.md)
+
+- 许可证：MIT
+- 1 个 Skill 入口，6 份参考文档、OpenAI Agent 元数据和小说检查脚本。
+- 能力：商业网文与纯文学双模式、长篇连续性、规划、章节写作和分层修订。
+- 仅发布 novel-writer 目录及必要依赖，不包含上游仓库的其他爬虫/工具 Skill。
+- 上游：Yunshiro/yunn-skills。
