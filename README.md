@@ -27,7 +27,6 @@ This repository contains only Skill packages whose upstream licenses clearly per
 - 105 complete functional Skill entrypoints (`SKILL.md`)
 - 80 mirrored Skill packages with upstream version records
 - 80 original license files retained with the packages
-- 58 upstream source repositories
 - 11 category directories
 
 For the Chinese project overview, curation rules, and licensing boundaries, see [README.zh-CN.md](./README.zh-CN.md) and [ABOUT.md](./ABOUT.md).
