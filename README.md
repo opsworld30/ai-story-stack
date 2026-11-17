@@ -2,11 +2,11 @@
 
 [简体中文](./README.zh-CN.md) · [About](./ABOUT.md)
 
-A curated public collection of **105 complete functional AI Agent Skill entrypoints** for novel writing, short-drama development, storyboarding, character and scene assets, video prompts, audio, editing, agent tooling, knowledge systems, and end-to-end AI production.
+A curated public collection of **119 complete functional AI Agent Skill entrypoints** for novel writing, short-drama development, storyboarding, character and scene assets, video prompts, audio, editing, agent tooling, knowledge systems, and end-to-end AI production.
 
 This repository contains only Skill packages whose upstream licenses clearly permit redistribution. Each package preserves its required functional files, original license, and an `UPSTREAM.md` source record. Entries without a clear redistribution license or with incomplete dependency closures are excluded.
 
-**Novel writing:** The category contains 10 complete Skill collections and 35 Skill entrypoints: [Chinese Novelist](./01-novel-writing/PenglongHuang__chinese-novelist-skill/chinese-novelist/README.md), [Oh Story](./01-novel-writing/zenstory-ai__oh-story-claudecode/README.md), [Novel Writing](./01-novel-writing/wgwtest__novel-writing/README.md), [Qiaomu Novel Generator](./01-novel-writing/joeseesun__qiaomu-novel-generator/README.md), [RoleTrace](./01-novel-writing/LCnKeo__roletrace/README.md), [Longform Fiction](./01-novel-writing/oldwinter__skills/README.md), and [Fiction Humanizer ZH](./01-novel-writing/deedeekong07-alt__fiction-humanizer-zh/README.md), [Snowflake Fiction](./01-novel-writing/hestudy__snowflake-fiction/snowflake-fiction/README.md), [Chinese Novel Workflow](./01-novel-writing/wp1020__Chinese-Novel-Workflow/chinese-novel-workflow/README.md), and [Novel Writer](./01-novel-writing/Yunshiro__yunn-skills/novel-writer/README.md).
+**Novel writing:** The category contains 12 complete Skill collections and 42 Skill entrypoints: [Chinese Novelist](./01-novel-writing/PenglongHuang__chinese-novelist-skill/chinese-novelist/README.md), [Oh Story](./01-novel-writing/zenstory-ai__oh-story-claudecode/README.md), [Novel Writing](./01-novel-writing/wgwtest__novel-writing/README.md), [Qiaomu Novel Generator](./01-novel-writing/joeseesun__qiaomu-novel-generator/README.md), [RoleTrace](./01-novel-writing/LCnKeo__roletrace/README.md), [Longform Fiction](./01-novel-writing/oldwinter__skills/README.md), and [Fiction Humanizer ZH](./01-novel-writing/deedeekong07-alt__fiction-humanizer-zh/README.md), [Snowflake Fiction](./01-novel-writing/hestudy__snowflake-fiction/snowflake-fiction/README.md), [Chinese Novel Workflow](./01-novel-writing/wp1020__Chinese-Novel-Workflow/chinese-novel-workflow/README.md), and [Novel Writer](./01-novel-writing/Yunshiro__yunn-skills/novel-writer/README.md), [Calliope Writing Skills](./01-novel-writing/Calliope-Editor__writing-skills/README.md), and [Chinese WebNovel Master](./01-novel-writing/TianHengZhuang__Chinese-WebNovel-Master/README.md).
 
 ## Categories
 
@@ -24,9 +24,9 @@ This repository contains only Skill packages whose upstream licenses clearly per
 
 ## Repository contents
 
-- 105 complete functional Skill entrypoints (`SKILL.md`)
-- 80 mirrored Skill packages with upstream version records
-- 80 original license files retained with the packages
+- 119 complete functional Skill entrypoints (`SKILL.md`)
+- 83 mirrored Skill packages with upstream version records
+- 83 original license files retained with the packages
 - 11 category directories
 
 For the Chinese project overview, curation rules, and licensing boundaries, see [README.zh-CN.md](./README.zh-CN.md) and [ABOUT.md](./ABOUT.md).

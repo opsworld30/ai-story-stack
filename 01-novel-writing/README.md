@@ -6,9 +6,9 @@
 
 ## 当前收录
 
-**10 个 Skill 包（来自 10 个上游仓库），35 个 Skill 入口。**
+**12 个 Skill 包（来自 12 个上游仓库），42 个 Skill 入口。**
 
-> 统计口径：Skill 包按独立镜像包及 `UPSTREAM.md` 记录计数；Skill 入口按目录中实际存在的 `SKILL.md` 文件计数。Oh Story 提供 14 个入口，Snowflake Fiction 提供 13 个入口。
+> 统计口径：Skill 包按独立镜像包及 `UPSTREAM.md` 记录计数；Skill 入口按目录中实际存在的 `SKILL.md` 文件计数。Oh Story 提供 14 个入口，Snowflake Fiction 提供 13 个入口，Calliope Writing Skills 提供 6 个入口。
 
 ### 1. [Chinese Novelist｜中文小说创作](./PenglongHuang__chinese-novelist-skill/chinese-novelist/README.md)
 
@@ -92,3 +92,18 @@
 - 对已出版/已完成小说的拆解分析：归本分类。
 - 影视/短剧分集大纲、场次、动作节拍、台词和剧本：归 02。
 - 镜头拆分、分镜表和拍摄调度：归 [03 分镜与导演](../03-storyboard/README.md)。
+
+
+### 11. [Calliope Writing Skills｜小说创作训练](./Calliope-Editor__writing-skills/README.md)
+
+- 许可证：MIT
+- 6 个 Skill 入口：人物卡构建、从正文反推人物卡、对白训练、文风节奏、叙事距离和场景结构。
+- 定位：写作训练和诊断，不替作者生成或改写正文。
+- 上游：Calliope-Editor/writing-skills。
+
+### 12. [Chinese WebNovel Master｜中文网文创作工作流](./TianHengZhuang__Chinese-WebNovel-Master/README.md)
+
+- 许可证：MIT
+- 1 个 Skill 入口，覆盖选题与受众定位、故事架构、人物圣经、伏笔、黄金三章、十章节奏、章节钩子和发布优化。
+- 本次镜像独立 SKILL.md 与许可证；上游额外知识库、提示词和工具文档未纳入此 Skill 包。
+- 上游：TianHengZhuang/Chinese-WebNovel-Master。
