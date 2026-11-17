@@ -10,8 +10,9 @@ AI Story Stack 是一个围绕 AI 小说、中文网文、短剧、漫剧和 AI 
 
 - **小说创作**：网文选题、故事设定、小说总纲/卷纲/章纲、章节正文、续写、拆文、修订与连载管理。
 - **剧本创作**：影视化改编、短剧开发、分集大纲、场次、动作节拍、对白与剧本结构。
-- **视觉**：角色资产、场景资产、分镜、镜头语言、图像和视频提示词。
-- **音频**：配音、角色声音、对白表演、音效和声音设计。
+- **视觉**：角色资产、场景资产、空间搭建、道具、分镜、镜头语言、图像和视频提示词。
+- **音频**：配音、角色声音、对白表演、音乐、音效和声音后期。
+- **Agent 与知识管理**：MCP 工具、Agent 协作、RAG、长期记忆、知识检索与项目上下文。
 - **制作**：工作流、剪辑、质量检查、版本管理和交付。
 
 ## 收录原则
@@ -27,13 +28,17 @@ AI Story Stack 是一个围绕 AI 小说、中文网文、短剧、漫剧和 AI 
 
 小说创作与剧本创作严格分开：小说类 Skill 的交付物是小说设定、小说大纲、章节正文及其修订；剧本类 Skill 的交付物是分集/分场大纲、场次、动作节拍和台词。即使上游项目名称含有 `novel`、`story` 或 `outline`，也按实际任务和输出物归类，不按名称猜测。
 
+角色资产与场景资产也严格分开：角色资产只负责人物外形、身份、服装和一致性；场景资产负责空间、环境、建筑、室内外布局、道具与场景灯光。配音、对白、音乐和音效统一归入音频与声音，不作为视频提示词的附属分类。
+
 ## 收录范围
 
 本项目仅展示已获得明确再分发授权、来源可追溯且文件结构经过完整性审查的 Skill。未满足授权要求或缺少关键依赖的资源不纳入公开发布范围。
 
 ## 当前状态
 
-当前公开库包含 78 个完整功能 Skill 入口，来自 53 个上游来源包，分布在 11 个分类目录。小说创作分类收录 10 个完整 Skill 集合，共 35 个 Skill 入口：Chinese Novelist、Oh Story、Novel Writing（wgwtest）、Qiaomu Novel Generator、RoleTrace、Longform Fiction 与 Fiction Humanizer ZH、Snowflake Fiction、Chinese Novel Workflow 与 Novel Writer（Yunshiro）。
+当前公开库包含 **105 个完整功能 Skill 入口**，来自 **80 个完整 Skill 包**和 **58 个上游来源仓库**，分布在 11 个分类目录。随包保留 80 份原始许可证和对应的 UPSTREAM 版本记录。
+
+小说创作分类收录 10 个完整 Skill 集合，共 35 个 Skill 入口：Chinese Novelist、Oh Story、Novel Writing（wgwtest）、Qiaomu Novel Generator、RoleTrace、Longform Fiction 与 Fiction Humanizer ZH、Snowflake Fiction、Chinese Novel Workflow 与 Novel Writer（Yunshiro）。
 
 ## 免责声明
 
