@@ -1,9 +1,11 @@
-# Agent Tools
+# Agent 工具
 
-Reusable agent utilities and production-support tools.
+本分类用于收录可独立复用的 Agent 工具型 Skill，例如任务路由、工具编排、数据处理和创作辅助工具。
 
-0 Skill package(s) in this category.
+## 当前状态
 
-## Skills
+- Skill 包：**0**
+- Skill 入口（`SKILL.md`）：**0**
+- 上游来源仓库：**0**
 
-No Skill packages in this category yet.
+当前目录没有独立 Skill 包或入口。其他分类中的脚本、命令和 Agent 元数据不重复计入本分类；只有形成独立、可复用且许可证清晰的 Skill 包后才会在这里登记。

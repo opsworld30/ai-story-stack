@@ -6,7 +6,7 @@
 - 入口：[SKILL.md](./SKILL.md)
 - 许可证：MIT
 - 上游版本：`859a3fda0ddb03cafe2fc08455c9865c62f033c6`（2026-06-01T15:00:19Z UTC）
-- 1 个 Skill 入口；保留 9 个上游功能文件
+- 1 个 Skill 入口；保留 8 个上游功能文件，另保留原始 MIT LICENSE（上游文件共 9 个）
 
 ## 使用提醒
 

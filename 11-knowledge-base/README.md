@@ -1,9 +1,11 @@
-# Knowledge Base
+# 知识库
 
-Production standards, reference material, and reusable creative knowledge.
+本分类用于收录可复用的制作规范、研究资料、参考文档、风格指南、行业知识和结构化知识库 Skill。
 
-0 Skill package(s) in this category.
+## 当前状态
 
-## Skills
+- Skill 包：**0**
+- Skill 入口（`SKILL.md`）：**0**
+- 上游来源仓库：**0**
 
-No Skill packages in this category yet.
+当前目录尚无独立知识库 Skill。各项目自身的 references、templates 和示例资料仍随对应 Skill 包保存，不重复计入本分类。

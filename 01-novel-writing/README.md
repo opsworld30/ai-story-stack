@@ -6,7 +6,9 @@
 
 ## 当前收录
 
-**10 个完整 Skill 集合，35 个 Skill 入口。**
+**10 个 Skill 包（来自 10 个上游仓库），35 个 Skill 入口。**
+
+> 统计口径：Skill 包按独立镜像包及 `UPSTREAM.md` 记录计数；Skill 入口按目录中实际存在的 `SKILL.md` 文件计数。Oh Story 提供 14 个入口，Snowflake Fiction 提供 13 个入口。
 
 ### 1. [Chinese Novelist｜中文小说创作](./PenglongHuang__chinese-novelist-skill/chinese-novelist/README.md)
 
@@ -19,7 +21,7 @@
 
 - 许可证：MIT
 - 上游版本：v0.10.5
-- 14 个 Skill 入口、435 个功能文件、86 个代码文件。
+- 14 个 Skill 入口、435 个 Skill 目录文件、86 个代码文件（以该包的 `UPSTREAM.md` 和 `MANIFEST.json` 为准）。
 - 小说核心能力：长短篇写作、拆文分析、题材扫榜、导入已有小说、审稿、去 AI 味。
 - 配套能力：发布资料、小说封面、写作项目部署和浏览器工具。
 - 不包含影视/短剧剧本创作；剧本能力归入 [02 剧本创作](../02-script-adaptation/README.md)。
@@ -60,19 +62,11 @@
 - 能力：修复剧情跳步、人物行动、对白汇报腔、情绪断层、场景空泛和章末钩子，同时保留作者文风。
 - 适用：中文小说润色、精修、续写和去 AI 味；不是通用剧本润色工具。
 
-## 分类规则
-
-- 小说总纲、卷纲、章纲：归本分类。
-- 小说章节正文、续写、润色、去 AI 味：归本分类。
-- 对已出版/已完成小说的拆解分析：归本分类。
-- 影视/短剧分集大纲、场次、动作节拍、台词和剧本：归 02。
-- 镜头拆分、分镜表和拍摄调度：归 [03 分镜与导演](../03-storyboard/README.md)。
-
 
 ### 8. [Snowflake Fiction｜雪花写作法小说创作套件](./hestudy__snowflake-fiction/snowflake-fiction/README.md)
 
 - 许可证：MIT
-- 13 个 Skill 入口，77 个功能文件；包含主编排器、构思、角色设计、场景规划、章节写作、审稿、去 AI 味、质量检查、开篇/角色/创意检查与导出。
+- 13 个 Skill 入口；镜像 77 个上游文件（包含上游说明与许可证文件，不等同于 77 个纯功能文件）；包含主编排器、构思、角色设计、场景规划、章节写作、审稿、去 AI 味、质量检查、开篇/角色/创意检查与导出。
 - 配套：Claude Code 插件元数据、agents、commands 和按需加载的 references。
 - 上游：hestudy/snowflake-fiction。未执行脚本或安装依赖。
 
@@ -83,10 +77,18 @@
 - 能力：项目管理、世界观/人物、分卷与章节细纲、正文生成、连续性审查、自然化润色、终审和记忆沉淀。
 - 上游：wp1020/Chinese-Novel-Workflow。
 
-### 10. [Novel Writer｜小说创作工坊](./Yunshiro__yunn-skills/novel-writer/SKILL.md)
+### 10. [Novel Writer｜小说创作工坊](./Yunshiro__yunn-skills/novel-writer/README.md)
 
 - 许可证：MIT
 - 1 个 Skill 入口，6 份参考文档、OpenAI Agent 元数据和小说检查脚本。
 - 能力：商业网文与纯文学双模式、长篇连续性、规划、章节写作和分层修订。
 - 仅发布 novel-writer 目录及必要依赖，不包含上游仓库的其他爬虫/工具 Skill。
 - 上游：Yunshiro/yunn-skills。
+
+## 分类规则
+
+- 小说总纲、卷纲、章纲：归本分类。
+- 小说章节正文、续写、润色、去 AI 味：归本分类。
+- 对已出版/已完成小说的拆解分析：归本分类。
+- 影视/短剧分集大纲、场次、动作节拍、台词和剧本：归 02。
+- 镜头拆分、分镜表和拍摄调度：归 [03 分镜与导演](../03-storyboard/README.md)。
