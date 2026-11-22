@@ -1,0 +1,6 @@
+interface:
+  display_name: "长篇小说生产"
+  short_description: "从一句灵感写到长篇完本，逐章续写、修稿并交付全本 TXT"
+  default_prompt: "使用 $produce-long-form-novel，根据我给的一句话设定创作一部完整长篇，其余细节由你决定，逐章写到完结并交付全本 TXT。"
+policy:
+  allow_implicit_invocation: true
