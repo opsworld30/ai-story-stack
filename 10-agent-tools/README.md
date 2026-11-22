@@ -4,8 +4,8 @@
 
 ## 实际收录统计
 
-- **7 个完整 Skill 包 / 7 个 Skill 入口**。
-- **4 个上游来源仓库**：Runware/runware-skills、muratcankoylan/Agent-Skills-for-Context-Engineering、obra/superpowers-lab、scenario-labs/skills。
+- **8 个完整 Skill 包 / 8 个 Skill 入口**。
+- **5 个上游来源仓库**：Runware/runware-skills、muratcankoylan/Agent-Skills-for-Context-Engineering、obra/superpowers-lab、scenario-labs/skills。
 
 ## Skill 清单
 
@@ -18,6 +18,7 @@
 | [multi-agent-patterns](./Agent-Skills-for-Context-Engineering/multi-agent-patterns/SKILL.md) | Supervisor、委派和多 Agent 协作 | muratcankoylan/Agent-Skills-for-Context-Engineering | MIT |
 | [mcp-cli](./obra__superpowers-lab/mcp-cli/SKILL.md) | 按需发现和调用 MCP Server | obra/superpowers-lab | MIT |
 | [scenario](./scenario-labs__skills/scenario/SKILL.md) | Scenario MCP 连接、Schema 与资产生命周期 | scenario-labs/skills | MIT |
+| [short-drama-skill-finder](./UnderleveledBuilder__awesome-short-drama-skills/short-drama-skill-finder/SKILL.md) | 按制作阶段、视频模型和 Agent 匹配短剧/漫剧 Skill | UnderleveledBuilder/awesome-short-drama-skills | CC0-1.0 |
 
 ## 共享依赖说明
 
