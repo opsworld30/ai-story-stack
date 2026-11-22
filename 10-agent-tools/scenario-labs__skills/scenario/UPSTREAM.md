@@ -1,13 +1,13 @@
 # Upstream
 
 - Repository: https://github.com/scenario-labs/skills
+- Branch: `main`
 - Skill path: `skills/scenario`
 - Skill URL: https://github.com/scenario-labs/skills/tree/main/skills/scenario
-- Upstream commit: `f3aa03f0752e63bc4f6a631ca39adaa872283c6f`
-- Upstream directory updated: 2026-11-11T16:54:27Z (UTC)
-- License: MIT
-- License URL: https://github.com/scenario-labs/skills/blob/main/LICENSE
-- Local mirror date: 2026-11-17
-- Included files: `skills/scenario/SKILL.md`, `skills/scenario/references/setup.md`, `skills/scenario/references/shared-assets.md`
-- Dependency note: Requires the hosted Scenario MCP service, an account, permissions and available quota.
-- Note: Static mirror; third-party scripts are not executed.
+- Upstream commit: `1879dccdfe49cfc64a2770a428717fdff7520e6d`
+- Upstream directory updated: 2026-11-21T20:38:51Z (UTC)
+- License: `MIT` (repository-root `LICENSE`, copied unchanged)
+- Mirrored file count: 5 (SKILL.md, references/*, LICENSE, this UPSTREAM.md)
+- Sync timestamp: 2026-11-22T15:56:19Z (UTC)
+- Excluded: unrelated Skill directories and repository-level documentation.
+- Note: Static mirror only; scripts and dependencies were not executed or installed.
