@@ -8,19 +8,19 @@
 
 ## 当前收录情况
 
-- **126 个完整功能 Skill 入口（SKILL.md）**
-- **90 个完整 Skill 包及上游版本记录**
-- **90 份随包保留的原始许可证文件**
+- **127 个完整功能 Skill 入口（SKILL.md）**
+- **91 个完整 Skill 包及上游版本记录**
+- **91 份随包保留的原始许可证文件**
 - **11 个分类目录**
 - 未发现明确再分发许可证或依赖闭包不完整的项目不纳入本仓库。
 
-小说创作分类目前收录 **12 个完整 Skill 集合、42 个 Skill 入口**：[Chinese Novelist](./01-novel-writing/PenglongHuang__chinese-novelist-skill/chinese-novelist/README.md)、[Oh Story](./01-novel-writing/zenstory-ai__oh-story-claudecode/README.md)、[Novel Writing](./01-novel-writing/wgwtest__novel-writing/README.md)、[Qiaomu Novel Generator](./01-novel-writing/joeseesun__qiaomu-novel-generator/README.md)、[RoleTrace](./01-novel-writing/LCnKeo__roletrace/README.md)、[Longform Fiction](./01-novel-writing/oldwinter__skills/README.md) 与 [Fiction Humanizer ZH](./01-novel-writing/deedeekong07-alt__fiction-humanizer-zh/README.md)、[Snowflake Fiction](./01-novel-writing/hestudy__snowflake-fiction/snowflake-fiction/README.md)、[Chinese Novel Workflow](./01-novel-writing/wp1020__Chinese-Novel-Workflow/chinese-novel-workflow/README.md) 和 [Novel Writer](./01-novel-writing/Yunshiro__yunn-skills/novel-writer/README.md)、[Calliope Writing Skills](./01-novel-writing/Calliope-Editor__writing-skills/README.md) 与 [Chinese WebNovel Master](./01-novel-writing/TianHengZhuang__Chinese-WebNovel-Master/README.md)。
+小说创作分类目前收录 **13 个完整 Skill 集合、43 个 Skill 入口**：[Chinese Novelist](./01-novel-writing/PenglongHuang__chinese-novelist-skill/chinese-novelist/README.md)、[Oh Story](./01-novel-writing/zenstory-ai__oh-story-claudecode/README.md)、[Novel Writing](./01-novel-writing/wgwtest__novel-writing/README.md)、[Qiaomu Novel Generator](./01-novel-writing/joeseesun__qiaomu-novel-generator/README.md)、[RoleTrace](./01-novel-writing/LCnKeo__roletrace/README.md)、[Longform Fiction](./01-novel-writing/oldwinter__skills/README.md) 与 [Fiction Humanizer ZH](./01-novel-writing/deedeekong07-alt__fiction-humanizer-zh/README.md)、[Snowflake Fiction](./01-novel-writing/hestudy__snowflake-fiction/snowflake-fiction/README.md)、[Chinese Novel Workflow](./01-novel-writing/wp1020__Chinese-Novel-Workflow/chinese-novel-workflow/README.md) 和 [Novel Writer](./01-novel-writing/Yunshiro__yunn-skills/novel-writer/README.md)、[Calliope Writing Skills](./01-novel-writing/Calliope-Editor__writing-skills/README.md) 与 [Chinese WebNovel Master](./01-novel-writing/TianHengZhuang__Chinese-WebNovel-Master/README.md)，以及 [Fantasy World Building](./01-novel-writing/wordflowlab__novel-writer-skills/fantasy/SKILL.md)。
 
 ## 分类目录
 
 | 分类 | 内容 | Skill 入口 |
 |---|---|---:|
-| [01 小说创作](./01-novel-writing/README.md) | 网文、长短篇、小说设定与大纲、章节正文、续写和修订 | 42 |
+| [01 小说创作](./01-novel-writing/README.md) | 网文、长短篇、小说设定与大纲、章节正文、续写和修订 | 43 |
 | [02 剧本创作](./02-script-adaptation/README.md) | 影视/短剧改编、分集大纲、场次、动作节拍、剧本与对白 | 11 |
 | [03 分镜与导演](./03-storyboard/README.md) | 分镜、镜头设计、导演调度与动作设计 | 6 |
 | [04 角色资产](./04-character-asset/README.md) | 角色设定、人物一致性与角色参考资产 | 5 |
