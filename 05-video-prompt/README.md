@@ -6,8 +6,8 @@
 
 ## 实际收录统计
 
-- **14 个 Skill 包 / 14 个 Skill 入口**，对应 14 个 `SKILL.md` 和 14 份 `UPSTREAM.md`。
-- **5 个上游来源仓库**：`zenstory-ai/drama-skills`、`lixiaoxiao9888-create/manju-laoli-skill`、`Emily2040/seedance-2.0`、`klingai-tech/claude-plugin`、`klingai-tech/claude-plugin-cn`。
+- **15 个 Skill 包 / 15 个 Skill 入口**，对应 14 个 `SKILL.md` 和 14 份 `UPSTREAM.md`。
+- **6 个上游来源仓库**：`zenstory-ai/drama-skills`、`lixiaoxiao9888-create/manju-laoli-skill`、`Emily2040/seedance-2.0`、`klingai-tech/claude-plugin`、`klingai-tech/claude-plugin-cn`。
 
 ## Skill 清单
 
@@ -27,3 +27,6 @@
 | [kling-ai（China）](./klingai-tech__claude-plugin-cn/kling-ai/SKILL.md) | klingai-tech/claude-plugin-cn | MIT |
 | [kling-ai-generate-image（China）](./klingai-tech__claude-plugin-cn/kling-ai-generate-image/SKILL.md) | klingai-tech/claude-plugin-cn | MIT |
 | [kling-ai-generate-video（China）](./klingai-tech__claude-plugin-cn/kling-ai-generate-video/SKILL.md) | klingai-tech/claude-plugin-cn | MIT |
+| [video](./smixs__visual-skills/video/SKILL.md) | smixs/visual-skills | CC BY 4.0 |
+
+新增的 `video` Skill 包含 12 份导演、分镜与模型参考文档，保留原始 CC BY 4.0 LICENSE、NOTICE 与 Serge Shima 署名；范围仅限上游 `video/`，不包含同仓库的 `image` Skill 或图像资产。
