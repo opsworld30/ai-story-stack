@@ -1,13 +1,14 @@
 # Upstream
 
 - Repository: https://github.com/scenario-labs/skills
+- Branch: main
 - Skill path: `skills/scenario-meshy`
 - Skill URL: https://github.com/scenario-labs/skills/tree/main/skills/scenario-meshy
-- Upstream commit: `b8544b9c86e0685844cc6effbb27f3885f744d3a`
-- Upstream directory updated: 2026-10-29T15:21:46Z (UTC)
-- License: MIT
-- License URL: https://github.com/scenario-labs/skills/blob/main/LICENSE
-- Local mirror date: 2026-11-17
-- Included files: `SKILL.md`
-- Dependency note: Requires the Scenario MCP foundation Skill in Agent Tools. Optional sibling workflows are documented in the source Skill.
-- Note: Static mirror; no third-party script or generation service was executed.
+- Upstream directory commit: `099029a0de26647bda29db1086eb2392f0747694`
+- Upstream directory updated at: `2026-11-22T17:47:41Z` (UTC)
+- License: MIT (repository-root LICENSE; copied unchanged)
+- Mirrored files: 3 (including the original license and this source record; existing references retained where present)
+- Sync time: `2026-11-23T04:05:01Z` (UTC)
+- Scope: only the changed Skill entry and its source record were updated; unrelated repository content was not copied.
+- Safety: static read/copy only; no upstream scripts were executed and no dependencies were installed.
+- Runtime dependency: the Scenario MCP base Skill in Agent Tools and the Scenario MCP service are external requirements.
