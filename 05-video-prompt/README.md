@@ -6,7 +6,7 @@
 
 ## 实际收录统计
 
-- **14 个 Skill 包 / 14 个 Skill 入口**，对应 8 个 `SKILL.md` 和 8 份 `UPSTREAM.md`。
+- **14 个 Skill 包 / 14 个 Skill 入口**，对应 14 个 `SKILL.md` 和 14 份 `UPSTREAM.md`。
 - **5 个上游来源仓库**：`zenstory-ai/drama-skills`、`lixiaoxiao9888-create/manju-laoli-skill`、`Emily2040/seedance-2.0`、`klingai-tech/claude-plugin`、`klingai-tech/claude-plugin-cn`。
 
 ## Skill 清单
