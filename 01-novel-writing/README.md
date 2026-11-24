@@ -6,9 +6,9 @@
 
 ## 当前收录
 
-**13 个 Skill 包（来自 13 个上游仓库），43 个 Skill 入口。**
+**34 个完整镜像包（来自 13 个上游仓库），66 个 Skill 入口。**
 
-> 统计口径：Skill 包按独立镜像包及 `UPSTREAM.md` 记录计数；Skill 入口按目录中实际存在的 `SKILL.md` 文件计数。Oh Story 提供 14 个入口，Snowflake Fiction 提供 13 个入口，Calliope Writing Skills 提供 6 个入口。
+> 统计口径：Skill 包按独立镜像包及 `UPSTREAM.md` 记录计数；Skill 入口按目录中实际存在的 `SKILL.md` 文件计数。Oh Story 提供 14 个入口，Snowflake Fiction 提供 13 个入口，Calliope Writing Skills 提供 6 个入口，Wordflow Novel Writer Skills 提供 11 个入口。
 
 ### 1. [Chinese Novelist｜中文小说创作](./PenglongHuang__chinese-novelist-skill/chinese-novelist/README.md)
 
@@ -107,10 +107,12 @@
 - 1 个 Skill 入口，覆盖选题与受众定位、故事架构、人物圣经、伏笔、黄金三章、十章节奏、章节钩子和发布优化。
 - 本次镜像独立 SKILL.md 与许可证；上游额外知识库、提示词和工具文档未纳入此 Skill 包。
 - 上游：TianHengZhuang/Chinese-WebNovel-Master。
-### 13. [Fantasy World Building｜奇幻小说世界构建规范](./wordflowlab__novel-writer-skills/fantasy/SKILL.md)
+### 13. Wordflow Novel Writer Skills｜小说创作与质量控制
 
-- 许可证：MIT（原始仓库级 LICENSE 随包保留）。
-- 1 个 Skill 入口，包含自包含的 `SKILL.md`，没有额外本地 references、templates、scripts 或 assets 依赖。
-- 能力：奇幻类型框架、硬/软魔法系统、世界地理、社会文化、历史纵深、种族与生物生态，以及设定一致性检查。
-- 上游：wordflowlab/novel-writer-skills，路径 `templates/skills/genre-knowledge/fantasy`。
-- 该发布仅覆盖 fantasy 独立 Skill，不代表上游仓库其余 12 个模块已完整镜像。
+- 许可证：MIT（每个 Skill 包均保留上游仓库级 LICENSE 与 UPSTREAM.md）。
+- 11 个独立 Skill 包、11 个 Skill 入口，覆盖类型规范、角色/世界/时间线一致性、写作流程、需求识别、对白与场景结构。
+- [Fantasy World Building](./wordflowlab__novel-writer-skills/fantasy/SKILL.md) · [Mystery](./wordflowlab__novel-writer-skills/mystery/SKILL.md) · [Romance](./wordflowlab__novel-writer-skills/romance/SKILL.md)
+- [Consistency Checker](./wordflowlab__novel-writer-skills/consistency-checker/SKILL.md) · [Forgotten Elements](./wordflowlab__novel-writer-skills/forgotten-elements/SKILL.md) · [Getting Started](./wordflowlab__novel-writer-skills/getting-started/SKILL.md)
+- [Pre-write Checklist](./wordflowlab__novel-writer-skills/pre-write-checklist/SKILL.md) · [Requirement Detector](./wordflowlab__novel-writer-skills/requirement-detector/SKILL.md) · [Workflow Guide](./wordflowlab__novel-writer-skills/workflow-guide/SKILL.md)
+- [Dialogue Techniques](./wordflowlab__novel-writer-skills/dialogue-techniques/SKILL.md) · [Scene Structure](./wordflowlab__novel-writer-skills/scene-structure/SKILL.md)
+- 上游：wordflowlab/novel-writer-skills。

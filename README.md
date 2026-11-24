@@ -1,32 +1,21 @@
 # AI Story Stack
 
-[简体中文](./README.zh-CN.md) · [About](./ABOUT.md)
+A curated public collection of reusable AI Agent Skills for novel writing, short-drama development, storyboarding, character and scene assets, video prompts, audio, editing, agent tools, knowledge systems, and end-to-end production.
 
-A curated public collection of **131 complete functional AI Agent Skill entrypoints** for novel writing, short-drama development, storyboarding, character and scene assets, video prompts, audio, editing, agent tooling, knowledge systems, and end-to-end AI production.
-
-This repository contains only Skill packages whose upstream licenses clearly permit redistribution. Each package preserves its required functional files, original license, and an `UPSTREAM.md` source record. Entries without a clear redistribution license or with incomplete dependency closures are excluded.
-
-**Novel writing:** The category contains 13 complete Skill collections and 43 Skill entrypoints: [Chinese Novelist](./01-novel-writing/PenglongHuang__chinese-novelist-skill/chinese-novelist/README.md), [Oh Story](./01-novel-writing/zenstory-ai__oh-story-claudecode/README.md), [Novel Writing](./01-novel-writing/wgwtest__novel-writing/README.md), [Qiaomu Novel Generator](./01-novel-writing/joeseesun__qiaomu-novel-generator/README.md), [RoleTrace](./01-novel-writing/LCnKeo__roletrace/README.md), [Longform Fiction](./01-novel-writing/oldwinter__skills/README.md), and [Fiction Humanizer ZH](./01-novel-writing/deedeekong07-alt__fiction-humanizer-zh/README.md), [Snowflake Fiction](./01-novel-writing/hestudy__snowflake-fiction/snowflake-fiction/README.md), [Chinese Novel Workflow](./01-novel-writing/wp1020__Chinese-Novel-Workflow/chinese-novel-workflow/README.md), and [Novel Writer](./01-novel-writing/Yunshiro__yunn-skills/novel-writer/README.md), [Calliope Writing Skills](./01-novel-writing/Calliope-Editor__writing-skills/README.md), and [Chinese WebNovel Master](./01-novel-writing/TianHengZhuang__Chinese-WebNovel-Master/README.md), plus [Fantasy World Building](./01-novel-writing/wordflowlab__novel-writer-skills/fantasy/SKILL.md).
+Only Skill packages with clear redistribution rights and complete required dependencies are included. Each package retains its upstream `LICENSE` and `UPSTREAM.md`. Review both before reuse; packages without clear redistribution permission or with incomplete dependency closures are excluded.
 
 ## Categories
 
-- [Novel Writing](./01-novel-writing/README.md) (`01-novel-writing`)
-- [Screenwriting & Script Adaptation](./02-script-adaptation/README.md) (`02-script-adaptation`)
-- [Storyboarding & Directing](./03-storyboard/README.md) (`03-storyboard`)
-- [Character Assets](./04-character-asset/README.md) (`04-character-asset`)
-- [Video Prompts](./05-video-prompt/README.md) (`05-video-prompt`, 15 Skills)
-- [Audio & Voice](./06-audio-voice/README.md) (`06-audio-voice`, 6 Skills)
-- [Editing & Quality Control](./07-editing-qc/README.md) (`07-editing-qc`)
-- [End-to-End Production](./08-end-to-end/README.md) (`08-end-to-end`)
-- [Scene Assets](./09-scene-asset/README.md) (`09-scene-asset`, 13 Skills)
-- [Agent Tools](./10-agent-tools/README.md) (`10-agent-tools`, 8 Skills)
-- [Knowledge Base](./11-knowledge-base/README.md) (`11-knowledge-base`, 3 Skills)
+- [01 · Novel writing](./01-novel-writing/README.md)
+- [02 · Script adaptation](./02-script-adaptation/README.md)
+- [03 · Storyboarding and directing](./03-storyboard/README.md)
+- [04 · Character assets](./04-character-asset/README.md)
+- [05 · Video prompts](./05-video-prompt/README.md)
+- [06 · Audio and voice](./06-audio-voice/README.md)
+- [07 · Editing and quality control](./07-editing-qc/README.md)
+- [08 · End-to-end production](./08-end-to-end/README.md)
+- [09 · Scene assets](./09-scene-asset/README.md)
+- [10 · Agent tools](./10-agent-tools/README.md)
+- [11 · Knowledge base](./11-knowledge-base/README.md)
 
-## Repository contents
-
-- 131 complete functional Skill entrypoints (`SKILL.md`)
-- 95 mirrored Skill packages with upstream version records
-- 95 original license files retained with the packages
-- 11 category directories
-
-For the Chinese project overview, curation rules, and licensing boundaries, see [README.zh-CN.md](./README.zh-CN.md) and [ABOUT.md](./ABOUT.md).
+Start with a category index, then open a Skill's `SKILL.md`. Check its `UPSTREAM.md` and `LICENSE` before reuse.
