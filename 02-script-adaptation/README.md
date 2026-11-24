@@ -6,8 +6,8 @@
 
 ## 实际收录统计
 
-- **11 个 Skill 包 / 11 个 Skill 入口**：逐个对应当前目录中的 11 个 `SKILL.md` 和 11 份 `UPSTREAM.md`。
-- **4 个上游来源仓库**：`zenstory-ai/drama-skills`、`eternityspring/shuohao-skills`、`lixiaoxiao9888-create/manju-laoli-skill`、`zkhyww/ai-short-drama-skills`。
+- **12 个 Skill 包 / 12 个 Skill 入口**：逐个对应当前目录中的 11 个 `SKILL.md` 和 11 份 `UPSTREAM.md`。
+- **5 个上游来源仓库**：`zenstory-ai/drama-skills`、`eternityspring/shuohao-skills`、`lixiaoxiao9888-create/manju-laoli-skill`、`zkhyww/ai-short-drama-skills`。
 - 统计按当前公开库文件树核对，不把上游仓库数当成 Skill 包数量。
 
 ## Skill 清单
@@ -25,3 +25,4 @@
 | [sd-script-engine](./lixiaoxiao9888-create__manju-laoli-skill/sd-script-engine/SKILL.md) | lixiaoxiao9888-create/manju-laoli-skill | MIT |
 | [sd-xuanhuan-engine](./lixiaoxiao9888-create__manju-laoli-skill/sd-xuanhuan-engine/SKILL.md) | lixiaoxiao9888-create/manju-laoli-skill | MIT |
 | [drama-crew](./zkhyww__ai-short-drama-skills/drama-crew/SKILL.md) | zkhyww/ai-short-drama-skills | MIT |
+| [short-drama-manhua](./VanGong1999__openwriting-skills/short-drama-manhua/SKILL.md) | VanGong1999/openwriting-skills | MIT |
