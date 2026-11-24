@@ -4,11 +4,11 @@
 - Branch: `main`
 - Skill path: `skills/short-drama-novel-analyze`
 - Skill URL: https://github.com/zenstory-ai/drama-skills/tree/main/skills/short-drama-novel-analyze
-- Upstream commit: `83c28c6bd822eb05f4cc9cef2530c0f4eed8efc1`
-- Upstream directory updated: 2026-11-22T06:30:42Z (UTC)
+- Upstream commit: `82a1ce5750138ada79be6904d1ec72d6a285105d`
+- Upstream directory updated: 2026-11-24T16:24:20Z (UTC)
 - License: `MIT` (repository-root `LICENSE`, copied unchanged)
 - Mirrored file count: 9 (includes `LICENSE` and this `UPSTREAM.md`)
-- Sync timestamp: 2026-11-22T15:56:19Z (UTC)
+- Sync timestamp: 2026-11-24T16:27:52Z (UTC)
+- Scope: all regular files under the Skill directory, including `SKILL.md`, agents, assets, references, templates and scripts where present.
 - Excluded: repository-level documentation and files outside this Skill directory.
-- Removed from prior mirror because absent from this upstream revision: `scripts/selftest.py`.
-- Note: Static mirror only; scripts and dependencies were not executed or installed.
+- Note: Static mirror only; scripts and dependencies were not executed or installed. Related sibling Skills are tracked as separate packages.
