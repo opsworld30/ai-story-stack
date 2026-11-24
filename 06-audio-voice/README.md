@@ -4,8 +4,8 @@
 
 ## 实际收录统计
 
-- **6 个完整 Skill 包 / 6 个 Skill 入口**。
-- **2 个上游来源仓库**：Emily2040/seedance-2.0、Runware/runware-skills。
+- **7 个完整 Skill 包 / 7 个 Skill 入口**。
+- **3 个上游来源仓库**：Emily2040/seedance-2.0、Runware/runware-skills、NanmiCoder/creator-pipeline。
 
 ## Skill 清单
 
@@ -17,6 +17,7 @@
 | [voice-cloning](./Runware__runware-skills/voice-cloning/SKILL.md) | 定制音色设计与声音克隆 | Runware/runware-skills | MIT |
 | [music](./Runware__runware-skills/music/SKILL.md) | 歌曲、纯音乐、配乐和 Jingle | Runware/runware-skills | MIT |
 | [add-audio-to-video](./Runware__runware-skills/add-audio-to-video/SKILL.md) | 为视频补充同步音效、旁白或音乐 | Runware/runware-skills | MIT |
+| [voice-clone-tts](./NanmiCoder__creator-pipeline/voice-clone-tts/SKILL.md) | 用户授权参考音频驱动的配音与音色克隆，输出音频、字幕和时间轴 | NanmiCoder/creator-pipeline | MIT |
 
 ## 运行依赖
 
