@@ -1,0 +1,66 @@
+{
+    "title": "My Epic Webnovel",
+    "author": "Pen Name",
+    "genre": "xianxia / progression fantasy",
+    "subgenres": [
+        "cultivation",
+        "revenge",
+        "underdog"
+    ],
+    "format": "webnovel",
+    "target_platforms": [
+        "RoyalRoad",
+        "Webnovel",
+        "ScribbleHub"
+    ],
+    "total_planned_chapters": 500,
+    "current_chapter": 0,
+    "total_words": 0,
+    "words_per_chapter_target": 2500,
+    "current_arc": 1,
+    "current_arc_name": "Humble Beginnings",
+    "total_planned_arcs": 8,
+    "tone": "epic with moments of levity",
+    "perspective": "third-person limited (protagonist POV)",
+    "tense": "past",
+    "series_type": "ongoing serial",
+    "update_schedule": "3 chapters per week",
+    "core_themes": [
+        "Overcoming adversity through determination",
+        "Found family",
+        "Breaking societal limitations"
+    ],
+    "tropes": [
+        "weak to strong",
+        "hidden talent",
+        "mysterious master",
+        "ancient inheritance",
+        "face-slapping young masters"
+    ],
+    "author_voice_rules": [
+        "Show don't tell for character emotions",
+        "Every chapter MUST end on cliffhanger or revelation",
+        "Maximum 3 POVs per arc",
+        "Never explain cultivation system more than once per arc",
+        "Action scenes: short sentences, visceral details",
+        "Dialogue: character-specific speech patterns"
+    ],
+    "power_system": {
+        "name": "Cultivation",
+        "type": "tiered progression",
+        "stages": [
+            "Mortal",
+            "Qi Condensation",
+            "Foundation Establishment",
+            "Golden Core",
+            "Nascent Soul",
+            "Void Transformation",
+            "Immortal Ascension"
+        ]
+    },
+    "metadata": {
+        "created": "2025-11-23",
+        "last_updated": "2025-11-23",
+        "skill_version": "webnovel-author@1.0"
+    }
+}

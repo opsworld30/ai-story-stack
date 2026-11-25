@@ -1,0 +1,74 @@
+{
+    "example_story": "The Immortal's Path",
+    "foreshadowing_elements": [
+        {
+            "id": "jade-pendant",
+            "type": "chekhov_gun",
+            "planted_chapter": 3,
+            "description": "Deceased mother's jade pendant that protagonist always wears",
+            "hints": [
+                {
+                    "chapter": 3,
+                    "hint": "Pendant feels warm during protagonist's first Qi circulation",
+                    "subtlety": "mentioned in passing, not emphasized"
+                },
+                {
+                    "chapter": 15,
+                    "hint": "Elder glances at pendant with shocked expression, says nothing",
+                    "subtlety": "one sentence, easily missed"
+                },
+                {
+                    "chapter": 28,
+                    "hint": "Pendant glows faintly when protagonist faces death",
+                    "subtlety": "more obvious, reader should wonder"
+                }
+            ],
+            "payoff_planned_chapter": 50,
+            "payoff_delivered_chapter": 51,
+            "resolution": "Pendant contains soul fragment of ancient immortal empress, protagonist's true ancestor. Awakens to save protagonist and offer inheritance.",
+            "status": "resolved",
+            "payoff_impact": "massive",
+            "notes": "Planted early enough readers forget, payoff references all three hints"
+        },
+        {
+            "id": "mysterious-scroll",
+            "type": "mystery_box",
+            "planted_chapter": 7,
+            "description": "Cultivation technique scroll protagonist can't read yet",
+            "hints": [
+                {
+                    "chapter": 7,
+                    "hint": "Techniques seems to be in ancient language, protagonist shelves it for later"
+                },
+                {
+                    "chapter": 20,
+                    "hint": "After breakthrough, protagonist checks scroll again. Still can't read it, needs higher cultivation"
+                }
+            ],
+            "payoff_planned_chapter": 100,
+            "payoff_delivered_chapter": null,
+            "resolution": "Planned: Supreme technique that only reveals itself to Golden Core cultivators",
+            "status": "planted"
+        }
+    ],
+    "best_practices": {
+        "planting": [
+            "Bury important foreshadowing in scenes with other purposes",
+            "Use rule of three: hint at least 3 times before payoff",
+            "Vary subtlety: first hint barely noticeable, last hint obvious",
+            "Space hints far apart so readers forget early ones"
+        ],
+        "payoff": [
+            "Callback to original planting scene",
+            "Recontextualize earlier mysteries",
+            "Make payoff bigger than setup implied",
+            "Reference multiple planted elements simultaneously for epic moments"
+        ],
+        "tracking": [
+            "Log every foreshadowing element immediately when planted",
+            "Review tracker before writing each chapter",
+            "Mark elements as 'due soon' when approaching payoff chapter",
+            "Note reader expectations based on hints given"
+        ]
+    }
+}

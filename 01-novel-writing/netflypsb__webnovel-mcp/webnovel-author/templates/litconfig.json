@@ -1,0 +1,54 @@
+{
+    "$schema": "https://litrepo.org/schema/v1.json",
+    "litrepo_version": "1.0",
+    "title": "My Epic Webnovel",
+    "author": [
+        "Author Name",
+        "Pen Name"
+    ],
+    "project_type": "fiction",
+    "format": "webnovel",
+    "premise": "One-sentence premise of your story",
+    "target_wordcount": 1250000,
+    "current_status": "planning",
+    "structure": {
+        "root_folders": [
+            "shared",
+            "arcs",
+            "metadata",
+            "compilation"
+        ],
+        "chapter_naming_convention": "c{nnnn}",
+        "folder_templates": {
+            "arc": "arc-{nnn}-{slug}/"
+        },
+        "summary_generation": true,
+        "context_cache": {
+            "enabled": true,
+            "interval_chapters": 50
+        }
+    },
+    "fiction": {
+        "genre": "progression-fantasy",
+        "subgenre": "xianxia",
+        "perspective": "third-person-limited",
+        "total_arcs": 8,
+        "chapters_per_arc": 80,
+        "arcs": [
+            {
+                "number": 1,
+                "name": "Humble Beginnings",
+                "chapters": "1-80",
+                "summary": "Protagonist discovers hidden talent and begins cultivation journey"
+            }
+        ]
+    },
+    "ai": {
+        "allowed": true,
+        "skill_id": "webnovel-author",
+        "style_guide": "shared/style-guide.md",
+        "max_context_files": 20
+    },
+    "version": "1.0.0",
+    "last_modified": "2025-11-23T00:00:00Z"
+}

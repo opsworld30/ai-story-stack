@@ -1,0 +1,108 @@
+{
+  "romance_arc": {
+    "pairing": {
+      "character_1": "Protagonist Name",
+      "character_2": "Love Interest Name"
+    },
+    "arc_type": "slow_burn",
+    "current_relationship_stage": "strangers",
+    "target_chapters_to_resolution": 200
+  },
+  "stages": {
+    "strangers": {
+      "chapter_started": null,
+      "chapter_ended": null,
+      "key_moments": []
+    },
+    "first_meeting": {
+      "chapter": null,
+      "circumstances": "",
+      "first_impressions": {
+        "character_1_thinks": "",
+        "character_2_thinks": ""
+      }
+    },
+    "acquaintances": {
+      "chapter_started": null,
+      "chapter_ended": null,
+      "key_moments": []
+    },
+    "reluctant_allies": {
+      "chapter_started": null,
+      "chapter_ended": null,
+      "catalyst": "",
+      "key_moments": []
+    },
+    "growing_respect": {
+      "chapter_started": null,
+      "chapter_ended": null,
+      "turning_point": "",
+      "key_moments": []
+    },
+    "denial": {
+      "chapter_started": null,
+      "chapter_ended": null,
+      "what_they_deny": "",
+      "key_moments": []
+    },
+    "tension": {
+      "chapter_started": null,
+      "chapter_ended": null,
+      "obstacles": [],
+      "almost_moments": [],
+      "key_moments": []
+    },
+    "confession_or_revelation": {
+      "chapter": null,
+      "who_confesses_first": "",
+      "circumstances": "",
+      "outcome": ""
+    },
+    "together": {
+      "chapter_started": null,
+      "relationship_status": "",
+      "ongoing_challenges": []
+    }
+  },
+  "romantic_moments_log": [
+    {
+      "chapter": 1,
+      "type": "tension",
+      "description": "Example: Accidental touch, eyes meeting",
+      "pov_character_reaction": "",
+      "other_character_reaction": ""
+    }
+  ],
+  "jealousy_triggers": [],
+  "miscommunications": [],
+  "obstacles": [
+    {
+      "type": "external",
+      "description": "Example: Different social classes",
+      "chapter_introduced": null,
+      "chapter_resolved": null
+    },
+    {
+      "type": "internal",
+      "description": "Example: Fear of vulnerability",
+      "chapter_introduced": null,
+      "chapter_resolved": null
+    }
+  ],
+  "romantic_tropes": [
+    "enemies_to_lovers",
+    "slow_burn",
+    "fake_dating",
+    "forced_proximity"
+  ],
+  "heat_level": {
+    "current": "slow_burn",
+    "progression": [
+      {"chapter": 50, "level": "hand_holding"},
+      {"chapter": 100, "level": "first_kiss"},
+      {"chapter": 150, "level": "confession"},
+      {"chapter": 200, "level": "together"}
+    ]
+  },
+  "notes": "Track all romantic development here to ensure consistent slow-burn pacing"
+}

@@ -1,0 +1,125 @@
+{
+  "character_name": "Protagonist Name",
+  "system_name": "The System",
+  "last_updated_chapter": 1,
+  
+  "basic_info": {
+    "level": 1,
+    "class": "None",
+    "subclass": null,
+    "race": "Human",
+    "experience": {
+      "current": 0,
+      "to_next_level": 100
+    }
+  },
+  
+  "primary_stats": {
+    "strength": {"base": 10, "bonus": 0, "total": 10},
+    "dexterity": {"base": 10, "bonus": 0, "total": 10},
+    "constitution": {"base": 10, "bonus": 0, "total": 10},
+    "intelligence": {"base": 10, "bonus": 0, "total": 10},
+    "wisdom": {"base": 10, "bonus": 0, "total": 10},
+    "charisma": {"base": 10, "bonus": 0, "total": 10}
+  },
+  
+  "derived_stats": {
+    "health": {"current": 100, "max": 100},
+    "mana": {"current": 50, "max": 50},
+    "stamina": {"current": 100, "max": 100}
+  },
+  
+  "skills": [
+    {
+      "name": "Skill Name",
+      "level": 1,
+      "max_level": 10,
+      "experience": {"current": 0, "to_next": 100},
+      "type": "active",
+      "cooldown": "30 seconds",
+      "cost": "10 mana",
+      "effect": "Description of effect",
+      "acquired_chapter": 1,
+      "last_used_chapter": null
+    }
+  ],
+  
+  "passive_abilities": [
+    {
+      "name": "Passive Name",
+      "level": 1,
+      "effect": "Description",
+      "acquired_chapter": 1
+    }
+  ],
+  
+  "titles": [
+    {
+      "name": "Title Name",
+      "effect": "+5% experience gain",
+      "acquired_chapter": 1,
+      "equipped": false
+    }
+  ],
+  
+  "inventory": {
+    "slots_total": 20,
+    "slots_used": 0,
+    "gold": 0,
+    "items": [
+      {
+        "name": "Item Name",
+        "type": "weapon",
+        "rarity": "common",
+        "stats": {},
+        "equipped": false,
+        "acquired_chapter": 1
+      }
+    ]
+  },
+  
+  "equipment": {
+    "weapon": null,
+    "armor": null,
+    "helmet": null,
+    "gloves": null,
+    "boots": null,
+    "accessory_1": null,
+    "accessory_2": null
+  },
+  
+  "quests": {
+    "main": [],
+    "side": [],
+    "completed": []
+  },
+  
+  "stat_history": [
+    {
+      "chapter": 1,
+      "event": "Character creation",
+      "changes": {
+        "level": {"old": 0, "new": 1}
+      }
+    }
+  ],
+  
+  "level_up_history": [
+    {
+      "chapter": 1,
+      "old_level": 0,
+      "new_level": 1,
+      "stat_points_gained": 5,
+      "stat_points_allocated": {
+        "strength": 1,
+        "dexterity": 1,
+        "constitution": 1,
+        "intelligence": 1,
+        "wisdom": 1
+      },
+      "skills_unlocked": []
+    }
+  ],
+  
+  "notes": "Track all stat changes to prevent power inconsistencies"
+}

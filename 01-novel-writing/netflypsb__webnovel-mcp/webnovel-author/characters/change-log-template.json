@@ -1,0 +1,31 @@
+{
+    "character_name": "Character Name",
+    "changes": [
+        {
+            "chapter": 1,
+            "arc": 1,
+            "timestamp": "Arc 1, Chapter 1",
+            "changes": [
+                {
+                    "attribute": "age",
+                    "old_value": "15",
+                    "new_value": "15",
+                    "reason": "Character introduction"
+                },
+                {
+                    "attribute": "cultivation_level",
+                    "old_value": "None",
+                    "new_value": "Mortal",
+                    "reason": "Starting point"
+                }
+            ],
+            "notes": "Character introduction chapter"
+        }
+    ],
+    "current_state": {
+        "age": 15,
+        "cultivation_level": "Mortal",
+        "last_updated_chapter": 1
+    },
+    "timeline_notes": "Track significant time skips and age progression here"
+}

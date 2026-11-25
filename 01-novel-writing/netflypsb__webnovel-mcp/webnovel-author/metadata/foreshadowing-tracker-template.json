@@ -1,0 +1,33 @@
+{
+    "foreshadowing_elements": [
+        {
+            "id": "foreshadow-1",
+            "type": "chekhov_gun",
+            "planted_chapter": 5,
+            "description": "Mysterious jade pendant protagonist found",
+            "hints": [
+                {
+                    "chapter": 5,
+                    "hint": "Pendant glows faintly near ancient ruins"
+                }
+            ],
+            "payoff_planned_chapter": 45,
+            "payoff_delivered_chapter": null,
+            "resolution": "",
+            "status": "planted"
+        }
+    ],
+    "plot_threads": [
+        {
+            "id": "thread-1",
+            "name": "Revenge for Sect Destruction",
+            "introduced_chapter": 1,
+            "status": "active",
+            "last_mentioned_chapter": 1,
+            "resolution_planned_arc": 5,
+            "notes": ""
+        }
+    ],
+    "prophecies_promises": [],
+    "unresolved_mysteries": []
+}

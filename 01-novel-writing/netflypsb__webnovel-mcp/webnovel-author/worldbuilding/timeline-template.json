@@ -1,0 +1,23 @@
+{
+    "story_timeline": [
+        {
+            "chapter": 1,
+            "arc": 1,
+            "story_date": "Year 1, Month 1, Day 1",
+            "events": [
+                "Protagonist discovers cultivation talent",
+                "Meets mysterious master"
+            ],
+            "time_elapsed_since_story_start": "0 days",
+            "notes": ""
+        }
+    ],
+    "time_tracking": {
+        "story_start_date": "Year 1, Month 1, Day 1",
+        "current_date": "Year 1, Month 1, Day 1",
+        "total_time_elapsed": "0 days",
+        "protagonist_age_at_start": 15,
+        "protagonist_current_age": 15
+    },
+    "time_skip_log": []
+}

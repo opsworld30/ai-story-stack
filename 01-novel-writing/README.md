@@ -6,7 +6,7 @@
 
 ## 当前收录
 
-**35 个完整镜像包（来自 14 个上游仓库），67 个 Skill 入口。**
+**40 个完整镜像包（来自 15 个上游仓库），72 个 Skill 入口。**
 
 > 统计口径：Skill 包按独立镜像包及 `UPSTREAM.md` 记录计数；Skill 入口按目录中实际存在的 `SKILL.md` 文件计数。Oh Story 提供 14 个入口，Snowflake Fiction 提供 13 个入口，Calliope Writing Skills 提供 6 个入口，Wordflow Novel Writer Skills 提供 11 个入口。
 
@@ -126,3 +126,39 @@
 - PowerShell runner 保留为源文件，未执行；尚未验证目标宿主和 Windows 运行环境。
 - 上游：jingtai123/Novel-Control-Station-Skill；[UPSTREAM.md](./jingtai123__Novel-Control-Station-Skill/novel-control-station/UPSTREAM.md)。
 
+### 15. [Webnovel Author Expert｜长篇连载管理](./netflypsb__webnovel-mcp/webnovel-author/SKILL.md)
+
+- 许可证：MIT
+- 1 个 Skill 入口，包含 14 份上游 Skill 目录文件：人物与世界设定模板、章节模板、伏笔跟踪模板、风格指南和示例。
+- 能力：初始化长篇项目、管理人物/章节/世界设定、维护伏笔和时间线。
+- 宿主集成边界：Skill 描述的文件读写与 scratchpad 工具由目标 Agent 宿主提供；独立 Python MCP Server、Pro 授权组件及其依赖未打包，使用前需适配宿主。
+- 上游：netflypsb/webnovel-mcp；[UPSTREAM.md](./netflypsb__webnovel-mcp/webnovel-author/UPSTREAM.md)。
+
+### 16. [Webnovel Topic｜网文选题策划](./imerzzhu__ai-novel-writing-skills/webnovel-topic/SKILL.md)
+
+- 许可证：MIT
+- 1 个 Skill 入口，附 Codex/OpenAI Agent 元数据。
+- 能力：选题方向、题材卖点、金手指、受众定位、可行性与风险提示。
+- 上游：imerzzhu/ai-novel-writing-skills；[UPSTREAM.md](./imerzzhu__ai-novel-writing-skills/webnovel-topic/UPSTREAM.md)。
+
+### 17. [Webnovel Outline｜世界观与章节细纲](./imerzzhu__ai-novel-writing-skills/webnovel-outline/SKILL.md)
+
+- 许可证：MIT
+- 1 个 Skill 入口，附 Agent 元数据和 6 份风格/命名参考文件。
+- 能力：世界观、人物、剧情框架、分卷规划、章节细纲和结构化输出。
+- 上游：imerzzhu/ai-novel-writing-skills；[UPSTREAM.md](./imerzzhu__ai-novel-writing-skills/webnovel-outline/UPSTREAM.md)。
+
+### 18. [Webnovel Write｜章节正文写作](./imerzzhu__ai-novel-writing-skills/webnovel-write/SKILL.md)
+
+- 许可证：MIT
+- 1 个 Skill 入口，附 Agent 元数据。
+- 能力：按章节细纲写作、续写、扩写、重写和批量章节生成；依赖用户项目中的大纲、人物与世界观文件。
+- 上游：imerzzhu/ai-novel-writing-skills；[UPSTREAM.md](./imerzzhu__ai-novel-writing-skills/webnovel-write/UPSTREAM.md)。
+
+### 19. [Webnovel Worldbuilder｜全流程创作编排](./imerzzhu__ai-novel-writing-skills/webnovel-worldbuilder/SKILL.md)
+
+- 许可证：MIT
+- 1 个 Skill 入口，附 Agent 元数据。
+- 能力：协调选题、大纲、章节写作、审查、润色和完稿，维护项目进度。
+- 依赖：同时安装本类的 topic/outline/write，以及 [07 类的 review、polish、finalize](../07-editing-qc/imerzzhu__ai-novel-writing-skills/)。
+- 上游：imerzzhu/ai-novel-writing-skills；[UPSTREAM.md](./imerzzhu__ai-novel-writing-skills/webnovel-worldbuilder/UPSTREAM.md)。

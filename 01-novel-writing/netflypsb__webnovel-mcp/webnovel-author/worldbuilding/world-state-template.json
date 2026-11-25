@@ -1,0 +1,53 @@
+{
+    "world_name": "Your World Name",
+    "current_chapter": 0,
+    "last_updated": "2025-11-23",
+    "political_state": {
+        "major_factions": [
+            {
+                "name": "Azure Sky Sect",
+                "type": "Cultivation Sect",
+                "power_level": "Major",
+                "territory": "Northern Mountain Range",
+                "current_leader": "Sect Master Chen",
+                "relationship_to_protagonist": "Neutral",
+                "recent_events": []
+            }
+        ],
+        "conflicts": [],
+        "alliances": []
+    },
+    "geography": {
+        "regions": [
+            {
+                "name": "Northern Mountains",
+                "type": "Mountain Range",
+                "danger_level": "High",
+                "notable_locations": [],
+                "current_control": "Azure Sky Sect"
+            }
+        ]
+    },
+    "timeline": {
+        "current_date": "Year 1, Month 1",
+        "time_tracking_system": "Describe how time is measured",
+        "major_events": []
+    },
+    "power_system_state": {
+        "known_peak_power": "Immortal Ascension",
+        "protagonist_rank_globally": "Bottom tier",
+        "power_ceiling_awareness": "Protagonist unaware of true heights"
+    },
+    "active_threats": [],
+    "mysteries": [
+        {
+            "id": "mystery-1",
+            "description": "Ancient ruins purpose",
+            "introduced_chapter": 1,
+            "known_to_protagonist": true,
+            "known_to_reader": false,
+            "resolution_planned_arc": 3
+        }
+    ],
+    "notes": "Track world-level changes here that affect multiple characters or regions"
+}
