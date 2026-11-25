@@ -6,7 +6,7 @@
 
 ## 当前收录
 
-**34 个完整镜像包（来自 13 个上游仓库），66 个 Skill 入口。**
+**35 个完整镜像包（来自 14 个上游仓库），67 个 Skill 入口。**
 
 > 统计口径：Skill 包按独立镜像包及 `UPSTREAM.md` 记录计数；Skill 入口按目录中实际存在的 `SKILL.md` 文件计数。Oh Story 提供 14 个入口，Snowflake Fiction 提供 13 个入口，Calliope Writing Skills 提供 6 个入口，Wordflow Novel Writer Skills 提供 11 个入口。
 
@@ -116,3 +116,13 @@
 - [Pre-write Checklist](./wordflowlab__novel-writer-skills/pre-write-checklist/SKILL.md) · [Requirement Detector](./wordflowlab__novel-writer-skills/requirement-detector/SKILL.md) · [Workflow Guide](./wordflowlab__novel-writer-skills/workflow-guide/SKILL.md)
 - [Dialogue Techniques](./wordflowlab__novel-writer-skills/dialogue-techniques/SKILL.md) · [Scene Structure](./wordflowlab__novel-writer-skills/scene-structure/SKILL.md)
 - 上游：wordflowlab/novel-writer-skills。
+
+### 14. [Novel Control Station｜中文长篇小说控制系统](./jingtai123__Novel-Control-Station-Skill/novel-control-station/README.md)
+
+- 许可证：MIT
+- 上游版本：0.2.4
+- 1 个 Skill 入口，55 个上游文件：主入口、49 份参考资料、PowerShell runner 模板、项目说明与原始 LICENSE。
+- 能力：中文长篇立项、人物与多线大纲、文档驱动章节创作、连续性和伏笔管理、动态状态回写、风格模块调度与去 AI 味修订。
+- PowerShell runner 保留为源文件，未执行；尚未验证目标宿主和 Windows 运行环境。
+- 上游：jingtai123/Novel-Control-Station-Skill；[UPSTREAM.md](./jingtai123__Novel-Control-Station-Skill/novel-control-station/UPSTREAM.md)。
+
