@@ -6,8 +6,8 @@
 
 ## 实际收录统计
 
-- **7 个 Skill 包 / 7 个 Skill 入口**，对应 6 个 `SKILL.md` 和 6 份 `UPSTREAM.md`。
-- **5 个上游来源仓库**：`zenstory-ai/drama-skills`、`eternityspring/shuohao-skills`、`lixiaoxiao9888-create/manju-laoli-skill`、`Emily2040/seedance-2.0`。
+- **7 个 Skill 包 / 7 个 Skill 入口**，对应 7 个 `SKILL.md` 和 7 份 `UPSTREAM.md`。
+- **5 个上游来源仓库**：`zenstory-ai/drama-skills`、`eternityspring/shuohao-skills`、`lixiaoxiao9888-create/manju-laoli-skill`、`Emily2040/seedance-2.0`、`kevinchin12/storyboard-director`。
 
 ## Skill 清单
 

@@ -11,7 +11,7 @@
 - Upstream Skill-directory files mirrored: 28 (all files beneath the Skill directory)
 - Local package files: 30 (28 upstream Skill-directory files + original `LICENSE` + this `UPSTREAM.md`)
 - Synced at: `2026-11-26T04:23:12Z` (UTC)
-- Package scope: main storyboard-director Skill, four nested stage Skills, Agent metadata, session templates, integration notes and all 14 scripts.
+- Package scope: main storyboard-director Skill, four nested stage Skills, Agent metadata, session templates, integration notes and all 15 scripts.
 - Excluded: no files within `storyboard-scene-pipeline-skill/`; repository-level README, GitHub configuration/workflows and unrelated files outside the Skill directory are excluded. The root MIT license is retained.
 - Runtime notes: the Skill expects a host that provides image generation. Python scripts use the standard library; Pillow is used by image normalization/reference and storyboard-sheet operations. The upstream package does not pin a Pillow version.
 - Audit: static path/reference review completed. All four nested stage Skills and their local script/template dependencies are included. No upstream scripts, installer, tests or dependencies were executed or installed during synchronization.
