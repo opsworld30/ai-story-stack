@@ -8,6 +8,7 @@ Only packages with explicit redistribution permission and reviewed dependency sc
 
 - [WordTact / novel-superpower — 1 dispatcher + 8 sub-Skills](./1GggG1__WordTact/novel-superpower/UPSTREAM.md): Chinese long-form fiction workflow with discussion, expansion, dialogue, project QA, tagging and vault maintenance. Entry point: [SKILL.md](./1GggG1__WordTact/novel-superpower/SKILL.md).
 - [NovelForge — 50 Agent Skills](./20Youssef10__NovelForge/novelforge/UPSTREAM.md): long-form fiction planning, character and narrative systems, continuity, quality gates, and project templates. Entry point: [novel-orchestrator/SKILL.md](./20Youssef10__NovelForge/novelforge/skills/novel-orchestrator/SKILL.md).
+- [AX web-novel-writing — Chinese long-form fiction workflow](./xingfanxia__AX-skills/web-novel-writing/UPSTREAM.md): a model-agnostic agent workflow for story contracts, typed state, chapter drafting, continuity review and anti-slop checks. Entry point: [SKILL.md](./xingfanxia__AX-skills/web-novel-writing/SKILL.md).
 - [Calliope writing skills](./Calliope-Editor__writing-skills/)
 - [Ani Book Skill](./ExplosiveCoderflome__ani-book-skill/)
 - [RoleTrace](./LCnKeo__roletrace/)
