@@ -4,8 +4,8 @@
 
 ## 实际收录统计
 
-- **8 个完整 Skill 包 / 8 个 Skill 入口**。
-- **4 个上游来源仓库**：Emily2040/seedance-2.0、Runware/runware-skills、NanmiCoder/creator-pipeline、awesome-genmedia/skills。
+- **10 个完整 Skill 包 / 10 个 Skill 入口**。
+- **6 个上游来源仓库**：Emily2040/seedance-2.0、Runware/runware-skills、NanmiCoder/creator-pipeline、awesome-genmedia/skills。
 
 ## Skill 清单
 
@@ -19,6 +19,8 @@
 | [add-audio-to-video](./Runware__runware-skills/add-audio-to-video/SKILL.md) | 为视频补充同步音效、旁白或音乐 | Runware/runware-skills | MIT |
 | [voice-clone-tts](./NanmiCoder__creator-pipeline/voice-clone-tts/SKILL.md) | 用户授权参考音频驱动的配音与音色克隆，输出音频、字幕和时间轴 | NanmiCoder/creator-pipeline | MIT |
 | [music-generation](./awesome-genmedia__skills/music-generation/SKILL.md) | 按场景、流派、情绪、BPM 与乐器生成器乐和配乐 | awesome-genmedia/skills | MIT |
+| [alterlab-genai-voice-designer](./AlterLab-IEU__AlterLab-FC-Skills/alterlab-genai-voice-designer/skills/genai/alterlab-genai-voice-designer/SKILL.md) | ElevenLabs 音色设计、情绪表演与语音导演 | AlterLab-IEU/AlterLab-FC-Skills | MIT |
+| [elevenlabs-tts](./calesthio__generative-media-skills/elevenlabs-tts/skills/providers/text-to-speech/elevenlabs-tts/SKILL.md) | TTS 生产、发音、分段/流式生成、质量与权利检查 | calesthio/generative-media-skills | MIT |
 
 ## 运行依赖
 
@@ -27,3 +29,8 @@ Runware 的五个结果型 Skill 依赖 [Agent Tools 分类中的基础 Skill](.
 ## 新增 Skill 的运行说明
 
 `music-generation` 的上游目录只包含 `SKILL.md`；公开包同时保留仓库根目录 MIT LICENSE 与 `UPSTREAM.md`。该 Skill 使用远程 each::sense 音乐生成服务，使用者需自行配置服务访问与凭据；本仓库没有包含凭据，也未调用远程生成服务。
+
+## 新增语音 Skill 说明
+
+- 两个新包分别覆盖音色身份/表演设计与 TTS 生产工程；上游根 MIT LICENSE 与各自 UPSTREAM.md 已保留。
+- ElevenLabs TTS 的评估者专用 `EVAL.md` 未公开发布；上游 Skill 的模型和 API 信息需以当前官方文档为准。

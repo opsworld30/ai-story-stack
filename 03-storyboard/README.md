@@ -6,8 +6,8 @@
 
 ## 实际收录统计
 
-- **7 个 Skill 包 / 7 个 Skill 入口**，对应 7 个 `SKILL.md` 和 7 份 `UPSTREAM.md`。
-- **5 个上游来源仓库**：`zenstory-ai/drama-skills`、`eternityspring/shuohao-skills`、`lixiaoxiao9888-create/manju-laoli-skill`、`Emily2040/seedance-2.0`、`kevinchin12/storyboard-director`。
+- **8 个 Skill 包 / 8 个 Skill 入口**，对应 8 个 `SKILL.md` 和 8 份 `UPSTREAM.md`。
+- **6 个上游来源仓库**：`zenstory-ai/drama-skills`、`eternityspring/shuohao-skills`、`lixiaoxiao9888-create/manju-laoli-skill`、`Emily2040/seedance-2.0`、`kevinchin12/storyboard-director`、`0xhughs/director-skills`。
 
 ## Skill 清单
 
@@ -20,3 +20,4 @@
 | [sd-storyboard-engine](./lixiaoxiao9888-create__manju-laoli-skill/sd-storyboard-engine/SKILL.md) | lixiaoxiao9888-create/manju-laoli-skill | MIT |
 | [seedance-camera](./Emily2040__seedance-2.0/seedance-camera/SKILL.md) | Emily2040/seedance-2.0 | MIT |
 | [storyboard-director](./kevinchin12__storyboard-director/storyboard-director/SKILL.md) | kevinchin12/storyboard-director | MIT |
+| [shotlist-and-visual-breakdown](./0xhughs__director-skills/shotlist-and-visual-breakdown/SKILL.md) | 0xhughs/director-skills | MIT |
