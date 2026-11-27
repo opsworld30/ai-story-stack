@@ -6,6 +6,8 @@ Only packages with explicit redistribution permission and reviewed dependency sc
 
 ## Packages
 
+- [Everyday Writer · scene-structure](./Deupaxx__EveryDay-Writer/scene-structure/UPSTREAM.md): scene-level fiction writing with shared voice, workspace and onboarding dependencies. Entry point: [SKILL.md](./Deupaxx__EveryDay-Writer/scene-structure/SKILL.md).
+- [Everyday Writer · world-builder](./Deupaxx__EveryDay-Writer/world-builder/UPSTREAM.md): world bible questioning, manuscript cartography, continuity and Obsidian graph output. Entry point: [SKILL.md](./Deupaxx__EveryDay-Writer/world-builder/SKILL.md).
 - [WordTact / novel-superpower — 1 dispatcher + 8 sub-Skills](./1GggG1__WordTact/novel-superpower/UPSTREAM.md): Chinese long-form fiction workflow with discussion, expansion, dialogue, project QA, tagging and vault maintenance. Entry point: [SKILL.md](./1GggG1__WordTact/novel-superpower/SKILL.md).
 - [NovelForge — 50 Agent Skills](./20Youssef10__NovelForge/novelforge/UPSTREAM.md): long-form fiction planning, character and narrative systems, continuity, quality gates, and project templates. Entry point: [novel-orchestrator/SKILL.md](./20Youssef10__NovelForge/novelforge/skills/novel-orchestrator/SKILL.md).
 - [AX web-novel-writing — Chinese long-form fiction workflow](./xingfanxia__AX-skills/web-novel-writing/UPSTREAM.md): a model-agnostic agent workflow for story contracts, typed state, chapter drafting, continuity review and anti-slop checks. Entry point: [SKILL.md](./xingfanxia__AX-skills/web-novel-writing/SKILL.md).
