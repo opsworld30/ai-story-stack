@@ -6,8 +6,8 @@
 
 ## 实际收录统计
 
-- **9 个 Skill 包 / 9 个 Skill 入口**，包含 8 个 `SKILL.md` 与 8 份 `UPSTREAM.md`。
-- **6 个上游来源仓库**：`zenstory-ai/drama-skills`、`lixiaoxiao9888-create/manju-laoli-skill`、`zkhyww/ai-short-drama-skills`、`Emily2040/seedance-2.0`、`Dikese411980/hotapi-skill`、`SumOneHK/tiktok-short-drama`。
+- **10 个 Skill 包 / 10 个 Skill 入口**。
+- **7 个上游来源仓库**：`zenstory-ai/drama-skills`、`lixiaoxiao9888-create/manju-laoli-skill`、`zkhyww/ai-short-drama-skills`、`Emily2040/seedance-2.0`、`Dikese411980/hotapi-skill`、`SumOneHK/tiktok-short-drama`、`Jingyi-Wu-Richael/rachel-digital-human-production`。
 
 ## Skill 清单
 
@@ -24,3 +24,4 @@
 | [tiktok-short-drama](./SumOneHK__tiktok-short-drama/tiktok-short-drama/SKILL.md) | SumOneHK/tiktok-short-drama | MIT |
 
 > 注意：`short-drama-director` 的上游 Skill 描述的是 1 个总控 + 10 个子技能的套装；公开库将各子技能按实际用途拆分到 02、03、04、05、07、08 等分类展示。因此本页按本目录实际存在的 7 个入口计数，不把上游整套技能数量重复算入本分类。
+| [rachel-digital-human-production](./Jingyi-Wu-Richael__rachel-digital-human-production/SKILL.md) | Jingyi-Wu-Richael/rachel-digital-human-production | MIT |

@@ -114,7 +114,7 @@ Completion criterion: the conflict table is complete and every row is fixed or m
 
 ## 7. Count gate
 
-Measure every chapter and the total with one consistent unit and counting rule. Use [scripts/count_words.py](scripts/count_words.py) when the unit is characters or mixed Chinese/English text (`python3 <this skill's folder>/scripts/count_words.py <manuscript-dir>`; count = CJK ideographs + Latin word tokens), or the user's counting tool when they name one. Report per chapter and total, with the delta against the contract.
+Measure every chapter and the total with one consistent unit and counting rule. Use [scripts/count_words.py](scripts/count_words.py) when the unit is characters or mixed Chinese/English text (`python3 <this skill's folder>/scripts/count_words.py <manuscript-dir>`; count = CJK ideographs + Latin word tokens; directory scans skip `bible.md` and `chapter-contracts.md` automatically, pass `--exclude <file>` for extra planning docs or `--include-planning` to count them; exit `0` ok, `2` missing/unreadable/empty), or the user's counting tool when they name one. Report per chapter and total, with the delta against the contract.
 
 - Under target but within tolerance: leave it.
 - Under by more than 15 percent: expand texture, dialogue, and description inside existing contracts before adding chapters; if still short, propose new scenes or chapters as a plan and ask.
