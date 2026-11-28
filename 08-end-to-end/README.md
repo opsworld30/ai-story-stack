@@ -24,4 +24,4 @@
 | [tiktok-short-drama](./SumOneHK__tiktok-short-drama/tiktok-short-drama/SKILL.md) | SumOneHK/tiktok-short-drama | MIT |
 
 > 注意：`short-drama-director` 的上游 Skill 描述的是 1 个总控 + 10 个子技能的套装；公开库将各子技能按实际用途拆分到 02、03、04、05、07、08 等分类展示。因此本页按本目录实际存在的 7 个入口计数，不把上游整套技能数量重复算入本分类。
-| [rachel-digital-human-production](./Jingyi-Wu-Richael__rachel-digital-human-production/SKILL.md) | Jingyi-Wu-Richael/rachel-digital-human-production | MIT |
+| [rachel-digital-human-production](./Jingyi-Wu-Richael__rachel-digital-human-production/rachel-digital-human-production/SKILL.md) | Jingyi-Wu-Richael/rachel-digital-human-production | MIT |
